@@ -2,10 +2,10 @@ Dit is de landingspagina voor de Wiki's voor het Onderzoeksproject van Leeruitko
 
 # Indeling wiki
 
-Per tweetal is een aparte pagina gemaakt voor jullie onderzoek. Pas de naam van dat onderdeel aan door in plaats van 'Pietje' en 'Klazina' jullie eigen voornamen in te vullen. 
+Per tweetal is een aparte pagina gemaakt voor jullie onderzoek. Dit is jullie landingspagina voor het project, en daar kun je wat algemene informatie neerzetten of navigatie-links die je handig vindt. Pas de naam van de landingspagina aan met jullie eigen namen.
 
 Maak vervolgens voor ieder van de 2 onderzoeken een eigen subonderdeel. Die noem je 'Onderzoek 1' en 'Onderzoek 2'. 
-Voor elk onderdeel kun je vervolgens weer eigen sub-pagina's maken, al naar gelang jullie dat handig vinden. Richtlijnen hiervoor staan op Brightspace. 
+Voor elk onderdeel kun je vervolgens weer eigen sub-pagina's maken, al naar gelang jullie dat handig vinden. Richtlijnen hiervoor staan op Brightspace. Maak minimaal een sub-pagina voor  1) probleemanalyse, 2) onderzoeksopzet, 3) verzamelde data + data-analyse, 4) onderzoeksresultaten en conclusie, 5) evaluatie en 6) bronnen.
 
 
 # Code in Github
