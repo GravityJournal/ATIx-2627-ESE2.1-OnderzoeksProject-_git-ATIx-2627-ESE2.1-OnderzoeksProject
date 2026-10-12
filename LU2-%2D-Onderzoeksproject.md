@@ -1,10 +1,22 @@
-Welkom bij het onderzoeksproject Infrastructuren van LU2! Tijdens dit project ga je samen met jouw peers op zoek naar de beste infrastructuur voor jullie robotvloot. 
+Dit is de landingspagina voor de Wiki's voor het Onderzoeksproject van Leeruitkomst 2. 
 
-Dat doe je door in duo's een praktijkonderzoek uit te voeren en de inzichten die je daarbij opdoet met elkaar te delen via de Wiki in deze omgeving (zie navigatie). Het doel van deze groepswiki is om van elkaar te leren, onderzoeksresultaten met elkaar te vergelijken en daarmee de betrouwbaarheid van het onderzoek te vergroten. 
+# Indeling wiki
 
-Hoe je het onderzoek opzet en welke informatie je gaat delen, leer je tijdens de workshops Onderzoek. 
+Per tweetal is een aparte pagina gemaakt voor jullie onderzoek. Pas de naam van dat onderdeel aan door in plaats van 'Pietje' en 'Klazina' jullie eigen voornamen in te vullen. 
 
-Heb je tijdens het project vragen dan, kan je terecht bij de volgende docenten: 
-- Vragen over het doen van onderzoek en de inrichting van de wiki: Jessica 
-- Vragen over de technische kant van het onderzoek en infrastructuren: Arno 
-- Vragen over de wiki en DevOps omgeving: Jessica of Frido
+Maak vervolgens voor ieder van de 2 onderzoeken een eigen subonderdeel. Die noem je 'Onderzoek 1' en 'Onderzoek 2'. 
+Voor elk onderdeel kun je vervolgens weer eigen sub-pagina's maken, al naar gelang jullie dat handig vinden. Richtlijnen hiervoor staan op Brightspace. 
+
+
+# Code in Github
+
+*   Maak een aparte Github repository aan voor de code die je schrijft tijdens het onderzoek. Aan het eind van je onderzoek is het de bedoeling dat je een zip-file van de code toevoegt aan je wiki sub-onderdeel.
+
+# Wiki Etiquette
+
+*   Wijzig of kopieer geen input van anderen, dit is plagiaat en mag niet.
+*   Je mag wél elkaars werk bekijken ter inspiratie voor bv de meest overzichtelijke opbouw van de wiki
+*   Ook mag je naar elkaars werk verwijzen met links. Let op: je bent zelf verantwoordelijkheid dat de links op jouw pagina blijven werken. 
+*   Houd de wiki samen overzichtelijk en up-to-date.
+*   Je moet altijd verantwoorden hoe je AI gebruikt, hier in de wiki. Gebruik je AI liever niet, dan is dat ook goed.    Gebruik je het wel, zorg er dan voor dat je zelf kritisch blijft nadenken over de output, zodat je zeker bent dat je echt iets leert en goed voorbereid bent voor het assessment.
+
