@@ -3,4 +3,4 @@ Binnen ons project is op verschillende onderwerpen AI gebruikt, in dit document 
 binnen opdracht 1 deel 1 is Ai op de volgende manieren gebruikt:
 - Complete spellingscheck
 - Bronnen zoektocht
-- validatie comfromatie
+- validatie confromatie
