@@ -17,6 +17,16 @@ In hoever kan positie voorspelling de nauwkeurigheid van de robotpositie verbete
 
 
 
+# Themas & vragen?
+- Robot locatie
+- robot communicatie
+- Proces optimalisatie
+  - Rij route robots
+  - Bunker leeging
+  - 
+
+
+
 
 
 
