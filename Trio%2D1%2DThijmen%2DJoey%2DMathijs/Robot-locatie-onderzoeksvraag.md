@@ -4,6 +4,7 @@ Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op be
 ### Deelvragen
 - Hoe nauwkeurig moet de locatie zijn?
 - Hoe snel moet de locatie tot stand komen?
+- Heeft de oplossing genoeg bereik voor onze toepassing
 - Wat is het verschil tussen de verschillende triangulatie methodes
 - Klopt de informatie over de technologie in de literatuur?
 - Werkt deze oplossing overal?
