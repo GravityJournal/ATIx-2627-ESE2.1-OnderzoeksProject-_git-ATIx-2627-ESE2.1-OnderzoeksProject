@@ -17,6 +17,7 @@ Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op be
 - Wifi triangulatie
 - LoRa triangulatie
 - 5G triangulatie
+- 4G triangulatie
 - GPS
 - Geluid triangulatie
 - Pysieke landmarks met nfc of iets gelijks
