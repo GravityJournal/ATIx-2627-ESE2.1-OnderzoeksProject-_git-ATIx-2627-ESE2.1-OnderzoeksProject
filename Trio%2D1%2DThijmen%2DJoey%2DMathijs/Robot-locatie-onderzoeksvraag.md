@@ -11,6 +11,7 @@ Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op be
 - Welke kosten zitten aan deze oplossing?
 - Hoe betrouwbaar is de oplossing?
 - Hoe word de locatie informatie gedeeld naar de robots?
+- Is een van deze oplossing ook direct mogelijk voor communicatie?
 
 ### Mogelijke oplossingen
 - Wifi triangulatie
