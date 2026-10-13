@@ -1,7 +1,7 @@
 ## Hoe krijgen de robots hun locatie?
 Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op bepaalde plekken moeten zijn is het fijn om de locatie van de robots te weten. Er zijn verschillende manieren en technologieën om achter de locaties van de robots te komen.
 
-### Onderzoek subvragen
+### Deelvragen
 - Hoe nauwkeurig moet de locatie zijn?
 - Hoe snel moet de locatie tot stand komen?
 - Wat is het verschil tussen triangulatie tussen wifi en 5G?
@@ -11,10 +11,11 @@ Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op be
 - Hoe betrouwbaar is de oplossing?
 - Hoe word de locatie informatie gedeeld naar de robots?
 
-### Mogelijke oplossingen?
-- Wifi
-- LoRa
-- 5G
-- Geluid
+### Mogelijke oplossingen
+- Wifi triangulatie
+- LoRa triangulatie
+- 5G triangulatie
+- GPS
+- Geluid triangulatie
 - Pysieke landmarks met nfc of iets gelijks
 - externe camera met CV
