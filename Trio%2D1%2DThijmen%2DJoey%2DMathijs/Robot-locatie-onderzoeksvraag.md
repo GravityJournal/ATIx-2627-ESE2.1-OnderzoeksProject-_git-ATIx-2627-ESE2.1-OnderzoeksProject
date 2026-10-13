@@ -1,7 +1,7 @@
 ## Hoe krijgen de robots hun locatie?
 Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op bepaalde plekken moeten zijn is het fijn om de locatie van de robots te weten. Er zijn verschillende manieren en technologieën om achter de locaties van de robots te komen.
 
-### Hoe gaan we de robot locatie achterhalen?
+### Onderzoek subvragen
 - Hoe nauwkeurig moet de locatie zijn?
 - Hoe snel moet de locatie tot stand komen?
 - Wat is het verschil tussen triangulatie tussen wifi en 5G?
