@@ -12,3 +12,7 @@ Verschil tussen roundtrip en pakket verlies tussen verschillend netwerk protocol
 Waarom relevant:
 ze moeten constant kunnen communiceren en vertraging kan het systeem laten achterlopen.
 
+*** Hoe krijgen de robots hun locatie***
+Er zijn verschillende manieren en technologieën om achter de locaties van de robots te komen en hoe dat gecommuniceerd wordt tussen de robots.
+Waarom relevant:
+
