@@ -22,7 +22,7 @@ In hoever kan positie voorspelling de nauwkeurigheid van de robotpositie verbete
 - robot communicatie
 - Proces optimalisatie
   - Rij route robots
-  - Bunker leeging
+  - Bunker legen
   - 
 
 
