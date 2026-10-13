@@ -12,6 +12,7 @@ Aangezien we meerdere robots hebben die niet tegen elkaar moeten rijden en op be
 - Hoe betrouwbaar is de oplossing?
 - Hoe word de locatie informatie gedeeld naar de robots?
 - Is een van deze oplossing ook direct mogelijk voor communicatie?
+- Moet we voor deze oplossing gebruik maken van extrapolation?
 
 ### Mogelijke oplossingen
 - Wifi triangulatie
