@@ -15,6 +15,8 @@ ze moeten constant kunnen communiceren en vertraging kan het systeem laten achte
 **Robot locatie voorspelling**
 In hoever kan positie voorspelling de nauwkeurigheid van de robotpositie verbeter bij hoge latency.
 
+# Probleem analyse
+Robot moeten goed en betrouwbaar communiceren op akkers op 
 
 
 # Themas & vragen?
