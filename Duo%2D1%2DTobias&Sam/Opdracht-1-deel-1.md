@@ -1,4 +1,4 @@
-1. Probleemanalyse
+1. Probleemcontext
 Binnen de casus Automated Logistics Across Hygiene Zones moeten producten en goederen tussen twee verschillende hygiënezones worden vervoerd. Iedere zone heeft een eigen robotvloot. Omdat elke robotvloot verantwoordelijk is voor zijn eigen gebied, mogen de robots de grens naar de andere zone niet overschrijden. Wanneer producten of goederen moeten worden overgedragen, wordt hiervoor een gedeeld overdrachtspunt gebruikt.
 
 het problem onstaat doordat producten / goederen in allebij de richtingen moeten worden vervoerd. daarnaast heb je het probleem dat het overdrachtspunt tijdelijk niet beschikbaar kan zijn door reiniging of onderhoud. het transportsyteem moet daarom rekening houden met de beschikbaarheid van het overdrachtspunt en geplande transportopdrachten hierop aanpasssen.
@@ -12,7 +12,7 @@ Voor Viscon Group kan een goede oplossing ervoor zorgen dat het transport van go
 
 Daarnaast moet de oplossing voldoen aan de hygiëne-eisen. Communicatieproblemen of een tijdelijke onbeschikbaarheid van het overdrachtspunt mogen er nooit toe leiden dat een robot opdrachten krijgt die buiten zijn eigen hygiënezone vallen. Wanneer het transportsysteem niet goed functioneert, kan dit namelijk leiden tot stilstand van het proces en daarmee tot inkomstenverlies.
 
-3. Literatuuronderzoek
+3. Literatuuronderzoek + literature gap
 
 Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van transporttaken belangrijk is wanneer meerdere automatische voertuigen samenwerken. Ook beschrijft de ROS 2-documentatie hoe communicatie tussen robots betrouwbaarder kan worden gemaakt, bijvoorbeeld door instellingen voor het afleveren van berichten (Open Robotics, z.d.).
 
@@ -25,7 +25,7 @@ Bronnen: (gevonden door prompts via ai, zelf daarna gecontroleerd) https://www.s
 Een vloeiende robotsamenwerking staat of valt met een goede transportplanning en betrouwbare communicatie. Bij Viscon Group moet nog worden onderzocht hoe twee robotvloten informatie uitwisselen en hun taken afstemmen wanneer een overdrachtspunt niet beschikbaar is. Daarnaast is het belangrijk de planning te optimaliseren om wachttijden te voorkomen en het transport soepel te laten verlopen.
 
 
-4. Doelstelling
+4. Doelstelling van het onderzoek
 Het doel van dit onderzoek is om te er achter te komen hoe de twee robotvloten informatie met elkaar kunnen uitwisselen terwijl ze transportopdrachten uitvoeren. Het hoofddoel ligt hierbij op situaties waarin het overdrachtspunt tijdelijk niet beschikbaar is. Er wordt onderzocht hoe de robots hierop moeten reageren en hoe het transportsysteem zich aan deze situatie kan aanpassen.
 
 Aan het einde van het het onderzoek is het doel dat duidelijk is welke communicatiemethode het beste past in deze situatie. hierbij kijken we vooral of er geken wordt of de informatie op tijd aankomt en het system goed blijft functioneren wanneer er problemen optreden zoals bijvoorbeeld netwerkverbinding of wanneer de verbinding tijdelijk wegvalt
