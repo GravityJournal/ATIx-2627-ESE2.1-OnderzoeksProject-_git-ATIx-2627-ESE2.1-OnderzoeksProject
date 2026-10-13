@@ -14,5 +14,22 @@ ze moeten constant kunnen communiceren en vertraging kan het systeem laten achte
 
 ***Hoe krijgen de robots hun locatie***
 Er zijn verschillende manieren en technologieën om achter de locaties van de robots te komen en hoe dat gecommuniceerd wordt tussen de robots.
-Waarom relevant:
+communicatie mogelijkheden:
+wifi
+5G
+Lora
+
+Hoe gaan de robots communiceren?
+
+Hoe gaan we de robot locatie achterhalen?
+- Hoe nauwkeurig moet de locatie zijn?
+- Hoe snel moet de locatie tot stand komen?
+- Physieke landmarks
+- Camera met CV
+- Wat is het verschil tussen triangularion tussen wifi en 5g?
+
+
+
+
+
 
