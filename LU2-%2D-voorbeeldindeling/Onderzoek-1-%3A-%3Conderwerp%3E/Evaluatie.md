@@ -1,0 +1,2 @@
+_Heb je met je onderzoek bereikt wat je wilde bereiken? Zijn de antwoorden voldoende om mee door te gaan? Of zou er nog meer onderzoek moeten plaatsvinden? 
+Lessons learned: Wat vond je van de aanpak van het onderzoek? Zou je het volgende keer weer zo doen? Of anders? En waarom? Wat ging er goed, wat kon er beter?_ 
