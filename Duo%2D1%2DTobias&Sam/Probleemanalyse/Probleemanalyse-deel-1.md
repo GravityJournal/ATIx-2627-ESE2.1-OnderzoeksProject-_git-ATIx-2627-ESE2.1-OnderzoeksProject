@@ -34,7 +34,7 @@ Aan het einde van het het onderzoek is het doel dat duidelijk is welke communica
 in dit onderzoek is het hoofddoel de communicatie tussen de robotvloten en het overdrachtspunt. Er wordt onderzocht hoe informatie wordt doorgegeven en wat er gebeurt wanneer het overdrachtspunt tijdelijk niet beschikbaar is.
 
 
-De volgende onderwerpen worden meegenomen:
+De volgende onderwerpen worden meegenomen: <-- te groot
 
 - Welke gegevens de robotvloten met elkaar moeten uitwisselen.
 - Hoe de communicatie betrouwbaar kan blijven functioneren.
