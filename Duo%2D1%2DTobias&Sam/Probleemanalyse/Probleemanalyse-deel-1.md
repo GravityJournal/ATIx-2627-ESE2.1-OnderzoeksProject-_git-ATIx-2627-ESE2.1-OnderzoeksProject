@@ -1,7 +1,7 @@
 1 Probleemcontext
 Binnen de casus Automated Logistics Across Hygiene Zones moeten producten en goederen tussen twee verschillende hygiënezones worden vervoerd. Iedere zone heeft een eigen robotvloot. Omdat elke robotvloot verantwoordelijk is voor zijn eigen gebied, mogen de robots de grens naar de andere zone niet overschrijden. Wanneer producten of goederen moeten worden overgedragen, wordt hiervoor een gedeeld overdrachtspunt gebruikt.
 
-Het probleem onstaat doordat producten / goederen in allebij de richtingen moeten worden vervoerd. daarnaast heb je het probleem dat het overdrachtspunt tijdelijk niet beschikbaar kan zijn door reiniging of onderhoud. het transportsyteem moet daarom rekening houden met de beschikbaarheid van het overdrachtspunt en geplande transportopdrachten hierop aanpasssen.
+Het probleem ontstaat doordat producten / goederen in allebei de richtingen moeten worden vervoerd. daarnaast heb je het probleem dat het overdrachtspunt tijdelijk niet beschikbaar kan zijn door reiniging of onderhoud. het transportsysteem moet daarom rekening houden met de beschikbaarheid van het overdrachtspunt en geplande transportopdrachten hierop aanpassen.
 
 Voor dit onderzoek wordt gekeken naar de infrastructuur, computernetwerken en datacommunicatie die nodig zijn om de transportopdrachten tussen beide robotvloten betrouwbaar te coördineren. Het is nog onduidelijk hoe de robotvloten informatie uitwisselen over beschikbare goederen, de status van robots en de beschikbaarheid van het overdrachtspunt. Ook moet worden onderzocht hoe het systeem omgaat met communicatievertragingen of een tijdelijke netwerkstoring.
 
@@ -28,7 +28,7 @@ Een vloeiende robotsamenwerking staat of valt met een goede transportplanning en
 4 Doelstelling van het onderzoek
 Het doel van dit onderzoek is om te er achter te komen hoe de twee robotvloten informatie met elkaar kunnen uitwisselen terwijl ze transportopdrachten uitvoeren. Het hoofddoel ligt hierbij op situaties waarin het overdrachtspunt tijdelijk niet beschikbaar is. Er wordt onderzocht hoe de robots hierop moeten reageren en hoe het transportsysteem zich aan deze situatie kan aanpassen.
 
-Aan het einde van het het onderzoek is het doel dat duidelijk is welke communicatiemethode het beste past in deze situatie. hierbij kijken we vooral of er geken wordt of de informatie op tijd aankomt en het system goed blijft functioneren wanneer er problemen optreden zoals bijvoorbeeld netwerkverbinding of wanneer de verbinding tijdelijk wegvalt
+Aan het einde van het het onderzoek is het doel dat duidelijk is welke communicatiemethode het beste past in deze situatie. hierbij kijken we vooral of er gekeken wordt of de informatie op tijd aankomt en het systeem goed blijft functioneren wanneer er problemen optreden zoals bijvoorbeeld netwerkverbinding of wanneer de verbinding tijdelijk wegvalt
 
 5 Afbakening
 in dit onderzoek is het hoofddoel de communicatie tussen de robotvloten en het overdrachtspunt. Er wordt onderzocht hoe informatie wordt doorgegeven en wat er gebeurt wanneer het overdrachtspunt tijdelijk niet beschikbaar is.
