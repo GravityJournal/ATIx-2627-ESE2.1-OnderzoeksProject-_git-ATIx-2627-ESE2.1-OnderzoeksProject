@@ -1,7 +1,7 @@
 1 Probleemcontext
 Binnen de casus Automated Logistics Across Hygiene Zones moeten producten en goederen tussen twee verschillende hygiënezones worden vervoerd. Iedere zone heeft een eigen robotvloot. Omdat elke robotvloot verantwoordelijk is voor zijn eigen gebied, mogen de robots de grens naar de andere zone niet overschrijden. Wanneer producten of goederen moeten worden overgedragen, wordt hiervoor een gedeeld overdrachtspunt gebruikt.
 
-het problem onstaat doordat producten / goederen in allebij de richtingen moeten worden vervoerd. daarnaast heb je het probleem dat het overdrachtspunt tijdelijk niet beschikbaar kan zijn door reiniging of onderhoud. het transportsyteem moet daarom rekening houden met de beschikbaarheid van het overdrachtspunt en geplande transportopdrachten hierop aanpasssen.
+Het probleem onstaat doordat producten / goederen in allebij de richtingen moeten worden vervoerd. daarnaast heb je het probleem dat het overdrachtspunt tijdelijk niet beschikbaar kan zijn door reiniging of onderhoud. het transportsyteem moet daarom rekening houden met de beschikbaarheid van het overdrachtspunt en geplande transportopdrachten hierop aanpasssen.
 
 Voor dit onderzoek wordt gekeken naar de infrastructuur, computernetwerken en datacommunicatie die nodig zijn om de transportopdrachten tussen beide robotvloten betrouwbaar te coördineren. Het is nog onduidelijk hoe de robotvloten informatie uitwisselen over beschikbare goederen, de status van robots en de beschikbaarheid van het overdrachtspunt. Ook moet worden onderzocht hoe het systeem omgaat met communicatievertragingen of een tijdelijke netwerkstoring.
 
