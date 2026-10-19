@@ -1,6 +1,6 @@
 _Dit document zal verdwijnen in de laatste update_
 
-Regelementen Onderzoek - Rubrics
+Regelementen Onderzoek
 - [ LU2 Onderzoeksvaardigheden](https://brightspace.avans.nl/d2l/lp/rubrics/preview.d2l?ou=308932&rubricId=41612&originTool=quicklinks)
 - [LU2 Onderzoek technische inhoud](https://brightspace.avans.nl/d2l/lp/rubrics/preview.d2l?ou=308932&rubricId=41618&originTool=quicklinks)
 - [LU2 Onderzoek Rapportage](https://brightspace.avans.nl/d2l/lp/rubrics/preview.d2l?ou=308932&rubricId=44738&originTool=quicklinks)
