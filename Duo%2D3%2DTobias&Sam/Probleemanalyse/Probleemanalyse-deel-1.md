@@ -26,7 +26,7 @@ Een vloeiende robotsamenwerking staat of valt met een goede transportplanning en
 
 
 4 Doelstelling van het onderzoek
-Het doel van dit onderzoek is om te er achter te komen hoe de twee robotvloten informatie met elkaar kunnen uitwisselen terwijl ze transportopdrachten uitvoeren. Het hoofddoel ligt hierbij op situaties waarin het overdrachtspunt tijdelijk niet beschikbaar is. Er wordt onderzocht hoe de robots hierop moeten reageren en hoe het transportsysteem zich aan deze situatie kan aanpassen.
+Het doel van dit onderzoek is om te er achter te komen hoe de twee robots informatie met elkaar kunnen uitwisselen terwijl ze transportopdrachten uitvoeren. Het hoofddoel ligt hierbij op situaties waarin het overdrachtspunt tijdelijk niet beschikbaar is. Er wordt onderzocht hoe de robots hierop moeten reageren en hoe het transportsysteem zich aan deze situatie kan aanpassen.
 
 Aan het einde van het het onderzoek is het doel dat duidelijk is welke communicatiemethode het beste past in deze situatie. hierbij kijken we vooral of er gekeken wordt of de informatie op tijd aankomt en het systeem goed blijft functioneren wanneer er problemen optreden zoals bijvoorbeeld netwerkverbinding of wanneer de verbinding tijdelijk wegvalt
 
