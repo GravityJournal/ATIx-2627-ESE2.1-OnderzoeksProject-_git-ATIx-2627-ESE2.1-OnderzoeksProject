@@ -12,7 +12,7 @@ Voor Viscon Group kan een goede oplossing ervoor zorgen dat het transport van go
 
 Daarnaast moet de oplossing voldoen aan de hygiëne-eisen. Communicatieproblemen of een tijdelijke onbeschikbaarheid van het overdrachtspunt mogen er nooit toe leiden dat een robot opdrachten krijgt die buiten zijn eigen hygiënezone vallen. Wanneer het transportsysteem niet goed functioneert, kan dit namelijk leiden tot stilstand van het proces en daarmee tot inkomstenverlies.
 
-3 Literatuuronderzoek + literature gap
+3 Literatuuronderzoek + literature gap (verdiepen over onderzoeken)
 
 Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van transporttaken belangrijk is wanneer meerdere automatische voertuigen samenwerken. Ook beschrijft de ROS 2-documentatie hoe communicatie tussen robots betrouwbaarder kan worden gemaakt, bijvoorbeeld door instellingen voor het afleveren van berichten (Open Robotics, z.d.).
 
