@@ -16,3 +16,15 @@
 *   Welk communicatieprotocol is geschikter voor de communicatie binnen de robotvloot uit deze casus; MQTT of een zelfontwikkeld protocol? {m-g}
 *   Welke netwerktopologie is het meest geschikt voor de communicatie tussen de rooier, overslagwagens en interfaces? {f}
 *   Wat is het effect van een multi communicatie infrastructuur? {g}{v}
+
+# Hoofdvragen Feedback
+Uit feedback van begeleidingsdocent Arno Broeders hebben we de volgende vindingen gedaan over onze onderzoeksvragen:
+| Vraag | Goedkeuring | Probleem | Aaanpassingen |
+| --- | --- | --- | --- |
+| Vraag 1 | Goed | Geen | Geen |
+| Vraag 2 | Middelmatig | Geen prototyping nodig | Niet Gekozen |
+| Vraag 3 | Redelijk | Matig gebruik prototyping | Niet Gekozen |
+| Vraag 4 | Fout | Geen prototyping + Te voor de hand liggend | Niet Gekozen |
+| Vraag 5 | Goed | Niet speciek genoeg  <br>- Welke Laag?  <br>- Welke Criteria? | Toevoeging Specifiekhe  <br>- Laag  <br>- Criteria |
+
+# Hoofdvragen
