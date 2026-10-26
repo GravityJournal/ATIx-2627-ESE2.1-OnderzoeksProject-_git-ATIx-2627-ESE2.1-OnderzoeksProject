@@ -1,19 +1,16 @@
-**Over de vergelijking van protocollen en latency (Push-Pull vs. Pub-Sub):**
-* _Bron:_ MDPI - Latency Analysis of Push–Pull and Publish–Subscribe Systems.
-* _Link:_ [https://www.mdpi.com/2079-9292/14/12/2453](https://www.mdpi.com/2079-9292/14/12/2453)
-
-**Over microservices, gRPC en netwerkprestaties:**
-* _Bron:_ IEEE Xplore - Scalable Microservice Architecture for Autonomous IoT Systems.
-* _Link:_ [https://ieeexplore.ieee.org/iel8/6287639/11323511/11513218.pdf](https://ieeexplore.ieee.org/iel8/6287639/11323511/11513218.pdf)
-
-**Over interactieprotocollen voor multi-robot systemen in de industrie:**
-* _Bron:_ IntechOpen - Interaction Protocols for Multi-Robot Systems in Industry 4.0.
-* _Link:_ [https://www.intechopen.com/chapters/78178](https://www.intechopen.com/chapters/78178)
-
-**Over algemene planning en aansturing van AGV's in intralogistiek:**
-* _Bron:_ Elsevier / RePEc - Planning and control of autonomous mobile robots for intralogistics.
-* _Link:_ [https://ideas.repec.org/a/eee/ejores/v294y2021i2p405-426.html](https://ideas.repec.org/a/eee/ejores/v294y2021i2p405-426.html)
-
-**Over cloud-gebaseerde robotcommunicatie en MQTT:**
-* _Bron:_ arXiv - Integrated cloud-based architecture for robot-robot and human-robot interaction.
-* _Link:_ [https://arxiv.org/html/2606.22682v1](https://arxiv.org/html/2606.22682v1)
+- **Latency-analyse van communicatieprotocollen (Push-pull vs. Pub-Sub / MDPI):**
+[https://www.mdpi.com/2079-9292/14/12/2453](https://www.mdpi.com/2079-9292/14/12/2453)
+        
+- **Microservice-architectuur & Systeemcommunicatie (IEEE):**
+[https://ieeexplore.ieee.org/iel8/6287639/11323511/11513218.pdf](https://ieeexplore.ieee.org/iel8/6287639/11323511/11513218.pdf))
+        
+- **Interactieprotocollen voor industriële multi-robots (IntechOpen):**
+[https://www.intechopen.com/chapters/78178](https://www.intechopen.com/chapters/78178)
+        
+- **Draadloze netwerken (Wi-Fi en 5G integratie in AGV's):**
+  - [https://www.researchgate.net/publication/346641010_A_Review_of_Recent_Advances_in_Automated_Guided_Vehicle_Technologies_Integration_Challenges_and_Research_Areas_for_5G-Based_Smart_Manufacturing_Applications](https://www.researchgate.net/publication/346641010_A_Review_of_Recent_Advances_in_Automated_Guided_Vehicle_Technologies_Integration_Challenges_and_Research_Areas_for_5G-Based_Smart_Manufacturing_Applications)
+  - [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11668725](https://ieeexplore.ieee.org/stamp/stamp.jsp%3Farnumber%3D11668725)
+        
+- **Dynamische vlootbesturing & Taaktoewijzing:**
+  - [https://arxiv.org/pdf/2501.08726](https://arxiv.org/pdf/2501.08726)
+  - [https://www.researchgate.net/publication/415322483_No_Need_to_Stop_the_Fleet_Localized_Anomaly_Isolation_via_Dead_Zones_in_AGV_Fleets](https://www.researchgate.net/publication/415322483_No_Need_to_Stop_the_Fleet_Localized_Anomaly_Isolation_via_Dead_Zones_in_AGV_Fleets)
