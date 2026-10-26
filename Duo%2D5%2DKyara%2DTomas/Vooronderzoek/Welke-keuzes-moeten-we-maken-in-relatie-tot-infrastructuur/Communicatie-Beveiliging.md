@@ -31,24 +31,20 @@ Volgens de workshop "Encryption - Hashing - Certificates" is het gebruik van een
 *   $v'_{\text{MAC}}$ = de verwachte MAC-waarde
 
 **Verzenden:**
-1.  Stel het bericht samen: 
-`b_original`.
+1.  **Stel het bericht samen: `b_original`.**
     
-2.  Bereken de MAC-waarde: 
-$v_{\text{MAC}} = M(s, b_{\text{origineel}})$
+2.  **Bereken de MAC-waarde: $v_{\text{MAC}} = M(s, b_{\text{origineel}})$**
     
-3.  Verstuur het oorspronkelijke bericht samen met de MAC-waarde: 
-`(b_original, v_mac)`.
+3.  **Verstuur het oorspronkelijke bericht samen met de MAC-waarde: `(b_original, v_mac)`.**
     
 <br>
 
 **Ontvangen:**
-1.  Ontvang het oorspronkelijke bericht en de bijbehorende MAC-waarde.
+1.  **Ontvang het oorspronkelijke bericht en de bijbehorende MAC-waarde.**
     
-2.  Bereken de verwachte MAC-waarde met dezelfde geheime sleutel:
-    $v'_{\text{MAC}} = M(s, b_{\text{origineel}})$
+2.  **Bereken de verwachte MAC-waarde met dezelfde geheime sleutel: $v'_{\text{MAC}} = M(s, b_{\text{origineel}})$**
     
-3.  Vergelijk de ontvangen MAC-waarde met de berekende waarde. Als beide waarden overeenkomen, wordt het bericht geaccepteerd. Als de waarden niet overeenkomen, wordt het bericht afgewezen.
+3.  **Vergelijk de ontvangen MAC-waarde met de berekende waarde. Als beide waarden overeenkomen, wordt het bericht geaccepteerd. Als de waarden niet overeenkomen, wordt het bericht afgewezen.**
     
 De MAC maakt het mogelijk om te controleren of een bericht is gewijzigd en of het afkomstig is van een partij die over de juiste geheime sleutel beschikt. Een aanvaller zonder deze sleutel kan niet zomaar een geldige MAC-waarde voor een aangepast bericht genereren.
 
