@@ -250,6 +250,18 @@ Hoewel TCP meer protocoloverhead veroorzaakt door de grotere header, is de extra
 
 _Voor dit onderzoek is gebruikgemaakt van de bronnen [2], [3] en [4]._
 
+<br>
+
+* * *
+
+# Bronnen
+[1] W. Wang, N. Li, L. Zhang, F. Liu, H. Chen, X. Yang, L. Huang, M. Zhao, G. Wu, J. Zhou, J. Xu, T. Sun, L. Ma, Q. Zhu, J. Hu, W. Guo, Y. He, Y. Gao, D. Lin, Y. Zheng, and L. Shi, “An extensive study on text serialization formats and methods,” _arXiv (Cornell University)_, May 2025, doi: 10.48550/arxiv.2505.13478.  
+[2] “IP Stack - ICT-B ESE2.1 Robot Fleet 2026-27 P1-P2 Breda.” [https://brightspace.avans.nl/d2l/le/lessons/308932/topics/2074676](https://brightspace.avans.nl/d2l/le/lessons/308932/topics/2074676)  
+[3] GeeksforGeeks, “TCP vs. UDP,” _GeeksforGeeks_, Mar. 28, 2026. [https://www.geeksforgeeks.org/computer-networks/differences-between-tcp-and-udp/](https://www.geeksforgeeks.org/computer-networks/differences-between-tcp-and-udp/)  
+[4] I. Ivanov and I. Ivanov, “TCP and UDP essentials,” _NetworkAcademy.IO_. [https://www.networkacademy.io/ccna/network-security/tcp-and-udp-essentials](https://www.networkacademy.io/ccna/network-security/tcp-and-udp-essentials)  
+[5] Josh and Josh, “TCP vs UDP: Header Size, Packet Size, and Differences,” _Digilent Blog_, Dec. 28, 2024. [https://digilent.com/blog/udp-vs-tcp/?srsltid=AYCX9vLJcLpOp7jxjgT7BCztAnE3uTWYkETFjQTNUACWdTd99XQXA3Zf](https://digilent.com/blog/udp-vs-tcp/?srsltid=AYCX9vLJcLpOp7jxjgT7BCztAnE3uTWYkETFjQTNUACWdTd99XQXA3Zf)  
+[6] F. Hmissi and S. Ouni, “A survey on application layer protocols for IoT networks,” _ResearchGate_, Apr. 2022, [Online]. Available: [https://www.researchgate.net/publication/363257826_A_Survey_on_Application_Layer_Protocols_for_IoT_Networks](https://www.researchgate.net/publication/363257826_A_Survey_on_Application_Layer_Protocols_for_IoT_Networks)  
+[7] GeeksforGeeks, “Protocols in application layer,” _GeeksforGeeks_, Oct. 03, 2025. [https://www.geeksforgeeks.org/computer-networks/protocols-application-layer/](https://www.geeksforgeeks.org/computer-networks/protocols-application-layer/)
 
 
 
