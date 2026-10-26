@@ -14,4 +14,4 @@ Op het niveau van datastructuren en berichtformaten laat onderzoek zien dat de m
 Daarnaast toont recent vergelijkend onderzoek aan dat directe, socketgebaseerde communicatie (peer-to-peer / push-pull) snellere en stabielere reactietijden behaalt dan broker-gebaseerde middleware (zoals MQTT), omdat er geen tussenliggende server/broker is die verwerkingsvertraging veroorzaakt _(MDPI, 2025)_.
 
 # Literature gap
-Hoewel de theoretische eigenschappen van TCP, UDP en JSON versus binaire data bekend zijn, ontbreekt in de literatuur specifieke kwantitatieve meetdata over directe C++ socket-implementaties voorgescheiden multi-zone robotvlote _(Viscon Group, 2024)_.
+Hoewel de theoretische eigenschappen van TCP, UDP en JSON versus binaire data bekend zijn, ontbreekt in de literatuur specifieke kwantitatieve meetdata over directe C++ socket-implementaties voorgescheiden multi-zone robotvloten.
