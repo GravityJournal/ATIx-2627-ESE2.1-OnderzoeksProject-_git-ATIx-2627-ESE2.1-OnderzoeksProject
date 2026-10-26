@@ -6,7 +6,7 @@ Hoe kan het geautomatiseerde transportsysteem van Viscon Group het tweerichtings
 # 2 Deelvragen
 
 Deelvraag 1
-**Welke informatie moeten de twee robotvloten met elkaar uitwisselen om het transport via het gedeelde overdrachtspunt goed te laten verlopen?**
+**Welke informatie moeten de twee robots met elkaar uitwisselen om het transport via het gedeelde overdrachtspunt goed te laten verlopen?**
 
 Deze deelvraag is nodig om vast te stellen welke gegevens de robotvloten nodig hebben om het transport goed op elkaar af te stemmen. Hierbij kijken we bijvoorbeeld naar de beschikbaarheid van het overdrachtspunt, transportopdrachten en bevestigingen van overdrachten.
 
@@ -20,6 +20,10 @@ Deelvraag 3
 
 Deze deelvraag richt zich op de betrouwbaarheid van de communicatie. We onderzoeken hoe het systeem omgaat met berichten die vertraagd zijn of niet aankomen en hoe wordt voorkomen dat robots op basis van verouderde informatie werken.
 
+
+--
+welke manieren van communicatie
+-- 2 weg
 
 # 3 Onderzoeks- en analysemethoden
 
