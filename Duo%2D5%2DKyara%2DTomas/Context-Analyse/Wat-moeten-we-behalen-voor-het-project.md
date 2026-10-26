@@ -1,0 +1,1 @@
+De requirements zijn volledig gebaseerd op de casus [Robotzwermen tegen bodemverdichting](https://brightspace.avans.nl/d2l/le/lessons/308932/topics/2204945). Eigen meningen, inschattingen en aannames zijn hierbij buiten beschouwing gelaten.
