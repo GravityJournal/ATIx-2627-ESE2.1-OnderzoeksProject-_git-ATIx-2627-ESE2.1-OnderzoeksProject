@@ -11,8 +11,8 @@
 *   Welke indoorlokalisatietechnologieën zijn beschikbaar?
 
 **Mogelijke hoofdvragen:**
-*   Hoe beïnvloeden de afstand en de beweging van de robots de betrouwbaarheid van draadloze communicatie?
-*   Hoe kan de frequentie van positie-updates worden geoptimaliseerd om de netwerkbelasting binnen de robotvloot te beperken?
-*   Welk communicatieprotocol is geschikter voor de communicatie binnen de robotvloot uit deze casus; MQTT of een zelfontwikkeld protocol?
-*   Welke netwerktopologie is het meest geschikt voor de communicatie tussen de rooier, overslagwagens en interfaces?
-*   Wat is het effect van een multi communicatie infrastructuur?
+*   Hoe beïnvloeden de afstand en de beweging van de robots de betrouwbaarheid van draadloze communicatie? {g}
+*   Hoe kan de frequentie van positie-updates worden geoptimaliseerd om de netwerkbelasting binnen de robotvloot te beperken? {m}
+*   Welk communicatieprotocol is geschikter voor de communicatie binnen de robotvloot uit deze casus; MQTT of een zelfontwikkeld protocol? {m-g}
+*   Welke netwerktopologie is het meest geschikt voor de communicatie tussen de rooier, overslagwagens en interfaces? {f}
+*   Wat is het effect van een multi communicatie infrastructuur? {g}{v}
