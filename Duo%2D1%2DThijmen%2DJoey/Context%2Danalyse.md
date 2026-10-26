@@ -23,3 +23,9 @@ Bodemverdichting:
 Een betrouwbare communicatie is van belang bij het onderwerp bodemverdichting. Zonder betrouwbare communicatie zouden de robotwagens over dezelfde routes kunnen gaan rijden en dat zou onnodige bodemveridichting veroorzaken
 
 **Literatuur onderzoek**
+Vraagstuk 1:
+Hoe communiceren robots met elkaar? welke communicatie technieken en protocollen worden al gebruikt bij robotvloten.
+Vraagstuk 2:
+Welke problemen kunnen hierbij ontstaan? latency 
+Vraakstuk 3:
+Wat is de invloed op de communcatie als er latency onstaat.
