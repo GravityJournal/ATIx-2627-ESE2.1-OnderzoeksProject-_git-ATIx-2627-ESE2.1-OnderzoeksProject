@@ -108,6 +108,6 @@ De planning wordt aangepast aan de deadlines van het vak en de beschikbaarheid v
 
 Om de betrouwbaarheid percentage omhoog te krijgen, leggen we vooraf vast hoe de tests worden uitgevoerd en welke gegevens we meten. We herhalen tests waar dat mogelijk is en gebruiken dezelfde omstandigheden bij vergelijkingen.
 
-Om de validiteit te vergroten, laten we de testscenario's aansluiten op het probleem van Viscon: twee gescheiden robotvloten, transport in beide richtingen en een overdrachtspunt dat tijdelijk niet beschikbaar is. We controleren daarnaast of de gekozen meetcriteria daadwerkelijk iets zeggen over de hoofdvraag.
+Om de validiteit te vergroten, laten we de testscenario's aansluiten op het probleem van Viscon: twee gescheiden robotvloten, transport in beide richtingen en een overdrachtspunt dat tijdelijk niet beschikbaar is. We controleren daarnaast of de gekozen meetdata daadwerkelijk iets zegt over de hoofdvraag.
 
 We laten de onderzoeksopzet en het prototype beoordelen door een docent of medestudent en verwerken de feedback. Omdat een simulatie niet alle omstandigheden van een echte installatie kan nabootsen, benoemen we die beperking bij het trekken van conclusies.
