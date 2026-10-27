@@ -10,15 +10,13 @@ Deelvraag 1
 
 Deze deelvraag is nodig om vast te stellen welke gegevens de robotvloten nodig hebben om het transport goed op elkaar af te stemmen. Hierbij kijken we bijvoorbeeld naar de beschikbaarheid van het overdrachtspunt, transportopdrachten en bevestigingen van overdrachten.
 
-Deelvraag 2
-**Hoe kan het systeem de transportplanning aanpassen wanneer het overdrachtspunt tijdelijk niet beschikbaar is?**
+Deelvraag 2  
+**Welke communicatietechnieken zijn het meest geschikt voor het uitwisselen van informatie tussen de twee robotvloten?**
+Deze deelvraag onderzoekt welke communicatietechnieken het beste passen bij het transportsysteem van Viscon. Hierbij kijken we naar de snelheid, betrouwbaarheid en efficiëntie van de verschillende technieken. Het doel is om te bepalen hoe de robotvloten op een goede manier informatie kunnen uitwisselen over de status van het overdrachtspunt en de transportopdrachten.
 
-Deze deelvraag onderzoekt hoe het systeem reageert op een tijdelijke sluiting van het overdrachtspunt. Het doel is om onnodige wachttijden te beperken en te voorkomen dat robots naar een gesloten overdrachtspunt blijven rijden.
-
-Deelvraag 3
-**Hoe kan de communicatie tussen de robotvloten betrouwbaar blijven bij vertragingen of tijdelijke netwerkuitval?**
-
-Deze deelvraag richt zich op de betrouwbaarheid van de communicatie. We onderzoeken hoe het systeem omgaat met berichten die vertraagd zijn of niet aankomen en hoe wordt voorkomen dat robots op basis van verouderde informatie werken.
+**Deelvraag 3**  
+**Hoe kan de communicatie tussen de twee robotvloten betrouwbaar blijven wanneer berichten vertraagd zijn of de netwerkverbinding tijdelijk wegvalt?**
+Deze deelvraag onderzoekt hoe het systeem omgaat met berichten die te laat aankomen of niet aankomen door netwerkproblemen. Hierbij kijken we naar manieren om berichten opnieuw te versturen en te controleren of de ontvangen informatie nog actueel is. Het doel is om ervoor te zorgen dat de robotvloten betrouwbaar met elkaar blijven communiceren en geen verkeerde beslissingen nemen door verouderde informatie.
 
 
 --
@@ -40,32 +38,33 @@ We onderzoeken welke berichten nodig zijn, wie deze verstuurt en hoe de ontvange
 **Waarom deze methoden?**
 Literatuuronderzoek geeft inzicht in bestaande oplossingen. Systeemanalyse laat zien wat er al beschikbaar is bij Viscon. Met een prototype kunnen we testen of de gekozen manier van communiceren in de praktijk werkt.
 
-Deelvraag 2: Transportplanning bij een gesloten overdrachtspunt
+Deelvraag 2: Welke communicatietechnieken zijn geschikt?
+**Onderzoeksmethoden:**
+*   **Literatuuronderzoek:** informatie zoeken over verschillende communicatietechnieken die gebruikt kunnen worden om twee robotvloten met elkaar te laten communiceren.
+    
+*   **Vergelijkende analyse:** verschillende technieken vergelijken op basis van snelheid, betrouwbaarheid en hoe makkelijk ze te gebruiken zijn.
+    
+*   **Prototyping:** een eenvoudige testopstelling of simulatie maken waarin verschillende communicatietechnieken getest kunnen worden.
+    
+**Uitvoering:**
+We onderzoeken welke communicatietechnieken geschikt zijn voor het uitwisselen van informatie tussen de twee robotvloten. Hierbij kijken we bijvoorbeeld naar het doorgeven van de status van het overdrachtspunt, transportopdrachten en bevestigingen van overdrachten. We vergelijken de technieken en kijken welke het beste past bij het transportsysteem van Viscon. Als het mogelijk is, testen we de technieken in een prototype.
+**Waarom deze methoden?**
+Met literatuuronderzoek krijgen we inzicht in de verschillende communicatietechnieken. Door de technieken te vergelijken, kunnen we bepalen wat de voor- en nadelen zijn. Met een prototype kunnen we testen welke techniek het beste werkt voor dit systeem.
+
+Deelvraag 3: Hoe kan de communicatie betrouwbaar blijven bij storingen?
 
 **Onderzoeksmethoden:**
-- **Literatuuronderzoek:** onderzoeken welke planningsmethoden worden gebruikt bij meerdere robots en gedeelde middelen.
-- **Data-analyse:** indien gegevens beschikbaar zijn, wachttijden en vertragingen analyseren.
-- **Prototyping:** een transportsituatie simuleren waarin het overdrachtspunt tijdelijk gesloten wordt.
-
+*   **Literatuuronderzoek:** informatie zoeken over manieren om berichtenverlies, vertragingen en tijdelijke netwerkuitval op te vangen.
+    
+*   **Prototyping:** de communicatie testen met situaties waarin berichten te laat aankomen, niet aankomen of de verbinding tijdelijk wegvalt.
+    
+*   **Testresultaten analyseren:** onderzoeken of de robotvloten na een storing weer goed met elkaar kunnen communiceren en met de juiste informatie verder kunnen werken.
+    
 **Uitvoering:**
-We testen verschillende situaties, bijvoorbeeld een overdrachtspunt dat normaal beschikbaar is en een overdrachtspunt dat tijdelijk gesloten wordt. We vergelijken hoe het systeem reageert en of de planning wordt aangepast. Daarbij kijken we onder andere naar wachttijd, vertraging en het aantal transporten dat succesvol wordt uitgevoerd.
-
+We testen wat er gebeurt wanneer berichten niet aankomen of pas later worden ontvangen. Ook onderzoeken we hoe het systeem hiermee om kan gaan, bijvoorbeeld door berichten opnieuw te versturen of te controleren of de ontvangen informatie nog actueel is. Daarna bekijken we of de robotvloten na een storing het transport op de juiste manier kunnen hervatten.
+We leggen de resultaten vast en kijken hoe vaak berichten goed worden verwerkt en hoe snel de communicatie zich herstelt nadat de verbinding weer beschikbaar is.
 **Waarom deze methoden?**
-Met literatuuronderzoek vinden we mogelijke planningsoplossingen. Met data-analyse kunnen we bestaande prestaties beoordelen. Het prototype maakt het mogelijk om verschillende situaties onder dezelfde omstandigheden te vergelijken.
-
-Deelvraag 3: Betrouwbaarheid van de communicatie
-
-**Onderzoeksmethoden:**
-- **Literatuuronderzoek:** informatie zoeken over betrouwbare netwerkcommunicatie, foutafhandeling en het opnieuw versturen van berichten.
-- **Prototyping:** berichtenverkeer testen met bijvoorbeeld vertraging, een gemist bericht of tijdelijke netwerkuitval.
-- **Peer review:** de gekozen communicatieoplossing en testresultaten laten beoordelen door een medestudent of docent.
-
-**Uitvoering:**
-We voeren herhaalde tests uit en controleren of statuswijzigingen correct worden verwerkt. Ook testen we wat er gebeurt wanneer een bericht niet aankomt of pas later wordt ontvangen. We leggen de resultaten vast en vergelijken deze met de vooraf vastgestelde criteria.
-
-**Waarom deze methoden?**
-Literatuuronderzoek geeft inzicht in mogelijke oplossingen. Met prototyping kunnen we de communicatie onder verschillende omstandigheden testen. Peer review helpt om fouten of zwakke punten in de aanpak te ontdekken.
-
+Met literatuuronderzoek krijgen we inzicht in mogelijke oplossingen voor communicatieproblemen. Met een prototype kunnen we testen hoe het systeem reageert op verschillende storingen. Door de resultaten te analyseren, kunnen we bepalen welke oplossingen de communicatie betrouwbaarder maken.
 # 4. Benodigde middelen
 
 | Middel | Waarvoor nodig? |
