@@ -1,6 +1,6 @@
 # Wat is al bekend in de literatuur?
 
-In de bestaande literatuur over netwerkcommunicatie binnen geautomatiseerde robotomgevingen en het Internet of Things (IoT) is veel onderzoek gedaan naar de prestatieverschillen tussen transportprotocollen en berichtformaten _(Pereira et al., 2021)_.
+In de bestaande literatuur over netwerkcommunicatie binnen geautomatiseerde robotomgevingen en het Internet of Things (IoT) is veel onderzoek gedaan naar de prestatieverschillen tussen transportprotocollen en berichtformaten.
 Op het niveau van transportprotocollen wordt in de literatuur een duidelijke scheiding gemaakt tussen TCP (Transmission Control Protocol) en UDP (User Datagram Protocol) _(IntechOpen, 2021)_:
 *   **TCP** garandeert dat gegevenspakketten in de juiste volgorde en zonder verlies aankomen door gebruik te maken van handshakes en automatische herverzending. Het nadeel hiervan is dat deze mechanismen extra netwerk-overhead en een hogere reactietijd (round-trip time in ms) introduceren _(IntechOpen, 2021)_.
     
