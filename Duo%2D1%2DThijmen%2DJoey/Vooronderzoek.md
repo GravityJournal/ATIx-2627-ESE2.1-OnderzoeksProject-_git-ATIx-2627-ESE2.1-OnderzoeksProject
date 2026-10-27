@@ -36,6 +36,25 @@ voordelen:
 Nadeel:
 - Rooier beweegt. onvoorspelbaar latency?.
 - De rooier 
+
+### Gecentraliseerde en gedecentraliseerde communicatie
+
+In het onderzoek van Katikaridis et al. (2025) worden twee verschillende communicatiearchitecturen voor landbouwrobots met elkaar vergeleken: een gecentraliseerd en een gedecentraliseerd systeem. Bij een gedecentraliseerd systeem communiceren robots rechtstreeks met elkaar, terwijl bij een gecentraliseerd systeem de communicatie via een centrale controlunit verloopt.
+De onderzoekers hebben 120 praktijktesten uitgevoerd met een drone en een kleine autonome landbouwrobot. Hierbij werd gekeken naar de betrouwbaarheid en snelheid van de communicatie in een open veld en een boomgaard.
+**Resultaten**
+Uit het onderzoek bleek dat het gecentraliseerde systeem betrouwbaarder was in het afleveren van berichten. Dit systeem behaalde in beide omgevingen een succespercentage van 97%. Het gedecentraliseerde systeem behaalde 83% in het open veld en 70% in de boomgaard.
+Het gedecentraliseerde systeem had bij het terugsturen van positiegegevens wel een lagere communicatievertraging. De onderzoekers concludeerden dat beide systemen voordelen hebben, afhankelijk van de toepassing en de omgeving.
+**Toepasbaarheid op onze robotvloot**
+Hoewel dit onderzoek interessante resultaten oplevert, sluit de testopstelling niet volledig aan op onze casus. In het onderzoek werd gebruikgemaakt van een drone en een relatief kleine landbouwrobot. Onze robotvloot bestaat daarentegen uit een grote rooier en twee overslagwagens.
+Door het verschil in afmetingen kunnen de antennes van onze landbouwmachines mogelijk hoger worden geplaatst, waardoor gewassen het radiosignaal minder snel blokkeren. Dit kan invloed hebben op de betrouwbaarheid van de communicatie.
+Daarnaast bestaat onze robotvloot uit drie grondvoertuigen, terwijl in het onderzoek de communicatie tussen een drone en een grondvoertuig werd getest.
+De resultaten zijn daarom niet rechtstreeks toepasbaar op onze situatie. Wel laat het onderzoek zien dat de keuze voor een communicatiearchitectuur invloed kan hebben op de betrouwbaarheid en vertraging van de communicatie.
+
+**Bronvermelding (APA 7)**
+Katikaridis, D., Benos, L., Busato, P., Kateris, D., Papageorgiou, E., Karras, G., & Bochtis, D. (2025). Experimental comparative analysis of centralized vs. decentralized coordination of aerial–ground robotic teams for agricultural operations. _Robotics, 14_(9), Article 119. [https://doi.org/10.3390/robotics14090119](https://doi.org/10.3390/robotics14090119)
+
+
+
 **Welke informatie moeten de robots uitwisselen?**
 
 Denk hierbij aan locatiegegevens, snelheid, rijrichting, bunkerinhoud, geplande routes en de status van de voertuigen.
