@@ -14,14 +14,10 @@ Deelvraag 2
 **Welke communicatietechnieken zijn het meest geschikt voor het uitwisselen van informatie tussen de twee robotvloten?**
 Deze deelvraag onderzoekt welke communicatietechnieken het beste passen bij het transportsysteem van Viscon. Hierbij kijken we naar de snelheid, betrouwbaarheid en efficiëntie van de verschillende technieken. Het doel is om te bepalen hoe de robotvloten op een goede manier informatie kunnen uitwisselen over de status van het overdrachtspunt en de transportopdrachten.
 
-**Deelvraag 3**  
-**Hoe kan de communicatie tussen de twee robotvloten betrouwbaar blijven wanneer berichten vertraagd zijn of de netwerkverbinding tijdelijk wegvalt?**
-Deze deelvraag onderzoekt hoe het systeem omgaat met berichten die te laat aankomen of niet aankomen door netwerkproblemen. Hierbij kijken we naar manieren om berichten opnieuw te versturen en te controleren of de ontvangen informatie nog actueel is. Het doel is om ervoor te zorgen dat de robotvloten betrouwbaar met elkaar blijven communiceren en geen verkeerde beslissingen nemen door verouderde informatie.
+Deelvraag 3  
+**Hoe kan betrouwbare communicatie tussen de twee robotvloten worden bewaard bij vertragingen of tijdelijke netwerkuitval?**
+Deze deelvraag richt zich op de manier waarop het systeem omgaat met vertraagde of verloren berichten als gevolg van netwerkproblemen. Hierbij wordt onderzocht hoe berichten opnieuw kunnen worden verzonden en/of hoe kan worden gecontroleerd of ontvangen informatie nog belangrijk en betrouwbaar is(een bericht van 10 minuten geleden moet niet bewaard worden). Het doel is om de communicatie tussen beide robotvloten zo betrouwbaar mogelijk te houden en te voorkomen dat beslissingen worden genomen op basis van verouderde of onvolledige informatie.
 
-
---
-welke manieren van communicatie
--- 2 weg
 
 # 3 Onderzoeks- en analysemethoden
 
