@@ -1,5 +1,5 @@
       
-#Deelvraag 1
+#Deelvraag 1.1
 welke verschillende standaarden zijn er voor wifi, 4g en 5g in 2025?
 
 Deze vraag is relevant omdat een specifieke infrastructuur gekozen moet worden voor de communicatie tussen robots.
