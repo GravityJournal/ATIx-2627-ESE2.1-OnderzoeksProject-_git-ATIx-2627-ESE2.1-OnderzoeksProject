@@ -28,3 +28,7 @@ https://ieeexplore.ieee.org/abstract/document/8329619?casa_token=ioKn5inHLSMAAAA
 _Toward 6G Networks: Use Cases and Technologies_. (2020, 1 maart). IEEE Journals & Magazine | IEEE Xplore. Geraadpleegd op 26 november 2025, van https://ieeexplore.ieee.org/abstract/document/9040264?casa_token=mT2bjXNiMvcAAAAA:lbnO9RS-__GBbqUgkJ0eANRkWoQ51Bz4hZq5jlEM0COyzx8nSJHAUseiwl5dkqhYU8tv6MYFdFOLcw
 
 _An Overview of 5G Advanced Evolution in 3GPP Release 18_. (2022, 1 september). IEEE Journals & Magazine | IEEE Xplore. Geraadpleegd op 26 november 2025, van https://ieeexplore.ieee.org/abstract/document/9927255?casa_token=PbgAAxV6vGoAAAAA:MS-_oKT-mtc-RL6hGxsvSLFiut8c9ymDuK5aM5mYTQyqNdq3uOrp2GrHU4jSmESmde0jCdsjJhhnHA
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
