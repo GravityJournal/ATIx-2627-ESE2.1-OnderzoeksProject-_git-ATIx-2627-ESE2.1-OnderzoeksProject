@@ -19,3 +19,7 @@ Uit de bovenstaande gegevens is te concluderen dat AES de Encryptie methode is m
 laagste overhead in beide tijd (
 3,9619 ms sneller) en in encryptie grootte (1 byte lichter).
 Het gaat hier niet om hele grote verschillen maar er is wel duidelijk te zien dat AES sneller en lichter is dan ChaCha20 en daarom voor ons de betere encryptie methode
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
