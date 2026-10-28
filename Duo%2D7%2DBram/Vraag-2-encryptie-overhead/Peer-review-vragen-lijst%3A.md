@@ -27,3 +27,7 @@ Naam: Alex Otjens
 4 Op sommige plekken staan oude code exemplaren. Dit kan het onduidelijk maken wat de code nou precies doet.
 
 5 Ja er zijn veel aspecten die anders kunnen zoals variatie in bericht grootte, meerdere methoden testen of multiploide testen om een gemiddeld resultaat te krijgen. en afstand/verschillende netwerken
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
