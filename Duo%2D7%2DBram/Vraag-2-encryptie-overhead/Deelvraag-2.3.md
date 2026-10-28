@@ -42,3 +42,7 @@ Poovendran, R., Lee, J., & Iwata, T. (2006d). _The AES-CMAC algorithm_.  https:
 
 Poly1305:
 Bernstein, D. J. (2005b). The Poly1305-AES Message-Authentication Code. In _Lecture notes in computer science_ (pp. 32–49). Geraadpleegd op 24 november 2025, van https://doi.org/10.1007/11502760_3
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
