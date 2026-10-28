@@ -128,3 +128,7 @@ Ja, omdat de vergelijking direct de relevantie voor de hoofdvraag, overhead, mee
 ### Criteria
 - Overhead in bytes: Absolute extra bytes toegevoegd door de integriteit methodes per pakket.
 - Latency overhead: Vertraging in milliseconden veroorzaakt door de integriteit methodes.
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
