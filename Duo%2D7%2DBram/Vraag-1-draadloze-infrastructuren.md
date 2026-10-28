@@ -169,3 +169,7 @@ De methode meet precies wat relevant is voor de hoofdvraag, de vergelijking van 
 | Zondag w12    | Resultaten samenvoegen, conclusies formuleren en hoofdstuk afronden     |
 | week 13       | hoofdvraag 2                                                            |
 | week 14       | hoofdvraag 3                                                            |
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
