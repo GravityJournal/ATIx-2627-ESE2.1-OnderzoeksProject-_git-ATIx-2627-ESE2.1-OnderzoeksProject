@@ -18,3 +18,7 @@ Maar over het algemeen zijn we tevreden met de samenwerking
 
 #Reflectie Peer review
 We zijn erg blij met de grotendeels positieve feedback en zullen de feedback over de code in komende codeer projecten meenemen.
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
