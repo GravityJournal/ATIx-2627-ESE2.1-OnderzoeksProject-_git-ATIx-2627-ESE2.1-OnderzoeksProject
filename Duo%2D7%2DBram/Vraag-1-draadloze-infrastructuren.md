@@ -158,6 +158,7 @@ De methode meet precies wat relevant is voor de hoofdvraag, de vergelijking van 
   Invloed van afstand op prestaties.
 
 ## Globale planning:
+Hieronder staat de planning die gebruikt is tijdens het onderzoek vorig jaat:
 
 | Dag           | Activiteit                                                              |
 | ------------- | ----------------------------------------------------------------------- |
