@@ -39,3 +39,7 @@ _Understanding and Mitigating the Impact of Wi-Fi 6E Interference on Ultra-Wideb
 _Current Status and Directions of IEEE 802.11be, the Future Wi-Fi 7_. (2020). IEEE Journals & Magazine | IEEE Xplore. Geraadpleegd op 26 november 2026, van https://ieeexplore.ieee.org/abstract/document/9090146
 
 _Overview and Performance Evaluation of Wi-Fi 7_. (2022, 1 juni). IEEE Journals & Magazine | IEEE Xplore. Geraadpleegd op 26 november 2025, van https://ieeexplore.ieee.org/abstract/document/9855457
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
