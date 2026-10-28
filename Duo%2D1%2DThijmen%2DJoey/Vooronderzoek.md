@@ -139,7 +139,7 @@ Naast de communicatiebehoeften moet worden onderzocht welke technische eisen nod
     *   Wat is maximale vetraging die we kunnen hebben
 *   Hoeveel dekking is er in nederland voor 4g en 5g? (bron 4) 
 
-    ![chrome_EQQPt3lWTo.png](/.attachments/chrome_EQQPt3lWTo-ffa0f293-8b8c-4502-a907-01968328959c.png)
+    ![chrome_EQQPt3lWTo.png](/.attachments/chrome_EQQPt3lWTo-ffa0f293-8b8c-4502-a907-01968328959c.png)![chrome_5W0hY3R9QH.png](/.attachments/chrome_5W0hY3R9QH-949cc992-9515-426d-987f-8adec4dc84cf.png)
 
 ### Bronnen:
 * Bron 1: [https://en.wikipedia.org/wiki/Long-range_Wi-Fi](https://en.wikipedia.org/wiki/Long-range_Wi-Fi)  
