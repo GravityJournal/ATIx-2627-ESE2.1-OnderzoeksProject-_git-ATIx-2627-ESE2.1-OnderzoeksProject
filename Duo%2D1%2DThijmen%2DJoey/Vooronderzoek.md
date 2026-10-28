@@ -81,7 +81,15 @@ bij een gedecentraliseerd systeem nemen de robots zelfstandig beslissingen en st
 
 Een hybride architectuur combineert centrale coördinatie met lokale zelfstandigheid van de voertuigen.
 
-**
+**Toepasbaarheid**
+Uit dit onderzoek blijkt dat de ophang van de robotvloot en de behoefte aan een gezamelijke planning belangrijke factoren zijn bij het kiezen van de besturingsarchitectuur.
+
+Onze robotbloot bestaat uit slechts drie voertuigen. hierdoor verwachten wij dat de beperking van een gecentraliseerd systeem op het gebied van schaalbaarheid minimale invloed zou hebben.
+
+Daarnaast is gazemelijke routeplanning en afstemming belangerijk om onnodige bodemverdichting te vermijden. Met een centrale controller kunnen de posities en routes gezamelijk bijgehouden worden, waardoor je de routeplanning makkelijker en effecienter kan afstemmen. 
+
+Dit onderzoek geeft ons daarom een belangrijke onderbouwing voor de keuze van een gecentraliseerde architectuur.
+
 
 
 
@@ -110,8 +118,7 @@ Katikaridis, D., Benos, L., Busato, P., Kateris, D., Papageorgiou, E., Karras, G
 
 
 **Welke informatie moeten de robots uitwisselen?**
-
-Denk hierbij aan locatiegegevens, snelheid, rijrichting, bunkerinhoud, geplande routes en de status van de voertuigen.
+Denk hierbij aan locatiegegevens, snelheid, rijrichting, bunkerinhoud, geplande routes, taak informatie en de status van de voertuigen.
 
 **Hoe vaak moet deze informatie worden uitgewisseld?**
 
