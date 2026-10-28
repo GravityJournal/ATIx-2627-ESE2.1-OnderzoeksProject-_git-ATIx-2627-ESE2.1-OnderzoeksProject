@@ -20,5 +20,6 @@ om deze vraag te beantwoorden kijken we naar de datadoorvoer van van de verschil
 | wifi 6e | 9,6 Gbps |
 | wifi 7 | 30-40 Gbps |
 
-#Conclusie
-hieruit kunnen we concluderen dat wifi 7 de hoogste datadoorvoer bied met 30-40 Gbps en 5g release 18 als 2e komt met een datadoorvoer van 30+ Gbps
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
