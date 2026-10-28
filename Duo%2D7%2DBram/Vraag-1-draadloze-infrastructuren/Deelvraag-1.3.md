@@ -24,3 +24,7 @@ Holma, H., & Toskala, A. (2009). _LTE for UMTS_. Google Books. Geraadpleegd op 2
 Ahmadi, S. (2013b). _LTE-Advanced_. Google Books. Geraadpleegd op 26 november 2025, van https://books.google.com/books?hl=nl&lr=&id=DTsTAAAAQBAJ&oi=fnd&pg=PP1&ots=zU5O1ECjky&sig=RDli30PQhMQzbboZOhQP5I5rV-s
 
 Dahlman, E., Parkvall, S., & Sköld, J. (2019). _4G, LTE-Advanced Pro and The Road to 5G_. Google Books. Geraadpleegd op 26 november 2025, van [https://books.google.nl/books?hl=nl&lr=&id=6J1FCgAAQBAJ&oi=fnd&pg=PP1&ots=OqEVXV4jEU&sig=96vaZYlvsiYwWBtM_dSbet0Vyfw&redir_esc=y#v=onepage&q&f=false](https://books.google.nl/books?hl=nl&lr=&id=6J1FCgAAQBAJ&oi=fnd&pg=PP1&ots=OqEVXV4jEU&sig=96vaZYlvsiYwWBtM_dSbet0Vyfw&redir_esc=y#v=onepage&q&f=false)
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
