@@ -92,3 +92,7 @@ Hello, Robot! the cheese factory in Gouda is most excelent to go eat wouldnt yo
 #github pagina:
 https://github.com/Bramvdk1/Hoofdvraag-6
 Bij het schrijven van deze code is ChatGPT gebruikt als hulp middel
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
