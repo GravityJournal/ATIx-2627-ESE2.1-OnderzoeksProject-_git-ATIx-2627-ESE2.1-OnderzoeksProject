@@ -79,7 +79,9 @@ Een nadeel is dat het systeem dan echt afhenkelijk is van de centrale controller
 **Gedecentraliseerd**
 bij een gedecentraliseerd systeem nemen de robots zelfstandig beslissingen en stemmen ze hun werkzaamheden onderling af. hierdoor zijn ze minder afhankelijk van een centraal systeem, maar is het wel lastiger om de werkzaamheden van de gehele robotvloot te optimaliseren en af te stemmen.
 
-Een hybride architectuur combineert centrale coördinatie met lokale zelfstandigheid van de voertuigen.
+Een hybride architectuur combineert centrale coördinatie met lokale zelfstandigheid van de voertuigen.\
+
+
 
 
 
