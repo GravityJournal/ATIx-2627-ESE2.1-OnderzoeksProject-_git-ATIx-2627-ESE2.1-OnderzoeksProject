@@ -17,3 +17,7 @@ Om deze deelvraag te beantwoorden kijken we even naar de test resultaten van dee
 #Conclusie
 Uit de bovenstaande gegevens is te concluderen dat CMAC de snelste integriteit methode is aangezien het 0.0470ms sneller dan poly1305 en 1.4757 ms sneller dan HMAC-SHA256. qua overhead in bytes is het 32 bytes lichter dan HMAC-SHA256 en even zwaar als Poly1305.
 Het gaat tussen Poly1305 en CMAC om een erg klein verschil in snelheid maar omdat er toch een verschil is denken wij dat CMAC de beste integriteit methode is.
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
