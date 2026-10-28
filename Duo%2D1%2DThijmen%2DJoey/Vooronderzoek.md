@@ -74,12 +74,14 @@ Volgens Xia et al. (2026) zijn gecentraliseerde architecturen vooral geschikt vo
 **Gecentraliseerd**
 Bij een gecentraliseerd systeem worden de taakverdeling  en globale routeplanning vanuit een centrale controller geregeld en gecommuniceerd. hierdoor beschikt het systeem een gezamelijk overzicht van de werkzaamheden en routes van de voertuigen.
 
-Een nadeel is dat het systeem dan echt afhenkelijk is van de centrale controller, wanneer deze uitvalt kan dat gevolgen hebben voor de gehele robotvloot.
+Een nadeel is dat het systeem dan echt afhankelijk is van de centrale controller, wanneer deze uitvalt kan dat gevolgen hebben voor de gehele robotvloot.
 
 **Gedecentraliseerd**
 bij een gedecentraliseerd systeem nemen de robots zelfstandig beslissingen en stemmen ze hun werkzaamheden onderling af. hierdoor zijn ze minder afhankelijk van een centraal systeem, maar is het wel lastiger om de werkzaamheden van de gehele robotvloot te optimaliseren en af te stemmen.
 
-Een hybride architectuur combineert centrale coördinatie met lokale zelfstandigheid van de voertuigen.\
+Een hybride architectuur combineert centrale coördinatie met lokale zelfstandigheid van de voertuigen.
+
+**
 
 
 
