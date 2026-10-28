@@ -20,3 +20,7 @@ Hieronder zie je een tabel met daar in de gegevens van AES en CMAC en wat de ove
 | AES-CMAC |36,8038 | 43 bytes|
 
 Dus de totale overhead bij robot communicatie bij AES-CMAC zou in tijd 36,8038 milliseconden en in pakket grootte 43 bytes.
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
