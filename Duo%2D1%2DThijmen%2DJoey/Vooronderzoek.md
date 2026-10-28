@@ -38,17 +38,67 @@ Nadeel:
 - De rooier 
 
 ### Gecentraliseerde en gedecentraliseerde communicatie
+voor het bepalen wat het meest geschikte communicatie en besturings-architectuur voor onze robotvloot zijn twee wetenschappelijke onderzoeken bekeken. hierin worden de verschillen tussen gecentraliseerde, gedecentraliseerde en hybride systemen besproken.
 
-In het onderzoek van Katikaridis et al. (2025) worden twee verschillende communicatiearchitecturen voor landbouwrobots met elkaar vergeleken: een gecentraliseerd en een gedecentraliseerd systeem. Bij een gedecentraliseerd systeem communiceren robots rechtstreeks met elkaar, terwijl bij een gecentraliseerd systeem de communicatie via een centrale controlunit verloopt.
+
+**Onderzoek 1: Gecentraliseerde en gedecentraliseerde communicatie**
+In het onderzoek van Katikaridis et al. (2025) worden twee verschillende communicatiearchitecturen voor landbouwrobots met elkaar vergeleken: een gecentraliseerd en een gedecentraliseerd systeem.
+
+Bij een gedecentraliseerd systeem communiceren robots rechtstreeks met elkaar, zonder tussenkomst van een centrale controlunit. Bij een gecentraliseerd systeem verloopt de communicatie via een centraal systeem.
+
 De onderzoekers hebben 120 praktijktesten uitgevoerd met een drone en een kleine autonome landbouwrobot. Hierbij werd gekeken naar de betrouwbaarheid en snelheid van de communicatie in een open veld en een boomgaard.
-**Resultaten**
-Uit het onderzoek bleek dat het gecentraliseerde systeem betrouwbaarder was in het afleveren van berichten. Dit systeem behaalde in beide omgevingen een succespercentage van 97%. Het gedecentraliseerde systeem behaalde 83% in het open veld en 70% in de boomgaard.
-Het gedecentraliseerde systeem had bij het terugsturen van positiegegevens wel een lagere communicatievertraging. De onderzoekers concludeerden dat beide systemen voordelen hebben, afhankelijk van de toepassing en de omgeving.
-**Toepasbaarheid op onze robotvloot**
-Hoewel dit onderzoek interessante resultaten oplevert, sluit de testopstelling niet volledig aan op onze casus. In het onderzoek werd gebruikgemaakt van een drone en een relatief kleine landbouwrobot. Onze robotvloot bestaat daarentegen uit een grote rooier en twee overslagwagens.
+
+**Resultaten:**
+uit het onderzoek bleek dat het gecentraliseerde systeem betrouwbaarder was in het afleveren van berichten. Dit systeem behaalde een succespercentage van maar liefst 97%. het gedecentraliseerde systeem behaalde 83% in het open veld en 70% in de boomgaard.
+
+Het gedecentraliseerde systeem had bij het terugsturen van positiegegevens wel een lagere communicatie vertraging, daarin tegen ontstond er bij hun setup veel packet-loss en latency.
+
+**Toepasbaarheid**
+Dit onderzoek laat zien dat de gekozen communicatiearchitectuur invloed kan hebben op de betrouwbaarheid en vertraging van de communicatie.
+
+voor onze robotvloot is betrouwbare communicatie belangrijk, omdat de rooier en overslagwagens voortdurend informatie moeten uitwissel over hun locatie,status en werkzaamheden.
+
+Hoewel het onderzoek interessante resultaten oplevert, sluit de testopstelling niet volledig aan op onze casus. In het onderzoek werd gebruikgemaakt van een drone en een relatief kleine landbouwrobot. Onze robotvloot bestaat daarentegen uit een grote rooier en twee overslagwagens.
 Door het verschil in afmetingen kunnen de antennes van onze landbouwmachines mogelijk hoger worden geplaatst, waardoor gewassen het radiosignaal minder snel blokkeren. Dit kan invloed hebben op de betrouwbaarheid van de communicatie.
-Daarnaast bestaat onze robotvloot uit drie grondvoertuigen, terwijl in het onderzoek de communicatie tussen een drone en een grondvoertuig werd getest.
-De resultaten zijn daarom niet rechtstreeks toepasbaar op onze situatie. Wel laat het onderzoek zien dat de keuze voor een communicatiearchitectuur invloed kan hebben op de betrouwbaarheid en vertraging van de communicatie.
+
+De resultaten zijn daarom niet rechtstreeks toepasbaar op onze situatie, Daarom hebben we nog even verder gezocht!
+
+**Onderzoek 2: Besturingsarchitecturen voor landbouwmachines**
+In het onderzoek van Xia et al. (2026) worden drie verschillende besturingsarchitecturen voor landbouwmachines besproken: gecentraliseerd, gedecentraliseerd en hybride.
+
+De onderzoekers vergelijken de eigenschappen en toepassingsmogelijkheden van de architectuur
+
+**Resultaten:**
+Volgens Xia et al. (2026) zijn gecentraliseerde architecturen vooral geschikt voor kleinere robotvloten met stabiele communicatieverbindingen.
+
+**Gecentraliseerd**
+Bij een gecenetraliseerd systeem worden de taakverdeling  en globale routeplanning vanuit een centrale controller geregeld en gecommuniceerd. hierdoor beschikt het systeem een gezamelijk overzicht van de werkzaamheden en routes van de voertuigen.
+
+Een nadeel is dat het systeem dan echt afhenkelijk is van de centrale controller, wanneer deze uitvalt kan dat gevolgen hebben voor de gehele robotvloot.
+
+**Gedecentraliseerd**
+bij een gedecentraliseerd systeem nemen de robots zelfstandig beslissingen en stemmen ze hun werkzaamheden onderling af. hierdoor zijn ze minder afhankelijk van een centraal systeem, maar is het wel lastiger om de werkzaamheden van de gehele robotvloot te optimaliseren en af te stemmen.
+
+Een hybride architectuur combineert centrale coördinatie met lokale zelfstandigheid van de voertuigen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Bronvermelding (APA 7)**
 Katikaridis, D., Benos, L., Busato, P., Kateris, D., Papageorgiou, E., Karras, G., & Bochtis, D. (2025). Experimental comparative analysis of centralized vs. decentralized coordination of aerial–ground robotic teams for agricultural operations. _Robotics, 14_(9), Article 119. [https://doi.org/10.3390/robotics14090119](https://doi.org/10.3390/robotics14090119)
