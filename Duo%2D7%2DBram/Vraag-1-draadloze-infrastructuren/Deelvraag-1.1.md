@@ -54,3 +54,7 @@ https://nl.wikipedia.org/wiki/Wi-Fi
 https://www.electronics-notes.com/articles/connectivity/3gpp/standards-releases.php
 https://3gpp.telco-sec.com/releases
 https://3gpp.alch.me/specifications-technologies/releases
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
