@@ -38,3 +38,7 @@ extra:
 https://journals.sagepub.com/doi/full/10.5772/57433
 https://www.prebes.be/nl/nieuws/2025/05/updates-in-de-normen-over-robots-ISO10218-1-en-2
 https://www.sentinelone.com/nl/cybersecurity-101/cybersecurity/what-is-encryption/#veelvoorkomende-soorten-versleuteling
+
+#Verantwoording hergebruik
+
+Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
