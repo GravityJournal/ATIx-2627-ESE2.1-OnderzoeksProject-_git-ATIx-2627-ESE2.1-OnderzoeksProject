@@ -15,3 +15,9 @@ In bijlage 7 in het tabel onder H1 zie je de duty cycle voor LoRa
 
 Bron 6: [https://www.kpn.com/netwerk/dekkingskaart](https://www.kpn.com/netwerk/dekkingskaart)
 Deze website geeft een kaart met de dekking voor 4G en 5G
+
+Bron 7: [https://www.researchgate.net/publication/387000586_ASSESSING_LATENCY_AND_THROUGHPUT_IN_5G_NETWORKS_FOR_DATA_COMMUNICATION](https://www.researchgate.net/publication/387000586_ASSESSING_LATENCY_AND_THROUGHPUT_IN_5G_NETWORKS_FOR_DATA_COMMUNICATION)  
+"The latency in 4G networks typically ranges from 30-50 ms, while 5G promises a dramatic reduction to under 10 ms in general scenarios and 1 ms for ultra-reliable applications."
+
+Bron 8: "[https://www.researchgate.net/publication/401761285_SHYANNE_ROSHAN_Real-Time_Control_Loop_Timing_and_Latency_in_Autonomous_Robotics"](https://www.researchgate.net/publication/401761285_SHYANNE_ROSHAN_Real-Time_Control_Loop_Timing_and_Latency_in_Autonomous_Robotics%22)  
+"Mastery of control loop timing and latency management is therefore essential for advancing the autonomy, efficiency, and safety of modern robotic platforms"
