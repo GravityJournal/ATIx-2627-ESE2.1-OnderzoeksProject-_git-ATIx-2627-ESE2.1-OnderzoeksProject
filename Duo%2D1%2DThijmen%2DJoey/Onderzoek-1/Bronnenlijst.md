@@ -4,6 +4,6 @@
 [Bron 2] : [https://en.wikipedia.org/wiki/Bluetooth](https://en.wikipedia.org/wiki/Bluetooth)  
     "In the most widely used mode, transmission power is limited to 2.5 milliwatts, giving it a very short range of up to 10 metres"
 
-[Bron 3] : [https://www.cbs.nl/nl-nl/maatwerk/2022/08/gemiddelde-oppervlakte-percelen-akkerbouwgewassen-2017-2021](https://www.cbs.nl/nl-nl/maatwerk/2022/08/gemiddelde-oppervlakte-percelen-akkerbouwgewassen-2017-2021)
+[Bron 3] : [https://www.cbs.nl/nl-nl/maatwerk/2022/08/gemiddelde-oppervlakte-percelen-akkerbouwgewassen-2017-2021](https://www.cbs.nl/nl-nl/maatwerk/2022/08/gemiddelde-oppervlakte-percelen-akkerbouwgewassen-2017-2021) Hieruit hebben de excel sheet gebruikt om te kijken wat het grootste gemiddelde akker is.
 
-[Bron 4] : [https://www.kpn.com/netwerk/dekkingskaart](https://www.kpn.com/netwerk/dekkingskaart)
+[Bron 4] : [https://www.kpn.com/netwerk/dekkingskaart](https://www.kpn.com/netwerk/dekkingskaart) Met deze website kun je een kaart zien met de dekking van 4G en 5G.
