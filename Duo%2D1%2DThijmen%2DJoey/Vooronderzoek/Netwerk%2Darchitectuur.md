@@ -6,16 +6,6 @@ Om te bepalen welke infrastructuur geschikt is voor de robotvloot, moet eerst du
 
 **Hoe communiceren de robots met elkaar?**
 
-Communiceren de robots rechtstreeks met elkaar of verloopt alle communicatie via een centrale controller?
-Kan de centrale control unit op de rooier?:
-voordelen:
-- Je hebt geen aparte server nodig. Niks extras te verplaatsen?
-- Communicatie met rooier heeft weinig latency.
-- geen aparte computer installatie op het veld. zit namelijk op de rooier zelf
-Nadeel:
-- Rooier beweegt. onvoorspelbaar latency?.
-- De rooier 
-
 ### Gecentraliseerde en gedecentraliseerde communicatie
 voor het bepalen wat het meest geschikte communicatie en besturings-architectuur voor onze robotvloot zijn twee wetenschappelijke onderzoeken bekeken. hierin worden de verschillen tussen gecentraliseerde, gedecentraliseerde en hybride systemen besproken.
 
