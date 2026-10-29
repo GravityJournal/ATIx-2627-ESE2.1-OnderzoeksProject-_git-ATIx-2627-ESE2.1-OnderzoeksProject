@@ -48,3 +48,7 @@ Datatype - Hoe vaak? - Belang van snelheid?
          * Waar gaat de robot naartoe?
 
 Hieruit kunnen niet exacte waardes uithalen zonder zelf testen uit te voeren dus op deze vraag zouden we verder moeten onderzoeken.
+
+
+- Hoe bepalen we de scope?
+- Hoofdvragen goedkeuren?
