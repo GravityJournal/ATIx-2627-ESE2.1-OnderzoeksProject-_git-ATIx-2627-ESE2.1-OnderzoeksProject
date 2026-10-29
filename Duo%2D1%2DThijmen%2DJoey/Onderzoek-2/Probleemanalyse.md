@@ -35,15 +35,16 @@ Het verschil van vertraging van 4G is tussen de 30-50 ms en die van 5G is 10 ms 
 
 *   **Hoeveel data bits/s kunnen we uitwisselen tussen de robots?**
 Om te weten hoeveel data we kunnen uitwisselen moeten misschien eerst achter komen welke data we gaan uitwisselen en hoe vaak. We weten dat de robots de volgende informatie zou moeten kunnen uitwisselen:
-Datatype - frequency - Belang van snelheid
-    * Robot taak - niet vaak - Zo snel mogelijk
+Datatype - Hoe vaak? - Belang van snelheid?
+    * Robot taak - niet vaak - snel
     * Robot nood stop - niet vaak - Zo snel mogelijk
-    * Robot status - realtime - Zo snel mogelijk
+    * Robot status - realtime - snel
       * Robot locatie
+      * Robot lading volheid
+    * Robot status - op taak wisseling - snel
+      * algemenen robot status
       * Robot taak
          * Wat is de robot aan het doen?
          * Waar gaat de robot naartoe?
 
-    *   Hoeveel data gaan we versturen?
-<br>
-*   Hoe beveiligd is het netwerk?
+Hieruit kunnen niet exacte waardes uithalen zonder zelf testen uit te voeren dus op deze vraag zouden we verder moeten onderzoeken.
