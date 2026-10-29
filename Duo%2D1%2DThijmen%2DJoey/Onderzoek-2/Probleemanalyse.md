@@ -49,8 +49,3 @@ Datatype - Hoe vaak? - Belang van snelheid?
 
 Hieruit kunnen niet exacte waardes uithalen zonder zelf testen uit te voeren dus op deze vraag zouden we verder moeten onderzoeken.
 
-
-- Hoe bepalen we de scope?
-- Hoofdvragen goedkeuren?
-- beste document opstelling/indeleing?
--
