@@ -52,3 +52,5 @@ Hieruit kunnen niet exacte waardes uithalen zonder zelf testen uit te voeren dus
 
 - Hoe bepalen we de scope?
 - Hoofdvragen goedkeuren?
+- beste document opstelling/indeleing?
+-
