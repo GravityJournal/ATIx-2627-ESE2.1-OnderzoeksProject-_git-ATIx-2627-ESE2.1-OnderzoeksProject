@@ -7,11 +7,11 @@ Bron 2: [https://en.wikipedia.org/wiki/Bluetooth](https://en.wikipedia.org/wiki/
 Bron 3: [https://www.cbs.nl/nl-nl/maatwerk/2022/08/gemiddelde-oppervlakte-percelen-akkerbouwgewassen-2017-2021](https://www.cbs.nl/nl-nl/maatwerk/2022/08/gemiddelde-oppervlakte-percelen-akkerbouwgewassen-2017-2021)
 het excel bestand hiervan geeft het gemiddelde ha akker per perceel
 
-Bron 4: [https://www.kpn.com/netwerk/dekkingskaart](https://www.kpn.com/netwerk/dekkingskaart)
-Deze website geeft een kaart met de dekking voor 4G en 5G
-
-Bron 5: [https://en.wikipedia.org/wiki/LoRa](https://en.wikipedia.org/wiki/LoRa)  
+Bron 4: [https://en.wikipedia.org/wiki/LoRa](https://en.wikipedia.org/wiki/LoRa)  
 " EU868 ([863–870/873 MHz](https://en.wikipedia.org/wiki/Short-range_device#SRD860 "Short-range device")) in [Europe](https://en.wikipedia.org/wiki/Europe "Europe")"
 
-Bron 6: [https://wetten.overheid.nl/BWBR0036378/2025-07-01/0](https://wetten.overheid.nl/BWBR0036378/2025-07-01/0)  
+Bron 5: [https://wetten.overheid.nl/BWBR0036378/2025-07-01/0](https://wetten.overheid.nl/BWBR0036378/2025-07-01/0)  
 In bijlage 7 in het tabel onder H1 zie je de duty cycle voor LoRa
+
+Bron 6: [https://www.kpn.com/netwerk/dekkingskaart](https://www.kpn.com/netwerk/dekkingskaart)
+Deze website geeft een kaart met de dekking voor 4G en 5G
