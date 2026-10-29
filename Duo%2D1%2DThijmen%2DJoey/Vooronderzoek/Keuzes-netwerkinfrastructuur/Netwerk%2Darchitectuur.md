@@ -60,4 +60,8 @@ Daarnaast ontstaat de vraag:
 **Waar kan de centrale controlunit het beste worden geplaatst: op de rooier of op een vaste locatie buiten het landbouwperceel?**
 
 
+**Welke invloed heeft de plaatsing van de draadloze infrastructuur op de communicatie betrouwbaarheid?**
+
+
+
 Dit onderzoek geeft ons daarom een belangrijke onderbouwing voor de keuze van een gecentraliseerde architectuur.
