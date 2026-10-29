@@ -1,12 +1,4 @@
-## 2. Analyse van de communicatiebehoeften
-
-Om te bepalen welke infrastructuur geschikt is voor de robotvloot, moet eerst duidelijk worden hoe de robots met elkaar communiceren en welke informatie ze nodig hebben.
-
-### 2.1 Communicatie tussen robots
-
-**Hoe communiceren de robots met elkaar?**
-
-### Gecentraliseerde en gedecentraliseerde communicatie
+## Gecentraliseerde en gedecentraliseerde communicatie
 voor het bepalen wat het meest geschikte communicatie en besturings-architectuur voor onze robotvloot zijn twee wetenschappelijke onderzoeken bekeken. hierin worden de verschillen tussen gecentraliseerde, gedecentraliseerde en hybride systemen besproken.
 
 
@@ -55,6 +47,13 @@ Uit dit onderzoek blijkt dat de ophang van de robotvloot en de behoefte aan een 
 
 Onze robotbloot bestaat uit slechts drie voertuigen. hierdoor verwachten wij dat de beperking van een gecentraliseerd systeem op het gebied van schaalbaarheid minimale invloed zou hebben.
 
-Daarnaast is gazemelijke routeplanning en afstemming belangerijk om onnodige bodemverdichting te vermijden. Met een centrale controller kunnen de posities en routes gezamelijk bijgehouden worden, waardoor je de routeplanning makkelijker en effecienter kan afstemmen. 
+Daarnaast is gazemelijke routeplanning en afstemming belangerijk om onnodige bodemverdichting te vermijden. Met een centrale controller kunnen de posities en routes gezamelijk bijgehouden worden, waardoor je de routeplanning makkelijker en effecienter kan afstemmen.
+
+**Conclusie**
+Op basis van beide onderzoeken lijkt een gecentraliseerde besturingsarchitectuur het meest geschikt voor onze robotvloot. Door de kleine omvang van de vloot en de behoefte aan gezamenlijke routeplanning verwachten wij dat centrale coördinatie de meest efficiënte oplossing is.
+Daarom kiezen wij ervoor om de centrale controlunit op de rooier te plaatsen, terwijl de overslagwagens hun lokale besturing behouden.
+Een belangrijk aandachtspunt blijft de afhankelijkheid van betrouwbare communicatie. Daarom gaan we verder onderzoeken welke netwerkinfrastructuur hiervoor het meest geschikt is.
+
+
 
 Dit onderzoek geeft ons daarom een belangrijke onderbouwing voor de keuze van een gecentraliseerde architectuur.
