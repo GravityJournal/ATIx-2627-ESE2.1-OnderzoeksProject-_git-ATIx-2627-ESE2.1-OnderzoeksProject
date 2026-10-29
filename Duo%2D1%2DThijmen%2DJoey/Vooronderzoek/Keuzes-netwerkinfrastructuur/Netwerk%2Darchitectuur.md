@@ -51,9 +51,11 @@ Daarnaast is gazemelijke routeplanning en afstemming belangerijk om onnodige bod
 
 **Conclusie**
 Op basis van beide onderzoeken lijkt een gecentraliseerde besturingsarchitectuur het meest geschikt voor onze robotvloot. Door de kleine omvang van de vloot en de behoefte aan gezamenlijke routeplanning verwachten wij dat centrale coördinatie de meest efficiënte oplossing is.
-Daarom kiezen wij ervoor om de centrale controlunit op de rooier te plaatsen, terwijl de overslagwagens hun lokale besturing behouden.
+
 Een belangrijk aandachtspunt blijft de afhankelijkheid van betrouwbare communicatie. Daarom gaan we verder onderzoeken welke netwerkinfrastructuur hiervoor het meest geschikt is.
 
+Daarnaast ontstaat de vraag: 
+**Waar kan de centrale controlunit het beste worden geplaatst: op de rooier of op een vaste locatie buiten het landbouwperceel?**
 
 
 Dit onderzoek geeft ons daarom een belangrijke onderbouwing voor de keuze van een gecentraliseerde architectuur.
