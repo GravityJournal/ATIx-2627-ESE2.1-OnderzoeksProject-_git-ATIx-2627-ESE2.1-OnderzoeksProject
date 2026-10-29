@@ -1,6 +1,8 @@
 ## Gecentraliseerde en gedecentraliseerde communicatie
 voor het bepalen wat het meest geschikte communicatie en besturings-architectuur voor onze robotvloot zijn twee wetenschappelijke onderzoeken bekeken. hierin worden de verschillen tussen gecentraliseerde, gedecentraliseerde en hybride systemen besproken.
 
+![image.png](/.attachments/image-3200d99a-8a23-4c77-a4b0-6057f44ccad0.png)
+[figure 1, A comparison between (a) centralized, (b) decentralized, and (c) distributred]
 
 **Onderzoek 1: Gecentraliseerde en gedecentraliseerde communicatie**
 In het onderzoek van Katikaridis et al. (2025) worden twee verschillende communicatiearchitecturen voor landbouwrobots met elkaar vergeleken: een gecentraliseerd en een gedecentraliseerd systeem.
