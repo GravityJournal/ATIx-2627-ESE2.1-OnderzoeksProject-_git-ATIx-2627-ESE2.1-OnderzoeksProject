@@ -25,6 +25,10 @@ Ik ga nu onderzoeken of LoRa geschikt is voor ons hiervoor. Ik weet toevallig da
 
 Om erachter te komen welke technologie tussen 4G en 5G voor ons het best geschrikt is stellen we de volgende vragen per techniek:
 
+* Hoeveel dekking is er in nederland **(Bron 6)**
+Hieronder zie je twee kaarten met de dekking van 4G en 5G in nederland
+![chrome_EQQPt3lWTo.png](/.attachments/chrome_EQQPt3lWTo-f72bedf4-b1ca-4abc-ad2b-d29123deb924.png)![chrome_5W0hY3R9QH.png](/.attachments/chrome_5W0hY3R9QH-e4e8ed33-1108-42b6-956a-2811224a92bb.png)
+
 *   Hoeveel data bits/s kunnen we uitwisslen tussen de robots?
     *   Hoeveel data gaan we versturen?
     *   Welke data gaan we versturen?
