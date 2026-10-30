@@ -17,7 +17,7 @@ Voor de veilige communicatie is nog niet bepaald met welk communicatiemechanisme
 
 ### 1.3 Literatuuronderzoek (samenvatting)
 
-Het volledige literatuuronderzoek staat op de pagina Literatuuronderzoek. Hieronder staan de belangrijkste punten.
+Het volledige literatuuronderzoek staat op de pagina [Literatuuronderzoek](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-1-\(Matthijs\)/Literatuuronderzoek). Hieronder staan de belangrijkste punten.
 
 - Een zender weet nooit zeker of een bericht is aangekomen. Daarom zijn er drie soorten garanties: at-most-once, at-least-once en exactly-once. Echt exactly-once bestaat in de praktijk niet. Je kunt het wel benaderen door berichten te herhalen tot er een bevestiging komt en elk bericht een uniek ID te geven, zodat de ontvanger dubbele berichten kan negeren (Kleppmann, 2017).
 
