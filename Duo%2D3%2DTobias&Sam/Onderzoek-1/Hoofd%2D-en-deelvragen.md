@@ -7,10 +7,9 @@ Welke informatie moeten de twee robotvloten met elkaar uitwisselen om het transp
 _Waarom?_
 Eerst moet duidelijk zijn welke gegevens nodig zijn, zoals de status van het overdrachtspunt, transportopdrachten en bevestigingen van overdrachten.
 **Deelvraag 2**
-Hoe kan het systeem de transportplanning aanpassen wanneer het overdrachtspunt tijdelijk niet beschikbaar is?
-
-_Waarom?_
-Deze deelvraag is nodig om te onderzoeken hoe vertragingen en wachttijden kunnen worden beperkt als het overdrachtspunt dicht is.
+**Welke communicatietechnieken zijn het meest geschikt voor het uitwisselen van informatie tussen de twee robotvloten?**  
+_Waarom?_ 
+Deze deelvraag onderzoekt welke communicatietechnieken het beste passen bij het transportsysteem van Viscon. Hierbij kijken we naar de snelheid, betrouwbaarheid en efficiëntie van de verschillende technieken. Het doel is om te bepalen hoe de robotvloten op een goede manier informatie kunnen uitwisselen over de status van het overdrachtspunt en de transportopdrachten.
 **Deelvraag 3**
 Hoe kan de communicatie tussen de robotvloten betrouwbaar blijven bij vertragingen of tijdelijke netwerkuitval?
 
