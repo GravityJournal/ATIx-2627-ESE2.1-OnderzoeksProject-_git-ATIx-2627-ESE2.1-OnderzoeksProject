@@ -1,0 +1,3 @@
+- [Probleem analyse](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/Probleem-analyse)
+- [Hoofd- en deelvragen](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/Hoofd%2D-en-deelvragen)
+- [Onderzoeksopzet](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/Onderzoeksopzet)
