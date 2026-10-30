@@ -156,7 +156,7 @@ De tabel is een vergelijking op basis van de documentatie en protocolkenmerken. 
 
 onderweg
 
-## 3.4 Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvlote(/ robots)n worden bewaard bij vertragingen of tijdelijke netwerkuitval?
+## 3.4 Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvloten(/ robots) worden bewaard bij vertragingen of tijdelijke netwerkuitval?
 
 Uit de technische documentatie blijkt dat een betrouwbare communicatieoplossing uit meerdere onderdelen moet bestaan. Alleen een protocol gebruiken dat berichten kan herverzenden, is niet voldoende. Het systeem moet ook omgaan met oude berichten, dubbele opdrachten en een tijdelijk onbereikbare robotvloot.
 
