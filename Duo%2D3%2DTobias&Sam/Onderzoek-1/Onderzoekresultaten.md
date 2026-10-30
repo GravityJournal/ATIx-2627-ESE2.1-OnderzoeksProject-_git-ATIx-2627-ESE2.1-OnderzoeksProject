@@ -8,7 +8,7 @@ Voor het beantwoorden van de deelvragen is gebruikgemaakt van technische documen
 
 De verzamelde informatie wordt per deelvraag besproken. Vervolgens worden de mogelijke oplossingen vergeleken om te bepalen welke technieken het beste aansluiten bij de situatie van Viscon Group.
 
-## 3.2 Deelvraag 1: Welke informatie moeten de twee robotvloten met elkaar uitwisselen om het transport via het gedeelde overdrachtspunt goed te laten verlopen?
+## 3.2 Deelvraag 1: Welke informatie moeten de twee robotvloten(/ robots) met elkaar uitwisselen om het transport via het gedeelde overdrachtspunt goed te laten verlopen?
 
 Om transport tussen twee gescheiden robotvloten(/robots) goed te laten verlopen, moet het systeem niet alleen weten welke goederen moeten worden vervoerd, maar ook wat de actuele status van het overdrachtspunt en de betrokken transportopdrachten is.
 
@@ -18,13 +18,13 @@ Op basis hiervan zijn vijf categorieën informatie belangrijk.
 
 ### 3.2.1 Status van het overdrachtspunt
 
-De robotvloten moeten kunnen vaststellen of het overdrachtspunt beschikbaar is voor een nieuwe overdracht.
+De robotvloten(/ robots) moeten kunnen vaststellen of het overdrachtspunt beschikbaar is voor een nieuwe overdracht.
 
 De status moet minimaal onderscheid maken tussen beschikbaar, bezet, gesloten voor reiniging of onderhoud, en buiten gebruik door een storing. Daarnaast is het belangrijk dat bekend is wanneer de status voor het laatst is bijgewerkt.
 
-Wanneer het overdrachtspunt tijdelijk gesloten is, moeten beide robotvloten deze wijziging ontvangen. Zo wordt voorkomen dat een robot met een nieuwe overdracht begint terwijl het overdrachtspunt niet beschikbaar is.
+Wanneer het overdrachtspunt tijdelijk gesloten is, moeten beide robotvloten(/ robots) deze wijziging ontvangen. Zo wordt voorkomen dat een robot met een nieuwe overdracht begint terwijl het overdrachtspunt niet beschikbaar is.
 
-Alleen een melding dat het overdrachtspunt beschikbaar is, is niet voldoende. Het systeem moet ook voorkomen dat beide robotvloten tegelijkertijd aanspraak maken op dezelfde overdrachtsmogelijkheid. Hiervoor moet een overdracht kunnen worden gereserveerd en bevestigd.
+Alleen een melding dat het overdrachtspunt beschikbaar is, is niet voldoende. Het systeem moet ook voorkomen dat beide robotvloten(/ robots) tegelijkertijd aanspraak maken op dezelfde overdrachtsmogelijkheid. Hiervoor moet een overdracht kunnen worden gereserveerd en bevestigd.
 
 ### 3.2.2 Transportopdrachten
 
@@ -44,13 +44,13 @@ De opdracht moet bovendien altijd de juiste bron- en bestemmingszone bevatten. E
 
 ### 3.2.3 Status en beschikbaarheid van robots
 
-De robotvloten moeten voldoende informatie uitwisselen om te bepalen of een transportopdracht kan worden uitgevoerd.
+De robotvloten(/ robots) moeten voldoende informatie uitwisselen om te bepalen of een transportopdracht kan worden uitgevoerd.
 
 Daarvoor zijn met name de beschikbaarheid van een robot, de actuele opdrachtstatus en eventuele storingen relevant. Een indicatie van de verwachte aankomsttijd kan daarnaast helpen om transportopdrachten beter op elkaar af te stemmen.
 
 Wanneer een robot vertraagd is of een storing heeft, kan het systeem daarmee rekening houden. Het kan bijvoorbeeld een opdracht uitstellen, een andere geschikte robot inzetten of voorkomen dat het overdrachtspunt onnodig lang bezet blijft.
 
-Niet alle interne robotgegevens hoeven hiervoor te worden uitgewisseld. Alleen informatie die nodig is voor de transportcoördinatie hoeft tussen de robotvloten beschikbaar te zijn.
+Niet alle interne robotgegevens hoeven hiervoor te worden uitgewisseld. Alleen informatie die nodig is voor de transportcoördinatie hoeft tussen de robotvloten(/ robots) beschikbaar te zijn.
 
 ### 3.2.4 Bevestigingen van overdrachten
 
@@ -76,7 +76,7 @@ Als de verbinding uitvalt en de actuele status van het overdrachtspunt niet meer
 
 Onderweg
 
-## 3.3 Deelvraag 2: Welke communicatietechnieken zijn het meest geschikt voor het uitwisselen van informatie tussen de twee robotvloten?
+## 3.3 Deelvraag 2: Welke communicatietechnieken zijn het meest geschikt voor het uitwisselen van informatie tussen de twee robotvloten(/ robots)?
 
 Om deze deelvraag te beantwoorden, zijn drie communicatietechnieken onderzocht: TCP-sockets, MQTT en ROS 2 met DDS.
 
@@ -92,13 +92,13 @@ Een belangrijk nadeel is dat TCP alleen de gegevensoverdracht regelt. De applica
 
 Ook moeten functies zoals berichtbevestigingen op toepassingsniveau, het herkennen van dubbele opdrachten en het controleren van verouderde informatie zelf worden ontworpen.
 
-TCP is daarmee een mogelijke oplossing wanneer beide robotvloten een eigen, rechtstreeks communicatieprotocol gebruiken. Voor een systeem met meerdere partijen die zich op verschillende soorten berichten abonneren, is een aanvullende berichtenarchitectuur nodig.
+TCP is daarmee een mogelijke oplossing wanneer beide robotvloten(/ robots) een eigen, rechtstreeks communicatieprotocol gebruiken. Voor een systeem met meerdere partijen die zich op verschillende soorten berichten abonneren, is een aanvullende berichtenarchitectuur nodig.
 
 ### 3.3.2 MQTT
 
 MQTT is een lichtgewicht communicatieprotocol dat werkt met een publish/subscribe-model. Een verzender publiceert berichten bij een broker, waarna systemen die op de betreffende onderwerpen zijn geabonneerd de berichten kunnen ontvangen.
 
-Hierdoor hoeven de twee robotvloten niet voortdurend rechtstreeks met elkaar verbonden te zijn. Beide kunnen bijvoorbeeld informatie over het overdrachtspunt publiceren en zich abonneren op de berichten die voor hun eigen transportplanning relevant zijn.
+Hierdoor hoeven de twee robotvloten(/ robots) niet voortdurend rechtstreeks met elkaar verbonden te zijn. Beide kunnen bijvoorbeeld informatie over het overdrachtspunt publiceren en zich abonneren op de berichten die voor hun eigen transportplanning relevant zijn.
 
 MQTT ondersteunt drie kwaliteitsniveaus voor berichtaflevering (OASIS, 2019):
 
@@ -134,7 +134,7 @@ Met deze instellingen kan een robotsysteem onderscheid maken tussen actuele en v
 
 Een belangrijk aandachtspunt is dat de Quality of Service-instellingen op elkaar moeten aansluiten. Incompatibele instellingen kunnen ervoor zorgen dat berichten niet worden afgeleverd.
 
-ROS 2 met DDS is vooral interessant als de robotvloten al op ROS 2 zijn gebaseerd. In dat geval kan gebruik worden gemaakt van bestaande robotcommunicatie en de bijbehorende configuratiemogelijkheden. Wanneer de robotvloten verschillende gesloten leverancierssystemen gebruiken, moet eerst worden onderzocht of integratie mogelijk is.
+ROS 2 met DDS is vooral interessant als de robotvloten(/ robots) al op ROS 2 zijn gebaseerd. In dat geval kan gebruik worden gemaakt van bestaande robotcommunicatie en de bijbehorende configuratiemogelijkheden. Wanneer de robotvloten(/ robots) verschillende gesloten leverancierssystemen gebruiken, moet eerst worden onderzocht of integratie mogelijk is.
 
 
 ### 3.3.4 Vergelijking van de communicatietechnieken
@@ -148,7 +148,7 @@ De drie technieken kunnen op basis van de gevonden documentatie als volgt worden
 | Berichten laten verlopen | Zelf implementeren op applicatieniveau | Ondersteund via berichtvervaltermijn | Ondersteund via de lifespan-instelling |
 | Afhandeling van dubbele opdrachten | Zelf implementeren | Nodig bij onder andere QoS 1 | Afhandeling op applicatieniveau blijft nodig |
 | Afhankelijkheden | Eigen protocol en verbindingsbeheer | Broker en MQTT-clients | ROS 2-, DDS- en netwerkconfiguratie |
-| Toepassing bij Viscon | Mogelijk voor een eigen communicatieprotocol | Geschikt voor uitwisseling van status en transportgebeurtenissen tussen systemen | Vooral geschikt wanneer de robotvloten al ROS 2 gebruiken |
+| Toepassing bij Viscon | Mogelijk voor een eigen communicatieprotocol | Geschikt voor uitwisseling van status en transportgebeurtenissen tussen systemen | Vooral geschikt wanneer de robotvloten(/ robots) al ROS 2 gebruiken |
 
 De tabel is een vergelijking op basis van de documentatie en protocolkenmerken. Er zijn nog geen metingen uitgevoerd waarmee de daadwerkelijke vertraging of prestaties van deze technieken binnen de installatie van Viscon Group kunnen worden vastgesteld.
 
@@ -156,7 +156,7 @@ De tabel is een vergelijking op basis van de documentatie en protocolkenmerken. 
 
 onderweg
 
-## 3.4 Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvloten worden bewaard bij vertragingen of tijdelijke netwerkuitval?
+## 3.4 Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvlote(/ robots)n worden bewaard bij vertragingen of tijdelijke netwerkuitval?
 
 Uit de technische documentatie blijkt dat een betrouwbare communicatieoplossing uit meerdere onderdelen moet bestaan. Alleen een protocol gebruiken dat berichten kan herverzenden, is niet voldoende. Het systeem moet ook omgaan met oude berichten, dubbele opdrachten en een tijdelijk onbereikbare robotvloot.
 
@@ -184,7 +184,7 @@ Daarnaast moet het systeem controleren of de ontvangen toestand nog voldoende ac
 
 ### 3.4.3 Detecteren van verbindingsproblemen
 
-De robotvloten moeten kunnen vaststellen wanneer de andere kant niet meer bereikbaar is.
+De robotvloten(/ robots) moeten kunnen vaststellen wanneer de andere kant niet meer bereikbaar is.
 
 Dit kan met periodieke statusberichten of heartbeats. Als een heartbeat gedurende een vooraf ingestelde periode uitblijft, kan het systeem de verbinding als verstoord beschouwen.
 
@@ -210,7 +210,7 @@ Wanneer de netwerkverbinding wordt hersteld, moet het systeem eerst controleren 
 
 Het is niet veilig om alle berichten die tijdens de storing zijn ontstaan zonder controle opnieuw uit te voeren. Sommige opdrachten kunnen inmiddels zijn geannuleerd of door een ander systeemdeel zijn afgehandeld.
 
-Daarom moeten beide robotvloten hun actuele status uitwisselen en de geregistreerde opdrachten met elkaar vergelijken. Hierbij wordt gecontroleerd welke berichten zijn verwerkt, welke overdrachten zijn bevestigd en welke opdrachten nog moeten worden uitgevoerd.
+Daarom moeten beide robotvloten(/ robots) hun actuele status uitwisselen en de geregistreerde opdrachten met elkaar vergelijken. Hierbij wordt gecontroleerd welke berichten zijn verwerkt, welke overdrachten zijn bevestigd en welke opdrachten nog moeten worden uitgevoerd.
 
 Pas daarna worden de resterende opdrachten opnieuw ingepland. Hierdoor kan het systeem voorkomen dat transportopdrachten verloren gaan of dubbel worden uitgevoerd.
 
