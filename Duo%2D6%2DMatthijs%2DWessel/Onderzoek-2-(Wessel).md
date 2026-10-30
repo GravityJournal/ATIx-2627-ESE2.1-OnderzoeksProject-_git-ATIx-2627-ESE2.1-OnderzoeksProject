@@ -7,4 +7,3 @@
 - [Conclusie](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/Conclusie)
 - [Bronnen](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/Bronnen)
 - [Code](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/Code)
-- [AI-verantwoording](/Duo%2D6%2DMatthijs%2DWessel/Onderzoek-2-\(Wessel\)/AI%2Dverantwoording)
