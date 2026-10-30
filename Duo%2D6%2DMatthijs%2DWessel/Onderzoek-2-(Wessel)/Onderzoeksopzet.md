@@ -1,4 +1,4 @@
-# 2b. Onderzoeksaanpak
+# 3. Onderzoeksaanpak
 
 ## Onderzoeksdoel
 
