@@ -80,7 +80,7 @@ Chandra, T. D., & Toueg, S. (1996). Unreliable failure detectors for reliable di
 
 Eddy, W. (Red.). (2022). *Transmission Control Protocol (TCP)* (RFC 9293). IETF. https://doi.org/10.17487/RFC9293
 
-Kleppmann, M. (2017). *Designing data-intensive applications*. O'Reilly Media. https://0-lucas.github.io/digital-garden/99.-Books/Martin-Kleppmann---Designing-Data-Intensive-Applications_-O%E2%80%99Reilly-Media-(2017).pdf
+Kleppmann, M. (2017). *Designing data-intensive applications*. O'Reilly Media. 
 
 Lee, S., Kim, H., Hong, D., & Ju, H. (2013). Correlation analysis of MQTT loss and delay according to QoS level. In *The International Conference on Information Networking 2013 (ICOIN)* (pp. 714–717). IEEE. https://doi.org/10.1109/ICOIN.2013.6496715
 
