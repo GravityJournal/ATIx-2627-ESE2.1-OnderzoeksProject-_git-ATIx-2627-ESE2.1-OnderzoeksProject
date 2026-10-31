@@ -1,5 +1,9 @@
 #Onderzoek 1: Plaatsing van draadloze infrastructuur
 
+![image.png](/.attachments/image-b2e9551d-5773-47a7-beee-f8b44fb5d36a.png)
+**Figuur 1:** Visualisatie van draadloze communicatie tussen landbouwmachines.  
+_Bron: Onbekend (z.d.)._
+
 ## Inleiding
 Het doel van het project is om bodemverdichting op landbouwakkers te verminderen door middel van robotisering. Hiervoor wordt een autonome robotvloot ontwikkeld die het oogstproces zo efficiënt mogelijk moet uitvoeren. Hieronder zie je de rollen van de voertuigen en operators.
 
