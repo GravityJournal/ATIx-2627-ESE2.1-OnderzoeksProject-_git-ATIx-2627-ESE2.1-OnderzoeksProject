@@ -56,12 +56,20 @@ Op basis van beide onderzoeken lijkt een gecentraliseerde besturingsarchitectuur
 
 Een belangrijk aandachtspunt blijft de afhankelijkheid van betrouwbare communicatie. Daarom gaan we verder onderzoeken welke netwerkinfrastructuur hiervoor het meest geschikt is.
 
-Daarnaast ontstaat de vraag: 
-**Waar kan de centrale controlunit het beste worden geplaatst: op de rooier of op een vaste locatie buiten het landbouwperceel?**
-
-
-**Welke invloed heeft de plaatsing van de draadloze infrastructuur op de communicatie betrouwbaarheid?**
-
-
 
 Dit onderzoek geeft ons daarom een belangrijke onderbouwing voor de keuze van een gecentraliseerde architectuur.
+
+###Aanlijding hoofdvraag
+Uit de conclusie van het voorgaande literatuuronderzoek zijn enkele nieuwe vraagstukken ontstaan.
+
+Bij een gecentraliseerde besturingsarchitectuur wordt gebruikgemaakt van een centrale controlunit (CCU). Deze ontvangt gegevens van de robots, zoals hun locatie en huidige status. Op basis van deze informatie kan de CCU beslissingen nemen over bijvoorbeeld de routeplanning en taakverdeling. Vervolgens worden de bijbehorende opdrachten teruggestuurd naar de robots.
+
+Bij een gecentraliseerd systeem is betrouwbare communicatie tussen de robots en de CCU van groot belang. de CCU moet gegevens ontvangen en vervolgens bijhorende opdrachten versturen.
+
+De afstand tussen de robots en de draadloze infrastructuur kan mogelijk invloed hebben op de kwaliteit van de verbinding. Wanneer de afstand groter wordt, kan de signaalkwaliteit verslechteren. Dit kan leiden tot vertragingen of pakketverlies.
+
+Hierdoor ontstaat de vraag in hoeverre de plaatsing van de CCU, samen met de draadloze communicatieapparatuur, invloed heeft op de betrouwbaarheid van de communicatie.
+
+Een mogelijke locatie voor de CCU is op de rooier. Omdat de rooier zich over het perceel verplaatst en de overslagwagens regelmatig in de buurt van de rooier moeten komen, zou dit een gunstige locatie kunnen zijn. Een andere mogelijkheid is een vaste locatie buiten het landbouwperceel.
+
+Welke van deze twee opstellingen de betrouwbaarste communicatie oplevert, is nog onbekend. Daarom willen we onderzoeken welke invloed de plaatsing van de draadloze infrastructuur heeft op de communicatie binnen onze robotvloot.
