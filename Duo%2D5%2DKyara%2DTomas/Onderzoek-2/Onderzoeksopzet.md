@@ -24,7 +24,7 @@ Voor beide deelvragen 2 en 3 passen prototyping en data-analyse het beste bij de
 - Aandrijving (bijvoorbeeld motoren en wielen): Om de robot daadwerkelijk te laten bewegen.
 - Snelheidsmeting: Om te controleren hoe snel de robot tijdens de tests beweegt.
 - Laptop: Om de meetgegevens te verzamelen en te analyseren.
-Deze middelen zijn nodig om de afstand en snelheid gecontroleerd te kunnen aanpassen en de invloed hiervan op de betrouwbaarheid van de verbinding te onderzoeken.
+Deze middelen zijn nodig om de afstand en snelheid gecontroleerd te kunnen aanpassen en de invloed hiervan op de betrouwbaarheid van de verbinding te onderzoeken. 
 
 ## **Criteria voor analyse**
 Voor het bepalen van de betrouwbaarheid worden naar twee factoren gekeken voor een hoge betrouwbaarheid, dit zijn latency en packet loss.
