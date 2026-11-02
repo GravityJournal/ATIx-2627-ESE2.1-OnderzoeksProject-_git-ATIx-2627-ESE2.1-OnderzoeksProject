@@ -10,6 +10,9 @@ Tijdens het oogstproces verplaatsen de robots zich voortdurend over het landbouw
 
 Momenteel is nog niet duidelijk in hoeverre de plaatsing van de draadloze infrastructuur invloed heeft op deze betrouwbaarheid. Hierdoor ontbreekt een onderbouwing voor het bepalen van een geschikte locatie voor de communicatie-infrastructuur.
 
+![image.png](/.attachments/image-e7a3e756-617f-4b69-a045-05349813796c.png)
+[Dit diagram laat zien hoe de rooier en twee overslagwagens communiceren met de centrale controlunit (CCU).]
+
 ##Belang
 Een betrouwbare communicatie tussen de robots en de CCU is belangrijk om het oogstprocess effecient en veilig te laten verlopen. De plaatsing van de draadloze infrastructuur kan hierbij een belangrijke rol spelen.
 
@@ -19,6 +22,8 @@ Dit kan gevolgen hebben voor de effecientie van het oogstprocess. Wanneer een ov
 
 Door te onderzoeken welke invloed de plaatsing van de draadloze infrastructuur heeft op de betrouwbaarheid van de communicatie, kunnen we een onderbouwde keuze maken voor een geschikte opstelling binnen onze robotvloot.
 
+##Wat is al bekend
+
 ##Doelstelling
 Het doel van dit onderzoek is om inzicht te krijgen in de invloed van de plaatsing van de draadloze infrastructuur op de betrouwbaarheid van de communicatie binnen onze robotvloot.
 
@@ -27,5 +32,7 @@ Door middel van literatuuronderzoek en praktische metingen willen we onderzoeken
 Met behulp van een Proof of Concept (PoC) willen we verschillende plaatsingen van de draadloze infrastructuur onder vergelijkbare omstandigheden testen.
 
 Op basis van de verzamelde resultaten willen we een onderbouwd advies geven over een geschikte plaatsing van de draadloze infrastructuur binnen onze robotvloot.
+
+
 
 
