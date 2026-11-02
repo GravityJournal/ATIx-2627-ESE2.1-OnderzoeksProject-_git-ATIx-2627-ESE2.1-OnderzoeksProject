@@ -12,4 +12,4 @@ Het doel van het project is om bodemverdichting op landbouwakkers te verminderen
 ---
 
 # 2. Belang
-De belangen voor dit onderzoek is om duidelijkheid te vormen over welke communicatie protocollen we kunnen gebruiken voor de robot vloot en welke geschrikt is voor een veilig noodstop systeem.
+De belangen voor dit onderzoek is om duidelijkheid te vormen over welke communicatie protocollen we kunnen gebruiken voor de robot vloot en ook welke protocol geschrikt is voor een veilig noodstop systeem.
