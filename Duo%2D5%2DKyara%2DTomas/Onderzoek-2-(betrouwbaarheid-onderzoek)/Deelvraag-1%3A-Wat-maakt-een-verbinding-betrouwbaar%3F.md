@@ -12,3 +12,15 @@ Voor dit onderzoek worden vier factoren meegenomen:
 - Signaalsterkte
 
 Deze factoren geven samen inzicht in de snelheid, stabiliteit en kwaliteit van de verbinding.
+## Wat wordt verstaan onder een betrouwbare verbinding?
+
+Een betrouwbare verbinding is een verbinding waarbij gegevens zo snel en volledig mogelijk bij de ontvanger aankomen. In het geval van de robot betekent dit dat de data vanuit en naar het centrale controller correct en zonder onnodige vertraging verzonden en ontvangen worden.
+Wanneer een verbinding niet betrouwbaar is, kunnen verschillende problemen ontstaan. 
+bijvoorbeeld bij het geval dat de operator een opdracht geeft aan de robot:
+- De robot reageert vertraagd op commando's.
+- Commando's komen niet aan bij de robot.
+- Commando's komen met wisselende vertraging aan.
+- De draadloze verbinding wordt instabiel of valt tijdelijk weg.
+    
+Dit kan gevolgen hebben voor de besturing van de robot. Wanneer bijvoorbeeld een stopcommando vertraagd of helemaal niet aankomt, kan de robot langer blijven bewegen dan bedoeld.
+Om deze problemen te voorkomen, moeten de verschillende factoren die invloed hebben op de verbinding zo goed mogelijk worden gecontroleerd.
