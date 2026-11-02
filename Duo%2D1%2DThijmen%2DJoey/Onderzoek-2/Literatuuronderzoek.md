@@ -19,6 +19,6 @@ Hieruit zien we dat 5G iets minder dekking heeft en dat in Apeldoorn voor beide 
 Het verschil van vertraging van 4G is tussen de 30-50 ms en die van 5G is 10 ms **(Bron 7)** Dit helpt nog niet om duidelijkheid te geven op de vraag welke beter is voor de veiligheid van de noodstop, omdat er nog duidelijkheid is van het impact van vertraging is voor onze robotfleet voor de veiligheid van de noodstop. Vanuit deze paper **(Bron 8)** komen ze tot de conclusie dat lagere vertraging in communicatie cruciaal is voor een veiliger en efficiënter systeem.
 
 # **Literatuurgap**
-We weten de theoretische vertragings waarde tussen 4G en 5G, maar het is nog niet duidelijk wat de minimale vertraging eisen voor een draadloze noodstop voor landbouw machines.
+De theoretische vertraging waarde tussen 4G en 5G zijn bekend, maar het is nog niet duidelijk wat de minimale vertraging eisen voor een draadloze noodstop voor landbouw machines.
 
     
