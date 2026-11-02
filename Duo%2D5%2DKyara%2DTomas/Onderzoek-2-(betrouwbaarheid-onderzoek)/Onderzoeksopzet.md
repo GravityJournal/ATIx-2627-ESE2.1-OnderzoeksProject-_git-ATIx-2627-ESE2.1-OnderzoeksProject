@@ -3,7 +3,7 @@ Hoe kan de afstand en snelheid zo afgesteld worden van de robot voor een zo betr
 
 ## **Deelvragen (per onderzoeksvraag)**
 Er is hier gekozen om deze hoofdvraag te splitsen in 2 deelvragen, zo kunnen beide factoren apart getest worden.
-- Wat is de betrouwbaarheid van een verbinding 
+- Wat maakt een verbinding betrouwbaar? 
 - Hoe kan de afstand zo afgesteld worden van de robot voor een zo betrouwbaar mogelijke verbinding?
 - Hoe kan de snelheid zo afgesteld worden van de robot voor een zo betrouwbaar mogelijke verbinding?
 ## **3. Onderzoek- en analysemethoden**
