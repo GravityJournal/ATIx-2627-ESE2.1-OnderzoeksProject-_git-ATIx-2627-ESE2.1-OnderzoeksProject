@@ -17,18 +17,8 @@ Hieruit zien we dat 5G iets minder dekking heeft en dat in Apeldoorn voor beide 
     
 ## **Hoeveel vertraging in ms vind er plaats tussen sturen en ontvangen?**  
 Het verschil van vertraging van 4G is tussen de 30-50 ms en die van 5G is 10 ms **(Bron 7)** Dit helpt nog niet om duidelijkheid te geven op de vraag welke beter is voor de veiligheid van de noodstop, omdat er nog duidelijkheid is van het impact van vertraging is voor onze robotfleet voor de veiligheid van de noodstop. Vanuit deze paper **(Bron 8)** komen ze tot de conclusie dat lagere vertraging in communicatie cruciaal is voor een veiliger en efficiënter systeem.
+
+# **Literatuurgap**
+Wat zijn de minimale vertraging eisen voor een draadloze noodstop voor landbouw machines?
+
     
-**Hoeveel data bits/s kunnen we uitwisselen tussen de robots?**  
-    Om te weten hoeveel data we kunnen uitwisselen moeten misschien eerst achter komen welke data we gaan uitwisselen en hoe vaak. We weten dat de robots de volgende informatie zou moeten kunnen uitwisselen:  
-    Datatype - Hoe vaak? - Belang van snelheid?
-    *   Robot taak - niet vaak - snel
-    *   Robot nood stop - niet vaak - Zo snel mogelijk
-    *   Robot status - realtime - snel
-        *   Robot locatie
-        *   Robot lading volheid
-    *   Robot status - op taak wisseling - snel
-        *   algemenen robot status
-        *   Robot taak
-            *   Wat is de robot aan het doen?
-            *   Waar gaat de robot naartoe?
-Hieruit kunnen niet exacte waardes uithalen zonder zelf testen uit te voeren dus op deze vraag zouden we verder moeten onderzoeken.
