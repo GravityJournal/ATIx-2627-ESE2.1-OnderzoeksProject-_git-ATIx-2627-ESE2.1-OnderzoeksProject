@@ -21,4 +21,13 @@ Het direct testen met 4G en 5G netwerken ligt buiten bereik, daarom is er gekoze
 2. De testen zijn herhaalbaar met gelijke resultaten
 
 # Afbaking
+**Binnen scope**
+- De stopafstand simuleren met variabele massa en snelheid
+- Infrastructuur nep vertraging toepassen 
+- Toepassen van reactiesnelheid van een mens
+
+**Buiten scope**
+- De stopafstand simulatie met wrijving ongelijke vloer en luchtweerstand
+- Direct met 4G en 5G netwerken werken
+- fizieke robot testen
 
