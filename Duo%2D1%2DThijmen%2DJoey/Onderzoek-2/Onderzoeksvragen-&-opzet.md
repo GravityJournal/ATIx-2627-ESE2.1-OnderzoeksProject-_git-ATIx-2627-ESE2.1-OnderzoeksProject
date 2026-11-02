@@ -26,7 +26,14 @@ Om de deelvraag 1 te beantwoorden hebben we de remkracht nodig voor landbouw mac
 ## Deelvraag 3: Welke massa hebben verschillende een landbouw machine?
 Het massa van landbouw voertuigen verschild per voertuig voor het onderzoek word het maximum massa gebruikt voor voertuigen met 4 assen. Dat is 50.000 kg (bron https://www.land-bouwverkeer.nl/wp-content/uploads/2021/11/Maximale-afmetingen-massas-en-aslasten-van-landbouwvoertuigen-vanaf-1-januari-2021_0.pdf)
 
+## Deelvraag 4: Hoeveel heeft vertraging effect op stopafstand?
+Dit is wat we gaan onderzoek om de hoofdvraag te beantwoorden. Dit is getest door middel van een simulatie met behulp van nep vertraging.
 
+Er is een  c++ test programma instantie lopend op een computer. Het test programma voert een lijst uit met schillende nep vertraging waardes, massa's en snelheden. Deze waardes worden gebruikt om de stopafstand te berekenen.
+
+
+
+# Welke data gaan we gebruiken?
 
 # Welke data gaan we verzamelen?
 
