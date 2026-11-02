@@ -74,7 +74,37 @@ Als de verbinding uitvalt en de actuele status van het overdrachtspunt niet meer
 
 ### Antwoord op deelvraag 1
 
-Onderweg
+ 
+De twee robotvloten moeten berichten uitwisselen om transportopdrachten, het gedeelde overdrachtspunt en de voortgang van overdrachten te coördineren. Op basis van de onderzochte informatie zijn de volgende technische eisen opgesteld.
+**1. Status van het overdrachtspunt**
+Het systeem moet de status van het overdrachtspunt bijhouden. Hiervoor zijn minimaal de statussen `OPEN`, `RESERVED`, `CLOSED` en `FAULT` nodig. Bij `OPEN` is het punt beschikbaar, bij `RESERVED` is het gereserveerd (voor bijvoorbeeld een overdracht), bij `CLOSED` is het gesloten voor bijvoorbeeld reiniging of onderhoud en bij `FAULT` is er een storing.
+Voordat een overdracht begint, moet het systeem controleren of het overdrachtspunt beschikbaar is en correct is gereserveerd. Beide robotvloten moeten statuswijzigingen ontvangen. Als de status onbekend is of niet betrouwbaar kan worden vastgesteld, mag geen nieuwe overdracht worden gestart.
+**2. Transportopdrachten**
+Iedere transportopdracht moet minimaal de volgende gegevens bevatten:
+*   Een uniek opdracht-ID.
+    
+*   De identificatie van het te vervoeren goed, de krat of de pallet.
+    
+*   De bron- en bestemmingszone.
+    
+*   De actuele status van de opdracht.
+    
+*   Een tijdstempel van het bericht.
+    
+De opdrachtstatus moet aangeven of een opdracht bijvoorbeeld is aangemaakt, geaccepteerd, wachtend op overdracht of afgerond. Het systeem moet aan de hand van het opdracht-ID kunnen controleren of een opdracht al eerder is ontvangen of verwerkt. Hierdoor wordt voorkomen dat een opnieuw ontvangen bericht automatisch leidt tot een dubbele uitvoering.
+**3. Beschikbaarheid van robots**
+De robotvloten moeten informatie kunnen uitwisselen over de beschikbaarheid van robots, actieve transportopdrachten en eventuele storingen. Indien nodig kan ook de verwachte aankomsttijd worden meegestuurd om het gebruik van het overdrachtspunt te coördineren.
+Een robot mag alleen opdrachten uitvoeren die binnen de eigen hygiënezone vallen. Het overdrachtspunt vormt de aangewezen locatie voor overdrachten tussen de zones.
+**4. Bevestigingen van berichten en overdrachten**
+Het systeem moet onderscheid maken tussen een bevestiging dat een bericht is ontvangen en een bevestiging dat een fysieke overdracht is uitgevoerd. Belangrijke gebeurtenissen, zoals het accepteren van een opdracht, het reserveren van het overdrachtspunt en het afronden van een overdracht, moeten afzonderlijk worden geregistreerd.
+Iedere gebeurtenis moet gekoppeld zijn aan het betreffende opdracht-ID en een tijdstempel bevatten. Hierdoor kan achteraf worden vastgesteld welke stappen zijn uitgevoerd en waar eventuele vertragingen of fouten zijn ontstaan.
+**5. Actualiteit en verbindingsstatus**
+Berichten moeten een tijdstempel en een unieke identificatie bevatten. Voor statusupdates moet het systeem kunnen bepalen of een bericht nieuwer is dan de laatst verwerkte status. Dit voorkomt dat verouderde informatie een recentere status overschrijft.
+Daarnaast moeten de robotvloten periodiek statusberichten (_heartbeats_) versturen. Wanneer deze berichten gedurende een ingestelde termijn uitblijven, moet het systeem de verbinding als mogelijk verstoord markeren.
+**6. Afhandeling van netwerkuitval**
+Wanneer de verbinding wegvalt, moeten nog niet afgeronde transportopdrachten geregistreerd blijven. Na herstel van de verbinding moeten de robotvloten hun actuele status en openstaande opdrachten controleren voordat het transport wordt hervat.
+Als niet kan worden vastgesteld of het overdrachtspunt beschikbaar is, moet het systeem wachten totdat de status opnieuw betrouwbaar bekend is. Het opnieuw ontvangen van een opdracht mag niet automatisch leiden tot een tweede uitvoering.
+Deze technische eisen bepalen welke gegevens de robotvloten moeten uitwisselen en welke controles nodig zijn om het tweerichtingsvervoer betrouwbaar te coördineren. Ze vormen tevens de basis voor het ontwerp van het prototype en de bijbehorende tests.
 
 ## 3.3 Deelvraag 2: Welke communicatietechnieken zijn het meest geschikt voor het uitwisselen van informatie tussen de twee robotvloten(/ robots)?
 
