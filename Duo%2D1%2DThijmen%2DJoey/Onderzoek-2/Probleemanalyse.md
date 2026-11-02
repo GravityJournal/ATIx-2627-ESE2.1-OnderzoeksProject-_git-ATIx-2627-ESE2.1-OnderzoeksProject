@@ -12,10 +12,11 @@ Om het draadloze noodstop systeem te kunnen implementeren moet er eerst duidelij
 **Vertraging:** Do noodstop moet zo snel mogelijk reageren voor de veiligheid
 
 # Doelstelling
-Uit het literatuur onderzoek kwam de literatuur gap antwoord "De theoretische vertraging waarde tussen 4G en 5G zijn bekend, maar het is nog niet duidelijk wat de minimale vertraging eisen voor een draadloze noodstop voor landbouw machines."
+Uit het literatuur onderzoek kwam de literatuur gap antwoord "De theoretische vertraging waarde tussen 4G en 5G zijn bekend, maar het is nog niet duidelijk wat de minimale vertraging eisen voor een draadloze noodstop voor landbouw machines." Het doel van de onderzoek gaat worden om er achter te komen wat de minimale vertraging eisen zijn voor een draadloze noodstop voor de landbouw machines, zodat het systeem veilig blijft.
 
-het doel van de onderzoek gaat worden om er achter te komen wat de minimale vertraging eisen zijn voor een draadloze noodstop voor de landbouw machines.
+Het direct testen met 4G en 5G netwerken ligt buiten bereik, daarom is er gekozen om deze doelstelling te beantwoorden door middel van een simulatie tussen twee computers met een c++ test programma waarin het theoretische stopafstand berekend word en nep vertraging word toegepast met de waardes vanuit het literatuur onderzoek. 
 
-Het onderzoek is geslaagd als we een antwoord op de volgende vragen kunnen geven:
-
+**Het onderzoek is behaald als we een antwoord op de volgende vragen hebben:**
+wat is de minimale vertraging in milliseconden voor een veilige draadloze noodstop?
+wat is de maximale vertraging in milliseconden voor een veilige draadloze noodstop?
 
