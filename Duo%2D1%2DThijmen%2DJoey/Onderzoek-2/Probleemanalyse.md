@@ -12,4 +12,7 @@ Om het draadloze noodstop systeem te kunnen implementeren moet er eerst duidelij
 **Vertraging:** Do noodstop moet zo snel mogelijk reageren voor de veiligheid
 
 # Doelstelling
+Uit het literatuur onderzoek kwam de literatuur gap antwoord "De theoretische vertraging waarde tussen 4G en 5G zijn bekend, maar het is nog niet duidelijk wat de minimale vertraging eisen voor een draadloze noodstop voor landbouw machines."
+
+het doel van de onderzoek gaat worden om er achter te komen wat de minimale vertraging eisen zijn voor een draadloze noodstop voor de landbouw machines. Hierbij willen we gaan kijken wat het verschil is tussen 
 
