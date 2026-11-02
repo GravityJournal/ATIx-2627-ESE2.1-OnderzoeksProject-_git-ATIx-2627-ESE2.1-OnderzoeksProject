@@ -24,7 +24,7 @@ Experimenteel onderzoek met een Proof of Concept (PoC)
 ### Beschrijving testopstelling (PoC)
 
 Voor het uitvoeren van de metingen maken we gebruik van een testopstelling met meerdere computers. Eén computer fungeert als centrale controlunit (CCU), terwijl de andere computers de robots simuleren.
-De computers communiceren via een draadloos netwerk met elkaar. Met behulp van een UDP-client en server worden berichten uitgewisseld om de round-trip time (RTT), het pakketverlies en de bereikbaarheid te meten.
+De computers communiceren via een draadloos netwerk met elkaar. Met behulp van een TCP-client en server worden berichten uitgewisseld om de round-trip time (RTT), het pakketverlies en de bereikbaarheid te meten.
 Tijdens het experiment wordt de CCU op verschillende fysieke locaties geplaatst, terwijl de overige computers op vaste posities blijven. De netwerkconfiguratie en meetinstellingen blijven hierbij zo veel mogelijk gelijk.
 De verzamelde meetgegevens worden opgeslagen en geanalyseerd om eventuele verschillen in communicatiebetrouwbaarheid tussen de CCU-locaties vast te stellen.
 
