@@ -19,6 +19,7 @@ Het direct testen met 4G en 5G netwerken ligt buiten bereik, daarom is er gekoze
 **Het onderzoek is geslaagd als de volgende statements waar zijn:**
 1. Je kunt antwoord geven op de vraag: wat is de minimale en maximale vertraging in milliseconden voor een veilige draadloze noodstop?
 2. De testen zijn herhaalbaar met gelijke resultaten
+3. De test simulaties zijn getest met verschillende voertuig snelheden
 
 # Afbaking
 **Binnen scope**
