@@ -19,4 +19,6 @@ stopafstand (meter) = remafstand (meter) + reactieafstand (meter)
 
 remafstand (meter) = massa (kg) * (snelheid (m/s) * snelheid (m/s)) / 2 * remkracht
 
-reactieafstand (meter) = snelheid (m/s) * reactiesnelheid (seconden)  
+reactieafstand (meter) = snelheid (m/s) * reactiesnelheid (seconden)
+
+
