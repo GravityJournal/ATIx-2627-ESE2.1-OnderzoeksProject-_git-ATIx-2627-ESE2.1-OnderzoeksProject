@@ -184,7 +184,15 @@ De tabel is een vergelijking op basis van de documentatie en protocolkenmerken. 
 
 ### Antwoord op deelvraag 2
 
-onderweg
+Op basis van de onderzochte communicatietechnieken zijn TCP-sockets, MQTT en ROS 2 met DDS alle drie geschikt voor het uitwisselen van informatie tussen afzonderlijke systemen. De verschillen zitten voornamelijk in de manier waarop berichten worden verstuurd, de beschikbare betrouwbaarheidsinstellingen en de hoeveelheid functionaliteit die zelf moet worden geïmplementeerd.
+
+TCP-sockets bieden betrouwbare en geordende gegevensoverdracht, maar vereisen dat de applicatie zelf verantwoordelijk is voor de berichtstructuur, bevestigingen op opdrachtniveau en het herstellen van de communicatie na een verbindingsstoring. Hierdoor moet relatief veel functionaliteit zelf worden ontwikkeld.
+MQTT sluit goed aan op de situatie van Viscon Group, omdat het publish/subscribe-model het mogelijk maakt om transportopdrachten en statusupdates via een centrale broker uit te wisselen. Beide robotvloten kunnen zich abonneren op relevante berichten, zoals wijzigingen in de status van het overdrachtspunt en nieuwe transportopdrachten. Daarnaast bieden QoS-instellingen en berichtvervaltermijnen mogelijkheden om de berichtafhandeling betrouwbaarder te maken. Wel blijft de beschikbaarheid van de broker een belangrijk aandachtspunt.
+
+ROS 2 met DDS biedt uitgebreide mogelijkheden voor communicatie binnen robotsystemen. De verschillende Quality of Service-instellingen maken het mogelijk om communicatie af te stemmen op de eisen van het transportsysteem. Deze techniek is vooral geschikt wanneer de robotvloten al gebruikmaken van ROS 2. Wanneer de bestaande robotsoftware andere communicatiesystemen gebruikt, moet eerst worden onderzocht of integratie mogelijk is.
+Voor het onderzochte transportsysteem wordt MQTT gekozen als uitgangspunt voor het softwareprototype. Het publish/subscribe-model past bij de uitwisseling van transportopdrachten en statusinformatie tussen twee afzonderlijke robotvloten. Bovendien kunnen de betrouwbaarheid en foutafhandeling met MQTT praktisch worden onderzocht zonder gebruik te maken van fysieke robots.
+
+Deze keuze betekent niet dat MQTT onder alle omstandigheden beter presteert dan TCP of ROS 2. De vergelijking is gebaseerd op de technische eigenschappen uit de documentatie. Zonder informatie over de bestaande infrastructuur van Viscon Group en vergelijkende praktijktests kan nog geen definitieve uitspraak worden gedaan over de beste communicatietechniek voor de uiteindelijke installatie.
 
 ## 3.4 Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvloten(/ robots) worden bewaard bij vertragingen of tijdelijke netwerkuitval?
 
