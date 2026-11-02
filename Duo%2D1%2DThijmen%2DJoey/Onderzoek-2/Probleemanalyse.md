@@ -11,3 +11,5 @@ Om het draadloze noodstop systeem te kunnen implementeren moet er eerst duidelij
 
 **Vertraging:** Do noodstop moet zo snel mogelijk reageren voor de veiligheid
 
+# Doelstelling
+
