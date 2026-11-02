@@ -24,6 +24,7 @@ Door te onderzoeken welke invloed de plaatsing van de draadloze infrastructuur h
 
 ##Wat is al bekend
 
+
 ##Doelstelling
 Het doel van dit onderzoek is om inzicht te krijgen in de invloed van de plaatsing van de draadloze infrastructuur op de betrouwbaarheid van de communicatie binnen onze robotvloot.
 
@@ -32,6 +33,7 @@ Door middel van literatuuronderzoek en praktische metingen willen we onderzoeken
 Met behulp van een Proof of Concept (PoC) willen we verschillende plaatsingen van de draadloze infrastructuur onder vergelijkbare omstandigheden testen.
 
 Op basis van de verzamelde resultaten willen we een onderbouwd advies geven over een geschikte plaatsing van de draadloze infrastructuur binnen onze robotvloot.
+
 
 
 
