@@ -17,6 +17,7 @@ Uit het literatuur onderzoek kwam de literatuur gap antwoord "De theoretische ve
 Het direct testen met 4G en 5G netwerken ligt buiten bereik, daarom is er gekozen om deze doelstelling te beantwoorden door middel van een simulatie tussen twee computers met een c++ test programma waarin het theoretische stopafstand berekend word en nep vertraging word toegepast met de waardes vanuit het literatuur onderzoek. 
 
 **Het onderzoek is behaald als we een antwoord op de volgende vragen hebben:**
-wat is de minimale vertraging in milliseconden voor een veilige draadloze noodstop?
-wat is de maximale vertraging in milliseconden voor een veilige draadloze noodstop?
+1. wat is de minimale vertraging in milliseconden voor een veilige draadloze noodstop?
+2. wat is de maximale vertraging in milliseconden voor een veilige draadloze noodstop?
+3. 
 
