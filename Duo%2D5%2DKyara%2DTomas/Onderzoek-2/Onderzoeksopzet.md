@@ -12,12 +12,12 @@ Voor beide deelvragen 2 en 3 passen prototyping en data-analyse het beste bij de
 
 ## **Benodigde middelen**
 ### **Deelvraag 1: Wat is de betrouwbaarheid van een verbinding?**
-•	Google Scholar: Om wetenschappelijke artikelen en betrouwbare informatie te vinden over verbindingsbetrouwbaarheid, latency en packet loss.
+- Google Scholar: Om wetenschappelijke artikelen en betrouwbare informatie te vinden over verbindingsbetrouwbaarheid, latency en packet loss.
 ### **Deelvraag 2: Hoe kan de afstand zo afgesteld worden van de robot voor een zo betrouwbaar mogelijke** verbinding?
-•	Microcontroller: Om de verbinding tot stand te brengen en gegevens te versturen en ontvangen.
-•	5G-netwerk: Om draadloos te communiceren tussen de robot en het besturingssysteem.
-•	Meetlint of afstandsmeter: Om de afstand tussen de robot en het communicatiepunt nauwkeurig te meten.
-•	Laptop: Om de verbinding te controleren en meetgegevens vast te leggen.
+- Microcontroller: Om de verbinding tot stand te brengen en gegevens te versturen en ontvangen.
+- 5G-netwerk: Om draadloos te communiceren tussen de robot en het besturingssysteem.
+- Meetlint of afstandsmeter: Om de afstand tussen de robot en het communicatiepunt nauwkeurig te meten.
+- Laptop: Om de verbinding te controleren en meetgegevens vast te leggen.
 ### **Deelvraag 3: Hoe kan de snelheid zo afgesteld worden van de robot voor een zo betrouwbaar mogelijke** verbinding?
 - Microcontroller: Om de robot aan te sturen en de snelheid te regelen.
 - 5G-netwerk: Om de communicatie tussen de robot en het besturingssysteem mogelijk te maken.
