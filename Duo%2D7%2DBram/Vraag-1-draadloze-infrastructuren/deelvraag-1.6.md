@@ -20,6 +20,43 @@ Om deze deelvraag te beantwoorden maken we een C++-programma waarmee twee ESP32'
 
 We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op de behaalde datadoorvoer.
 
+####1kb:
+| Test | snelheid |
+| --- | --- |
+| 1 |  |
+| 2 |  |
+| 3 | |
+| 4| |
+| 5| |
+
+####10kb:
+| Test | snelheid |
+| --- | --- |
+| 1 |  |
+| 2 |  |
+| 3 | |
+| 4| |
+| 5| |
+
+####100kb:
+| Test | snelheid |
+| --- | --- |
+| 1 |  |
+| 2 |  |
+| 3 | |
+| 4| |
+| 5| |
+
+####1mb:
+| Test | snelheid |
+| --- | --- |
+| 1 |  |
+| 2 |  |
+| 3 | |
+| 4| |
+| 5| |
+
+
 | Test | Hoeveelheid data |snelheid| verwachte snelheid| 
 | --- | --- | ---| ---|
 | 1 | 1 KB | x| x| 
@@ -31,5 +68,5 @@ We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op d
 Iedere test wordt meerdere keren uitgevoerd. Daarna berekenen we de gemiddelde datadoorvoer.
 
 
-github:
+#github:
 https://github.com/Bramvdk1/onderzoeksVraag1
