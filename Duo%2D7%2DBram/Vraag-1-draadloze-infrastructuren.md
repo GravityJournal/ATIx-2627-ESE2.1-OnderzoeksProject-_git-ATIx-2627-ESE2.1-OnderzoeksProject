@@ -183,7 +183,7 @@ Ja, omdat we de daadwerkelijke datadoorvoer meten van een WiFi 4-verbinding tuss
     
 *   C++-programma voor het versturen en ontvangen van data.
     
-*   Computer met Arduino IDE voor het programmeren van de ESP32's. en uitlezen van serial monitor.
+*   Computer met Arduino IDE voor het programmeren van de ESP32's en uitlezen van serial monitor.
     
 *   WiFi-router voor de verbinding tussen de ESP32's.
     .
