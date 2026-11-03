@@ -47,4 +47,3 @@ Deelvraag 2
 ===========
 
 Hoeveel data-overhead (in bytes per bericht) introduceren binaire C++ structs vergeleken met een string/JSON-formaat bij het communiceren van overdrachtsgegevens?
-Hoe vind je deze combinatie? Wil je nu direct doorgaan met het inbouwen van de testloop (voor de 10, 100 en 1000 verzoeken per seconde) in je client?
