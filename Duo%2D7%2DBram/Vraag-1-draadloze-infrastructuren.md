@@ -157,6 +157,49 @@ De methode meet precies wat relevant is voor de hoofdvraag, de vergelijking van 
 - Bereik:
   Invloed van afstand op prestaties.
 
+##Onderzoek voor deelvraag 1.6
+
+Hoe verhoudt de gemeten datadoorvoer van een WiFi 4-verbinding tussen twee ESP32's zich tot de theoretische datadoorvoer van WiFi 4?
+
+### Prototype light
+
+###Waarom:
+De datadoorvoer van een WiFi-verbinding kan duidelijk worden gemeten door twee ESP32's met elkaar te laten communiceren. Met een C++-programma wordt data verstuurd en de benodigde tijd gemeten. Hierdoor kunnen we de praktische datadoorvoer vergelijken met de theoretische datadoorvoer van WiFi 4.
+
+###Betrouwbaarheid
+
+- Meetbaarheid: Hoog, omdat de hoeveelheid ontvangen data en de benodigde tijd exact gemeten kunnen worden.
+    
+- Reproduceerbaarheid: Hoog, als dezelfde ESP32's, WiFi-router en testopstelling worden gebruikt. Door meerdere metingen uit te voeren, kunnen we een gemiddelde berekenen.
+    
+
+### Validiteit
+
+Ja, omdat we de daadwerkelijke datadoorvoer meten van een WiFi 4-verbinding tussen twee ESP32's. Dit sluit aan bij de deelvraag, omdat we de praktische snelheid vergelijken met de theoretische snelheid.
+
+### Middelen
+
+*   Twee ESP32's (DOIT ESP32 DevKit V1 en Adafruit ESP32 Feather V2).
+    
+*   C++-programma voor het versturen en ontvangen van data.
+    
+*   Computer met Arduino IDE voor het programmeren van de ESP32's. en uitlezen van serial monitor.
+    
+*   WiFi-router voor de verbinding tussen de ESP32's.
+    .
+    
+
+### Criteria
+
+*   **Throughput:** De hoeveelheid data die per seconde wordt ontvangen, gemeten in Mbps.
+    
+*   **Tijd:** Hoe lang het duurt om een bepaalde hoeveelheid data volledig te ontvangen.
+    
+*   **Consistentie:** Dezelfde test meerdere keren uitvoeren om een gemiddelde datadoorvoer te berekenen.
+    
+*   **Vergelijkbaarheid:** De gemeten datadoorvoer vergelijken met de theoretische datadoorvoer van WiFi 4.
+
+
 ## Globale planning:
 Hieronder staat de planning die gebruikt is tijdens het onderzoek vorig jaat:
 
