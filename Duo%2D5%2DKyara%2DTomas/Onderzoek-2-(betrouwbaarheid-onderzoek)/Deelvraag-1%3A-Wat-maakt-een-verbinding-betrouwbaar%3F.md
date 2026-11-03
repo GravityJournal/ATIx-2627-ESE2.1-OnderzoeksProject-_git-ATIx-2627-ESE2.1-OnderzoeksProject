@@ -22,5 +22,7 @@ bijvoorbeeld bij het geval dat de operator een opdracht geeft aan de robot:
 - Commando's komen met wisselende vertraging aan.
 - De draadloze verbinding wordt instabiel of valt tijdelijk weg.
     
-Dit kan gevolgen hebben voor de besturing van de robot. Wanneer bijvoorbeeld een stopcommando vertraagd of helemaal niet aankomt, kan de robot langer blijven bewegen dan bedoeld.
-Om deze problemen te voorkomen, moeten de verschillende factoren die invloed hebben op de verbinding zo goed mogelijk worden gecontroleerd.
+Dit kan gevolgen hebben voor de besturing van de robot. Wanneer bijvoorbeeld een stopcommando vertraagd of helemaal niet aankomt, kan de robot langer blijven bewegen dan de operator dat bedoelt bedoeld.
+Om deze problemen te voorkomen, moeten de verschillende factoren die invloed hebben op de verbinding zo goed 
+mogelijk worden gecontroleerd.
+## factoren betrouwbaarheid
