@@ -191,13 +191,13 @@ Ja, omdat we de daadwerkelijke datadoorvoer meten van een WiFi 4-verbinding tuss
 
 ### Criteria
 
-*   **Throughput:** De hoeveelheid data die per seconde wordt ontvangen, gemeten in Mbps.
+- Throughput: De hoeveelheid data die per seconde wordt ontvangen, gemeten in Mbps.
     
-*   **Tijd:** Hoe lang het duurt om een bepaalde hoeveelheid data volledig te ontvangen.
+-  Tijd: Hoe lang het duurt om een bepaalde hoeveelheid data volledig te ontvangen.
     
-*   **Consistentie:** Dezelfde test meerdere keren uitvoeren om een gemiddelde datadoorvoer te berekenen.
+- Consistentie: Dezelfde test meerdere keren uitvoeren om een gemiddelde datadoorvoer te berekenen.
     
-*   **Vergelijkbaarheid:** De gemeten datadoorvoer vergelijken met de theoretische datadoorvoer van WiFi 4.
+- Vergelijkbaarheid: De gemeten datadoorvoer vergelijken met de theoretische datadoorvoer van WiFi 4.
 
 
 ## Globale planning:
