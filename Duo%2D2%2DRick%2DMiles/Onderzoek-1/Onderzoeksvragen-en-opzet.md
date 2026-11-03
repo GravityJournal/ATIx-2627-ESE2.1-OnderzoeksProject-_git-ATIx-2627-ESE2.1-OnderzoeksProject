@@ -66,12 +66,18 @@ De literatuur beschrijft herallocatie als een methode om verstoringen op te vang
 - Simulatielogs.
   - Tijdmetingen van blokkades.
   - Doorvoercijfers.
-  - 
+  - Tijdmetingen van herallocaties
 - Timeout- en herallocatieparameters.
 
 *** 
 # analysecriteria
-
+Voor het bepalen van het meest efficiënte afhandelingsmechanisme worden de volgende criteria gebruikt:
+- **Gemiddelde blokkade-tijd van het overdrachtspunt** (lager = beter).
+- **Totale doorvoer** (hoger = beter).
+- **Aantal succesvol afgeronde taken** (hoger = beter).
+- **Aantal mislukte of geannuleerde taken** (lager = beter).
+- **Hersteltijd na een storing of uitval** (lager = beter).
+- **Stabiliteit van het systeem** (weinig schommelingen tussen simulatieruns).
 
 *** 
 # globale planning
