@@ -15,10 +15,10 @@ Om deze deelvraag te beantwoorden maken we een C++-programma waarmee twee ESP32'
     
 *   De verzender verstuurt verschillende hoeveelheden data naar de ontvanger.
     
-
+De esp32 gebruiken wifi 4 en een frequentie van 2.4GHz de maximale snelheid hiervoor is 150mbps
 ### Testresultaten
 
-We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op de behaalde datadoorvoer.
+We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op de behaalde datadoorvoer en pakken van elke meting het gemiddelde.
 
 ####1kb:
 | Test | snelheid |
@@ -28,7 +28,7 @@ We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op d
 | 3 | |
 | 4| |
 | 5| |
-
+|gem||
 ####10kb:
 | Test | snelheid |
 | --- | --- |
@@ -37,7 +37,7 @@ We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op d
 | 3 | |
 | 4| |
 | 5| |
-
+|gem||
 ####100kb:
 | Test | snelheid |
 | --- | --- |
@@ -46,7 +46,7 @@ We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op d
 | 3 | |
 | 4| |
 | 5| |
-
+|gem||
 ####1mb:
 | Test | snelheid |
 | --- | --- |
@@ -55,18 +55,20 @@ We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op d
 | 3 | |
 | 4| |
 | 5| |
+|gem||
+
+| Test | Hoeveelheid data |snelheid|
+| --- | --- | ---|
+| 1 | 1 KB | x|
+| 2 | 10 KB | x|
+| 3 | 100 KB| x|
+| 4| 1 MB | x|
 
 
-| Test | Hoeveelheid data |snelheid| verwachte snelheid| 
-| --- | --- | ---| ---|
-| 1 | 1 KB | x| x| 
-| 2 | 10 KB | x| x| 
-| 3 | 100 KB| x| x| 
-| 4| 1 MB | x| x| 
 
-
-Iedere test wordt meerdere keren uitgevoerd. Daarna berekenen we de gemiddelde datadoorvoer.
-
+#bronnen
+datasheet espressif:
+https://documentation.espressif.com/esp32_datasheet_en.html
 
 #github:
 https://github.com/Bramvdk1/onderzoeksVraag1
