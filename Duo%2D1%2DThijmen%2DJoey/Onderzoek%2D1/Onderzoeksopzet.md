@@ -13,6 +13,25 @@ _Onderzoeks methode_:
 
 Casusanalyse en literatuuronderzoek
 
+feedback = "is dit een deel vraag of kan je dit simpel beantwoorden."
+
+**3.Hoe kunnen we de betrouwbaarheid van de communicatie tussen de CCU en de robots meten?**
+_Toelichting:_
+Om verschillende locaties objectief te kunnen vergelijken, moeten we eerst bepalen hoe we communicatiebetrouwbaarheid meten.
+Hiervoor onderzoeken we hoe latency, packet loss en de beschikbaarheid van de verbinding gemeten kunnen worden. Ook bepalen we hoe we deze metingen onder vergelijkbare omstandigheden kunnen uitvoeren.
+
+
+_Onderzoeks methode:_ 
+
+We onderzoeken welke bestaande meetmethoden geschikt zijn om de communicatiebetrouwbaarheid te bepalen.
+
+Hierbij richten we ons op drie meetwaarden:
+*   Latency
+*   Packet loss
+*   Beschikbaarheid van de verbinding
+
+feedback = "Je stelt al drie potentiele meetwaarden zonder onderzoek."
+
 **2. Welke verschillen in latency, packet loss en beschikbaarheid ontstaan bij verschillende fysieke locaties van de CCU?**
 _Toelichting:_
 Met behulp van een PoC willen we de communicatieprestaties bij verschillende CCU-locaties meten.
@@ -30,16 +49,29 @@ De verzamelde meetgegevens worden opgeslagen en geanalyseerd om eventuele versch
 
 
 
-**3.Hoe kunnen we de betrouwbaarheid van de communicatie tussen de CCU en de robots meten?**
-_Toelichting:_
-Om verschillende locaties objectief te kunnen vergelijken, moeten we eerst bepalen hoe we communicatiebetrouwbaarheid meten.
-Hiervoor onderzoeken we hoe latency, packet loss en de beschikbaarheid van de verbinding gemeten kunnen worden. Ook bepalen we hoe we deze metingen onder vergelijkbare omstandigheden kunnen uitvoeren.
 
-_Onderzoeks methode:_ 
 
-We onderzoeken welke bestaande meetmethoden geschikt zijn om de communicatiebetrouwbaarheid te bepalen.
+###Betrouwbaarheid en validiteit
+_Deelvraag 1:_
+Om de betrouwbaarheid te vergroten, maken wij gebruik van wetenschappelijke bronnen die zo veel mogenlijk overlappen met de oorspronkelijke casus. Hierdoor kunnen we locaties op een objectieve manier beoordelen.
 
-Hierbij richten we ons op drie meetwaarden:
-*   Latency
-*   Packet loss
-*   Beschikbaarheid van de verbinding
+Voor de validiteit zorgen we ervoor dat de selectiecriteria aansluiten bij onze robotvloot en de hoofdvraag. Hierbij kijken we bijvoorbeeld naar de praktische plaatsingsmogelijkheden en de aansluiting op het netwerk.
+
+
+_Deelvraag 2:_
+Voor deze deelvraag gebruiken we bestaande en onderbouwde meetmethoden. We raadplegen hiervoor betrouwbare technische documentatie en wetenschappelijke bronnen.
+
+Om te controleren of onze meetmethode valide is, voeren we vooraf testmetingen uit. Hiermee controleren we of onze software de gewenste meetwaarden correct registreert.
+
+
+
+_Deelvraag 3:_
+Om de betrouwbaarheid van het onderzoek te vergroten, voeren we metingen meerdere keren uit. hierdoor kunnen we controleren of de resultaten consistent zijn en eventuele afwijkingen/uitschieters te kunnen herkennen.
+
+Daarnaast stellen we vooraf een vast testscenario vast, zodat de metingen op dezelfde manier uitworden gevoerd. 
+
+
+Voor de validiteit veranderen we tijdens de experimenten alleen de fysieke locatie van de CCU. Andere factoren, zoals de robotposities en netwerkconfiguratie, houden we zo veel mogelijk gelijk.
+De meetresultaten worden opgeslagen, zodat we deze achteraf kunnen controleren en analyseren.
+
+
