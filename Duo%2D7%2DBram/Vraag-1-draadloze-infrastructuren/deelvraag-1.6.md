@@ -7,15 +7,16 @@ Om deze deelvraag te beantwoorden maken we een C++-programma waarmee twee ESP32'
 
 ### Testopstelling
 
-*   Eén ESP32 adafruit feather v2 wordt gebruikt als verzender.
+-  Eén ESP32 adafruit feather v2 wordt gebruikt als verzender.
     
-*   De andere ESP32 doit devkit v1 wordt gebruikt als ontvanger.
+-   De andere ESP32 doit devkit v1 wordt gebruikt als ontvanger.
     
-*   Beide ESP32's verbinden met dezelfde WiFi-router.
+-   Beide ESP32's verbinden met dezelfde WiFi-router.
     
-*   De verzender verstuurt verschillende hoeveelheden data naar de ontvanger.
+-   De verzender verstuurt verschillende hoeveelheden data naar de ontvanger.
     
-De esp32 gebruiken wifi 4 en een frequentie van 2.4GHz de maximale snelheid hiervoor is 150mbps
+De esp32 gebruiken wifi 4 en een frequentie van 2.4GHz de maximale snelheid hiervoor is 150mbps en gaan in dit testen om te zien of het in praktijk ook even snel is of in de buurt komt.
+ 
 ### Testresultaten
 
 We testen verschillende hoeveelheden data om te kijken of dit invloed heeft op de behaalde datadoorvoer en pakken van elke meting het gemiddelde.
