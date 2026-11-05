@@ -10,7 +10,10 @@ Een belangrijke vraag binnen deze architectuur is waar de CCU fysiek geplaatst m
 Om te bepalen welke plaatsingsmogelijkheden relevant zijn voor onze robotvloot, onderzoeken we welke oplossingen in bestaande wetenschappelijke onderzoeken worden toegepast en welke overwegingen daarbij een rol spelen.
 
 Hierbij kijken we specifiek naar centrale besturingssystemen voor landbouwrobots en andere autonome mobiele robots.
+
+--------------------------
 ## 2. Literatuuronderzoek
+Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor onze uitwerking.
 
 ###2.1 Centrale besturing op een vaste locatie
 
@@ -44,7 +47,11 @@ Het onderzoek toont echter niet aan dat een vaste locatie automatisch een betrou
 **Onderzoek: Optimising Robotic Operation Speed with Edge Computing via 5G Network**
 
 **Bron:** Zahidi et al. (2024), _Journal of Field Robotics_.
-## 3. Selectiecriteria
+
+--------------------------
+
+##3. Vergelijking van de plaatsingsmogelijkheden
+
 
 
 
