@@ -15,6 +15,12 @@ Casusanalyse en literatuuronderzoek
 
 feedback = "is dit een deel vraag of kan je dit simpel beantwoorden."
 
+Oplossing = "Verwoording van de deelvraag"
+
+_Nieuwe deelvraag:_
+
+**Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?**
+
 **3.Hoe kunnen we de betrouwbaarheid van de communicatie tussen de CCU en de robots meten?**
 _Toelichting:_
 Om verschillende locaties objectief te kunnen vergelijken, moeten we eerst bepalen hoe we communicatiebetrouwbaarheid meten.
