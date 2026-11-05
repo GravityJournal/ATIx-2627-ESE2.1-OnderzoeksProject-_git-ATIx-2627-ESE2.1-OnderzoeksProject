@@ -15,7 +15,7 @@ Deelvraag 2
 Deze deelvraag onderzoekt welke communicatietechnieken het beste passen bij het transportsysteem van Viscon. Hierbij kijken we naar de snelheid, betrouwbaarheid en efficiëntie van de verschillende technieken. Het doel is om te bepalen hoe de robotvloten op een goede manier informatie kunnen uitwisselen over de status van het overdrachtspunt en de transportopdrachten.
 
 Deelvraag 3  
-**Hoe kan betrouwbare communicatie tussen de twee robotvloten worden bewaard bij vertragingen of tijdelijke netwerkuitval?**
+** Welke invloed hebben netwerkvertraging en gesimuleerd pakketverlies op de prestaties en betrouwbaarheid van de TCP-communicatie tussen de twee robotvloten?**
 Deze deelvraag richt zich op de manier waarop het systeem omgaat met vertraagde of verloren berichten als gevolg van netwerkproblemen. Hierbij wordt onderzocht hoe berichten opnieuw kunnen worden verzonden en/of hoe kan worden gecontroleerd of ontvangen informatie nog belangrijk en betrouwbaar is(een bericht van 10 minuten geleden moet niet bewaard worden). Het doel is om de communicatie tussen beide robotvloten zo betrouwbaar mogelijk te houden en te voorkomen dat beslissingen worden genomen op basis van verouderde of onvolledige informatie.
 
 
