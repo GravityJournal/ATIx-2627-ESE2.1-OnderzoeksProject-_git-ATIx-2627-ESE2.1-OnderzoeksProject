@@ -1,7 +1,4 @@
-Chen, X., He, S., Zhang, Y., Tong, L. C., Shang, P., & Zhou, X. (2020). _Yard crane and AGV scheduling in automated container terminal: A multi-robot task allocation framework_. Transportation Research Part C: Emerging Technologies, 114, 241–271. [https://doi.org/10.1016/j.trc.2020.02.012](https://doi.org/10.1016/j.trc.2020.02.012)
-
-IETF. (2022). _RFC 9293: Transmission Control Protocol (TCP)._ [https://www.rfc-editor.org/rfc/rfc9293.html](https://www.rfc-editor.org/rfc/rfc9293.html)
-
-OASIS. (2019). _MQTT Version 5.0._ [https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html)
-
-Open Robotics. (z.d.). _Quality of Service settings — ROS 2 Documentation._ [https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Quality-of-Service-Settings.html](https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Quality-of-Service-Settings.html)
+Chen, X., He, S., Zhang, Y., Tong, L. C., Shang, P., & Zhou, X. (2020). Yard crane and AGV scheduling in automated container terminal: A multi-robot task allocation framework. _Transportation Research Part C: Emerging Technologies, 114_, 241–271. [https://doi.org/10.1016/j.trc.2020.02.012](https://doi.org/10.1016/j.trc.2020.02.012)
+Eddy, W. (Ed.). (2022). _Transmission Control Protocol (TCP)_ (RFC 9293). Internet Engineering Task Force. [https://doi.org/10.17487/RFC9293](https://doi.org/10.17487/RFC9293)
+OASIS. (2019, 7 maart). _MQTT Version 5.0_. [https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html](https://docs.oasis-open.org/mqtt/mqtt/v5.0/os/mqtt-v5.0-os.html)
+Open Robotics. (z.d.). _Quality of Service settings_. ROS 2 Documentation. GitHub. [https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/topics/About-Quality-of-Service-Settings.rst](https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/topics/About-Quality-of-Service-Settings.rst)
