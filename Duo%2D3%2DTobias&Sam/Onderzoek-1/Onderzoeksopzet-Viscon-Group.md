@@ -65,7 +65,7 @@ Met literatuuronderzoek krijgen we inzicht in mogelijke oplossingen voor communi
 
 | Middel | Waarvoor nodig? |
 |---|---|
-| Laptop en ontwikkelsoftware | Om het prototype te bouwen en de resultaten te bekijken |
+| Laptop(s) (minimaal 2) en ontwikkelsoftware | Om het prototype te bouwen en de resultaten te bekijken |
 | Programmeeromgeving, C++ | Programmeren van de TCP-client en server|
 | Netwerkverbinding| Uitwisselen van gegevens tussen client en server |
 | TCP-testprogramma | Uitvoeren van de verschillende testsituaties |
@@ -82,13 +82,13 @@ De exacte software, hardware en beschikbare documentatie moeten nog worden vastg
 We beoordelen de resultaten met de volgende criteria:
 
 | Criterium | Wat onderzoeken we? |
-|---|---|
-| Betrouwbaarheid van berichten | Komen berichten correct aan en worden ze correct verwerkt? |
-| Toestand van informatie | Werken de robotvloten met de meest recente status van het overdrachtspunt? |
-| Wachttijd | Hoe lang moeten robots wachten wanneer het overdrachtspunt gesloten is? |
-| Hersteltijd | Hoe snel hervat het systeem het transport nadat het overdrachtspunt weer beschikbaar is? |
-| Succesvolle transporten | Hoeveel transportopdrachten worden correct afgerond? |
-| Omgaan met netwerkuitval | Blijft het systeem veilig en herstelt het correct wanneer communicatie tijdelijk wegvalt? |
+| --- | --- |
+| Gemiddelde RTT | Wat is de gemiddelde tijd tussen het versturen van een bericht en het ontvangen van het antwoord? |
+| Minimale RTT | Wat is de laagst gemeten rondreistijd?|
+| Maximale RTT | Wat is de hoogst gemeten rondreistijd? |
+| Succespercentag | Welk percentage van de verstuurde berichten krijgt een succesvol antwoord? |
+| Detectietijd uitval | Hoe lang duurt het voordat het systeem een verbindingsprobleem vaststelt? |
+| Hersteltijd | Hoe lang duurt het voordat communicatie na een verbindingsonderbreking weer werkt? |
 
 We vergelijken de testresultaten tussen verschillende scenario's. We voeren de dezelfde test meerdere keren uit, zodat de resultaten minder afhankelijk zijn van één meting. De grenswaarden voor bijvoorbeeld maximale wachttijd en een maximaal aantal berichtfouten moeten nog worden vastgesteld op basis van de eisen van het systeem en de beschikbare testmogelijkheden.
 
