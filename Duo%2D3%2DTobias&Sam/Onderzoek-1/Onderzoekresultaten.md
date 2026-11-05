@@ -210,7 +210,7 @@ Voor het uitvoeren van de tests is een softwareprototype ontwikkeld in C++. Het 
 Tijdens de communicatie wordt de RTT gemeten. Dit is de tijd tussen het versturen van een bericht en het ontvangen van het bijbehorende antwoord.
 Om de invloed van netwerkproblemen te onderzoeken, zijn verschillende netwerkcondities ingesteld. Hierbij is gebruikgemaakt van toegevoegde vertragingen en gesimuleerd pakketverlies.
 Iedere testconditie is drie keer uitgevoerd. Hierdoor kunnen de resultaten van verschillende uitvoeringen met elkaar worden vergeleken en wordt voorkomen dat de conclusie afhankelijk is van één enkele meting.
-De verzamelde meetgegevens zijn opgeslagen in een spreadsheet. Hierin zijn de gemiddelde RTT, minimale RTT, maximale RTT en het succespercentage bijgehouden.
+De verzamelde meetgegevens zijn opgeslagen in een [spreadsheet]([statistieken.xlsx](https://avans-my.sharepoint.com/:x:/g/personal/s_laurijssen2_student_avans_nl/IQARPnnsQr9BQ7Xket6rRxpYAQzO5nacXhXmG9ewMBpQoa8?e=w4IBSv)). Hierin zijn de gemiddelde RTT, minimale RTT, maximale RTT en het succespercentage bijgehouden.
 
 #### 3.4.2 Uitgevoerde testscenario's
 
@@ -235,6 +235,7 @@ In tabel 1 staat een overzicht van de gemiddelde RTT, de minimale en maximale RT
 | 300 ms vertraging | 621,687 | 604,553 - 1060,785 | 100% |
 | 5% pakketverlies | 51,808 | 5,796 - 2361,043 | 100% |
 | 15% pakketverlies | 99,579 | 7,642 - 2415,511 | 100% |
+
 _Tabel 1: Overzicht van de gemeten TCP-communicatie per testconditie._
 De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns. De afzonderlijke meetresultaten zijn opgenomen in de bijbehorende spreadsheet.
 
