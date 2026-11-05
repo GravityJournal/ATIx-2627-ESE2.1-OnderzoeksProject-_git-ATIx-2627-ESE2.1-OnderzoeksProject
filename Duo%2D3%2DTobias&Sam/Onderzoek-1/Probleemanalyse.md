@@ -21,7 +21,7 @@ Voor Viscon Group is het daarom belangrijk dat de gekozen communicatietechniek b
 
 3 Literatuuronderzoek + literature gap (verdiepen over onderzoeken)
 
-Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van transporttaken belangrijk is wanneer meerdere automatische voertuigen samenwerken. Ook beschrijft de ROS 2-documentatie hoe communicatie tussen robots betrouwbaarder kan worden gemaakt, bijvoorbeeld door instellingen voor het afleveren van berichten (Open Robotics, z.d.).
+Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van transporttaken belangrijk is wanneer meerdere automatische voertuigen samenwerken. Dit doen ze door complexe wiskundige berekeningen die dankzij de ADMM-methode snel uitgerekend kan worden waardoor de planning soepel blijft lopen. Ook beschrijft de ROS 2-documentatie hoe communicatie tussen robots betrouwbaarder kan worden gemaakt, bijvoorbeeld door instellingen voor het afleveren van berichten (Open Robotics, z.d.).
 
 Daarnaast is het belangrijk om rekening te houden met gedeelde middelen. Als meerdere robots hetzelfde overdrachtspunt gebruiken, moet duidelijk zijn wanneer het beschikbaar is en welke robot er gebruik van kan maken. Een goede planning kan helpen om te voorkomen dat robots op elkaar moeten wachten.
 
