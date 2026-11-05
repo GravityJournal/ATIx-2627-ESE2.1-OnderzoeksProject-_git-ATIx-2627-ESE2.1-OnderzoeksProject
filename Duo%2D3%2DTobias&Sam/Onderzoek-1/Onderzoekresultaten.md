@@ -195,82 +195,63 @@ Voor het softwareprototype is gekozen voor TCP-socketcommunicatie. Hiermee kan e
 Het prototype maakt geen gebruik van MQTT. De specifieke functionaliteiten van MQTT, zoals de broker, het publish/subscribe-model en de Quality of Service-instellingen, worden daarom niet praktisch getest.
 Omdat MQTT gebruikmaakt van TCP/IP, kunnen de resultaten van het TCP-prototype wel inzicht geven in het gedrag van een onderliggende TCP-verbinding. De resultaten kunnen echter niet worden gebruikt om de specifieke betrouwbaarheid van MQTT te beoordelen.
 
-Deze keuze betekent niet dat MQTT onder alle omstandigheden beter presteert dan TCP of ROS 2. De vergelijking is gebaseerd op de technische eigenschappen uit de documentatie. Zonder informatie over de bestaande infrastructuur van Viscon Group en vergelijkende praktijktests kan nog geen definitieve uitspraak worden gedaan over de beste communicatietechniek voor de uiteindelijke installatie.
-
 ## 3.4 Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvloten(/ robots) worden bewaard bij vertragingen of tijdelijke netwerkuitval?
 
 Uit de technische documentatie blijkt dat een betrouwbare communicatieoplossing uit meerdere onderdelen moet bestaan. Alleen een protocol gebruiken dat berichten kan herverzenden, is niet voldoende. Het systeem moet ook omgaan met oude berichten, dubbele opdrachten en een tijdelijk onbereikbare robotvloot.
 
-### 3.4.1 Berichten opnieuw versturen en bevestigen
+### 3.4 Deelvraag 3: Welke invloed hebben netwerkvertraging en gesimuleerd pakketverlies op de prestaties en betrouwbaarheid van de TCP-communicatie tussen de twee robotvloten?
 
-Wanneer een belangrijk bericht niet aankomt, moet het systeem kunnen herkennen dat de overdracht van het bericht niet succesvol is verlopen.
+Om deze deelvraag te beantwoorden, is een softwareprototype ontwikkeld waarmee TCP-communicatie tussen een client en server kan worden getest. Met dit prototype wordt onderzocht hoe de communicatie reageert op verschillende netwerkcondities.
+Tijdens het onderzoek zijn verschillende situaties nagebootst, waaronder normale communicatie, toegevoegde netwerkvertraging en pakketverlies. De resultaten worden gebruikt om te bepalen welke invloed deze omstandigheden hebben op de rondreistijd (RTT) en het succespercentage van de communicatie.
 
-MQTT QoS 1 ondersteunt bevestiging van berichtaflevering en herverzending wanneer dat nodig is. Hierbij kan hetzelfde bericht meerdere keren aankomen. Daarom moet de ontvanger dubbele berichten kunnen herkennen.
+#### 3.4.1 Onderzoeksopstelling en werkwijze
 
-Voor transportopdrachten kan dit worden opgelost door iedere opdracht een uniek identificatienummer te geven. Wanneer dezelfde opdracht opnieuw binnenkomt, controleert het systeem of de opdracht al is verwerkt. De opdracht wordt dan niet opnieuw uitgevoerd als dat tot een dubbele fysieke overdracht zou leiden.
+Voor het uitvoeren van de tests is een softwareprototype ontwikkeld in C++. Het prototype maakt gebruik van TCP-sockets om gegevens tussen een client en server uit te wisselen.
+Tijdens de communicatie wordt de RTT gemeten. Dit is de tijd tussen het versturen van een bericht en het ontvangen van het bijbehorende antwoord.
+Om de invloed van netwerkproblemen te onderzoeken, zijn verschillende netwerkcondities ingesteld. Hierbij is gebruikgemaakt van toegevoegde vertragingen en gesimuleerd pakketverlies.
+Iedere testconditie is drie keer uitgevoerd. Hierdoor kunnen de resultaten van verschillende uitvoeringen met elkaar worden vergeleken en wordt voorkomen dat de conclusie afhankelijk is van één enkele meting.
+De verzamelde meetgegevens zijn opgeslagen in een spreadsheet. Hierin zijn de gemiddelde RTT, minimale RTT, maximale RTT en het succespercentage bijgehouden.
 
-Ook moet onderscheid worden gemaakt tussen een bevestiging dat een bericht is ontvangen en een bevestiging dat de bijbehorende transportactie is uitgevoerd. Dat zijn twee verschillende gebeurtenissen.
+#### 3.4.2 Uitgevoerde testscenario's
 
-### 3.4.2 Controleren of informatie nog actueel is
+Voor het testen van de TCP-communicatie zijn de volgende testscenario's uitgevoerd:
+| Testscenario | Beschrijving |
+| --- | --- |
+| Normaal | Communicatie zonder toegevoegde netwerkproblemen. |
+| 100 ms vertraging | Er wordt 100 ms netwerkvertraging toegevoegd. |
+| 300 ms vertraging | Er wordt 300 ms netwerkvertraging toegevoegd. |
+| 5% pakketverlies | Er wordt 5% pakketverlies gesimuleerd. |
+| 15% pakketverlies | Er wordt 15% pakketverlies gesimuleerd. |
+Alle bovenstaande scenario's zijn drie keer uitgevoerd. Per uitvoering zijn de meetresultaten vastgelegd.
 
-Een belangrijk risico ontstaat wanneer berichten te laat aankomen.
+#### 3.4.3 Meetresultaten
 
-Stel dat het overdrachtspunt aanvankelijk beschikbaar is, maar vervolgens wordt gesloten voor reiniging. Wanneer de melding over de eerdere beschikbare status later alsnog binnenkomt, kan een robotvloot een verkeerde beslissing nemen als het systeem de oudste informatie accepteert.
+De resultaten laten verschillen zien tussen de verschillende testscenario's. Vooral de toegevoegde netwerkvertraging en het pakketverlies hebben invloed op de gemiddelde RTT.
+In tabel 1 staat een overzicht van de gemiddelde RTT, de minimale en maximale RTT van de eerste meetrun en het succespercentage per testconditie.
+| Testconditie | Gem. RTT (ms) | Min. - max. RTT eerste meting (ms) | Succespercentage |
+| --- | --- | --- | --- |
+| Normaal | 17,722 | 5,719 - 264,330 | 100% |
+| 100 ms vertraging | 247,813 | 203,071 - 778,337 | 100% |
+| 300 ms vertraging | 621,687 | 604,553 - 1060,785 | 100% |
+| 5% pakketverlies | 51,808 | 5,796 - 2361,043 | 100% |
+| 15% pakketverlies | 99,579 | 7,642 - 2415,511 | 100% |
+_Tabel 1: Overzicht van de gemeten TCP-communicatie per testconditie._
+De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns. De afzonderlijke meetresultaten zijn opgenomen in de bijbehorende spreadsheet.
 
-Daarom moeten berichten voorzien zijn van een tijdstip of andere informatie waarmee de volgorde kan worden bepaald. Ook moet het systeem een geldigheidsduur vastleggen voor tijdgevoelige informatie.
+#### 3.4.4 Analyse van de resultaten
 
-MQTT 5.0 ondersteunt een message expiry interval waarmee de levensduur van berichten kan worden beperkt. ROS 2 biedt met de lifespan-instelling een vergelijkbare mogelijkheid om verouderde berichten niet meer af te leveren (OASIS, 2019; Open Robotics, z.d.).
+Uit de resultaten blijkt dat de gemiddelde RTT bij normale communicatie 17,722 ms bedraagt. Dit vormt de uitgangssituatie waarmee de andere testscenario's worden vergeleken.
+Bij een toegevoegde vertraging van 100 ms stijgt de gemiddelde RTT naar 247,813 ms. Bij 300 ms vertraging neemt deze verder toe tot 621,687 ms. Dit laat zien dat de toegevoegde netwerkvertraging een duidelijke invloed heeft op de tijd die nodig is om een bericht uit te wisselen.
+Ook pakketverlies heeft invloed op de communicatie. Bij 5% pakketverlies bedraagt de gemiddelde RTT 51,808 ms. Wanneer het pakketverlies wordt verhoogd naar 15%, stijgt de gemiddelde RTT naar 99,579 ms.
+Bij alle uitgevoerde testscenario's is een succespercentage van 100% geregistreerd. Volgens de meetregistratie zijn alle berichten dus succesvol uitgewisseld, ondanks de toegevoegde netwerkproblemen.
+De hogere RTT bij pakketverlies kan erop wijzen dat TCP extra tijd nodig heeft om verloren gegevens opnieuw te verzenden. TCP beschikt namelijk over mechanismen om verloren gegevens te herstellen. Hierdoor kan de applicatie uiteindelijk wel een volledig bericht ontvangen, terwijl de onderliggende communicatie vertraging heeft opgelopen.
 
-Daarnaast moet het systeem controleren of de ontvangen toestand nog voldoende actueel is. Als niet meer betrouwbaar kan worden vastgesteld of het overdrachtspunt beschikbaar is, moet de toestand als onbekend worden behandeld. Een robot mag dan niet uitsluitend op basis van een oude melding aannemen dat een overdracht veilig kan plaatsvinden.
+#### 3.4.5 Antwoord op deelvraag 3
 
-### 3.4.3 Detecteren van verbindingsproblemen
-
-De robotvloten(/ robots) moeten kunnen vaststellen wanneer de andere kant niet meer bereikbaar is.
-
-Dit kan met periodieke statusberichten of heartbeats. Als een heartbeat gedurende een vooraf ingestelde periode uitblijft, kan het systeem de verbinding als verstoord beschouwen.
-
-De maximale tijd die zonder een bericht mag verstrijken, moet worden afgestemd op de toepassing. Een te korte termijn kan onnodige storingsmeldingen veroorzaken. Een te lange termijn zorgt ervoor dat een netwerkprobleem mogelijk te laat wordt ontdekt.
-
-Na het vaststellen van een storing moet het systeem de betreffende transportopdrachten veilig afhandelen. Opdrachten waarvoor de actuele status van het overdrachtspunt nodig is, mogen niet worden uitgevoerd zolang die status niet betrouwbaar kan worden vastgesteld.
-
-### 3.4.4 Veilig omgaan met tijdelijke netwerkuitval
-
-De randvoorwaarden van Viscon Group stellen dat communicatie-uitval nooit mag leiden tot opdrachten buiten de eigen hygiënezone of tot verloren of dubbel uitgevoerde opdrachten.
-
-Daarom moet het systeem bij netwerkuitval een vooraf bepaalde veilige toestand bereiken. Wanneer niet kan worden vastgesteld of het overdrachtspunt beschikbaar is, wordt een nieuwe overdracht niet gestart op basis van verouderde informatie.
-
-De transportopdrachten kunnen worden bewaard totdat de communicatie weer beschikbaar is. Daarbij moet iedere opdracht een uniek identificatienummer behouden en moet de actuele status worden opgeslagen.
-
-Ook moet worden voorkomen dat het overdrachtspunt onbeperkt gereserveerd blijft voor een robot die door een storing niet meer kan aankomen. Een reservering kan daarom een geldigheidsduur krijgen. Nadat die termijn is verstreken, mag de reservering alleen worden vrijgegeven nadat is gecontroleerd dat het overdrachtspunt en de transportstatus weer veilig zijn.
-
-De robots moeten ondertussen binnen hun eigen hygiënezone blijven. Bij eventuele alternatieve planning mag een robot nooit worden toegewezen aan een opdracht waarvoor hij niet bevoegd is.
-
-### 3.4.5 Transport hervatten na herstel van de verbinding
-
-Wanneer de netwerkverbinding wordt hersteld, moet het systeem eerst controleren welke opdrachten nog openstaan en welke stappen al zijn uitgevoerd.
-
-Het is niet veilig om alle berichten die tijdens de storing zijn ontstaan zonder controle opnieuw uit te voeren. Sommige opdrachten kunnen inmiddels zijn geannuleerd of door een ander systeemdeel zijn afgehandeld.
-
-Daarom moeten beide robotvloten(/ robots) hun actuele status uitwisselen en de geregistreerde opdrachten met elkaar vergelijken. Hierbij wordt gecontroleerd welke berichten zijn verwerkt, welke overdrachten zijn bevestigd en welke opdrachten nog moeten worden uitgevoerd.
-
-Pas daarna worden de resterende opdrachten opnieuw ingepland. Hierdoor kan het systeem voorkomen dat transportopdrachten verloren gaan of dubbel worden uitgevoerd.
-
-### 3.4.6 Overzicht van de maatregelen
-
-| Probleem | Benodigde maatregel | Verwacht resultaat |
-|---|---|---|
-| Bericht komt niet aan | Bevestigingen en waar nodig herverzending | Belangrijke berichten kunnen opnieuw worden aangeboden |
-| Bericht komt meerdere keren aan | Unieke opdracht-ID's en controle op reeds verwerkte opdrachten | Dubbele uitvoering wordt voorkomen |
-| Bericht komt te laat aan | Tijdstempel, volgnummer en geldigheidsduur | Verouderde informatie wordt herkend |
-| Robotvloot is niet bereikbaar | Heartbeats en time-outs | Verbindingsproblemen worden tijdig herkend |
-| Overdrachtspunt is mogelijk gesloten | Veilige toestand en controle van de actuele status | Onveilige overdrachten worden voorkomen |
-| Reservering blijft achter na storing | Reservering met geldigheidsduur en gecontroleerde vrijgave | Het overdrachtspunt blijft niet onnodig geblokkeerd |
-| Verbinding wordt hersteld | Statusuitwisseling en controle van openstaande opdrachten | Transport kan gecontroleerd worden hervat |
-
-### Antwoord op deelvraag 3
-
-onderweg
-
+Uit de uitgevoerde tests blijkt dat netwerkvertraging en pakketverlies invloed hebben op de prestaties van de TCP-communicatie.
+Bij toegevoegde vertraging stijgt de gemiddelde RTT duidelijk. Ook bij een hoger percentage pakketverlies neemt de gemiddelde RTT toe. Ondanks deze netwerkproblemen is tijdens de uitgevoerde tests een succespercentage van 100% gemeten.
+Dit laat zien dat de TCP-communicatie binnen de gebruikte testopstelling berichten succesvol kan uitwisselen onder verschillende netwerkcondities. Wel neemt de benodigde tijd voor het uitwisselen van berichten toe wanneer de netwerkcondities slechter worden.
+De resultaten geven daarmee inzicht in de betrouwbaarheid en prestaties van TCP-communicatie. Over het detecteren en herstellen van een volledige netwerkonderbreking kunnen op basis van de huidige meetresultaten nog geen conclusies worden getrokken.
 
 
 
