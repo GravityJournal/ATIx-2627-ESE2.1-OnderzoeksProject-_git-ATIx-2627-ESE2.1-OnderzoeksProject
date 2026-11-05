@@ -32,7 +32,6 @@ mogelijk worden gecontroleerd.
 Latency is de tijd die nodig is om gegevens van de zender naar de ontvanger te versturen. Bij dit onderzoek wordt gekeken naar de tijd tussen het versturen van een bericht door het besturingssysteem en het ontvangen van dit bericht door de robot.
 Latency wordt uitgedrukt in milliseconden (ms). Hoe lager de latency, hoe sneller de robot kan reageren op de verstuurde berichten.
 Een hoge latency kan dus ervoor zorgen dat de robot vertraagd reageert op de besturing. Dit kan vooral problemen opleveren wanneer de robot snel moet reageren op veranderingen of een noodstop.
-De ITU beschrijft in [recommendation G.114](https://www.itu.int/rec/T-REC-G.114/) de invloed van vertraging op communicatie. Hierin wordt onder andere aangegeven dat interactieve toepassingen gevoelig kunnen zijn voor vertragingen. De benodigde latency is afhankelijk van de toepassing.
 Voor een goede verbinding is het daarom belangrijk om de latency zo laag mogelijk te houden.
 
 ### Packet loss
@@ -50,3 +49,11 @@ Bijvoorbeeld packet 1 komt na 10 ms aan, packet 2 komt na 15 ms aan en packet 3 
 Jitter wordt uitgedrukt in milliseconden (ms). Hoe lager de jitter, hoe gelijkmatiger de packets aankomen.
 Bij het besturen van een robot kan een hoge jitter ervoor zorgen dat berichten niet met een gelijkmatige vertraging aankomen. Hierdoor kan de robot onregelmatig reageren op de besturing.
 Voor een goede verbinding is het dus ook belangrijk om de jitter zo laag mogelijk te houden.
+
+### Signaalsterkte
+
+Signaalsterkte geeft aan hoe sterk het radiosignaal is dat door de ontvanger wordt ontvangen. Bij dit onderzoek gaat het om de sterkte van het 5G-signaal dat de robot ontvangt.
+De signaalsterkte kan worden beïnvloed door bijvoorbeeld de afstand tussen de robot en het communicatiepunt, Obstakels zoals muren en voorwerpen, storingen van andere radiosignalen en de positie en richting van de antenne.
+Wanneer de afstand tussen de robot en het communicatiepunt groter wordt, kan het ontvangen signaal zwakker worden. Hierdoor kan de verbinding minder stabiel worden en kunnen latency en packet loss toenemen.
+De signaalsterkte van een 5G-verbinding kan onder andere worden weergegeven met SS-RSRP. Dit is een meetwaarde die de ontvangen sterkte van specifieke 5G-referentiesignalen aangeeft. De waarde wordt uitgedrukt in dBm.
+Bij het meten in dBm geldt dat een waarde dichter bij nul een sterker signaal aangeeft. Een signaalsterkte van -70 dBm is bijvoorbeeld sterker dan -100 dBm.
