@@ -11,7 +11,7 @@ Eerst moet duidelijk zijn welke gegevens nodig zijn, zoals de status van het ove
 _Waarom?_ 
 Deze deelvraag onderzoekt welke communicatietechnieken het beste passen bij het transportsysteem van Viscon. Hierbij kijken we naar de snelheid, betrouwbaarheid en efficiëntie van de verschillende technieken. Het doel is om te bepalen hoe de robotvloten op een goede manier informatie kunnen uitwisselen over de status van het overdrachtspunt en de transportopdrachten.
 **Deelvraag 3**
-Welke invloed hebben netwerkvertraging en gesimuleerd pakketverlies op de RTT en het succespercentage van berichten in het TCP-prototype?
+Welke invloed hebben netwerkvertraging en gesimuleerd pakketverlies op de prestaties en betrouwbaarheid van de TCP-communicatie tussen de twee robotvloten?
 
 _Waarom?_
 Als berichten niet goed aankomen, kunnen robots verkeerde of dubbele opdrachten uitvoeren. Daarom moet worden onderzocht hoe de communicatie betrouwbaar blijft.
