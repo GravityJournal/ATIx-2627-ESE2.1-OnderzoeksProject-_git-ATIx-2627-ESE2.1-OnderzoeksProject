@@ -9,7 +9,8 @@ Voor dit onderzoek worden vier factoren meegenomen:
 - Jitter
 - Signaalsterkte
 
-Deze factoren geven samen inzicht in de snelheid, stabiliteit en kwaliteit van de verbinding.
+Deze factoren geven samen inzicht in de betrouwbaarheid van de verbinding.
+
 ## Wat wordt verstaan onder een betrouwbare verbinding?
 
 Een betrouwbare verbinding is een verbinding waarbij gegevens zo snel en volledig mogelijk bij de ontvanger aankomen. In het geval van de robot betekent dit dat de data vanuit en naar het centrale controller correct en zonder onnodige vertraging verzonden en ontvangen worden.
@@ -25,11 +26,27 @@ Om deze problemen te voorkomen, moeten de verschillende factoren die invloed heb
 mogelijk worden gecontroleerd.
 
 ## factoren betrouwbaarheid
+
 ### Latency
+
 Latency is de tijd die nodig is om gegevens van de zender naar de ontvanger te versturen. Bij dit onderzoek wordt gekeken naar de tijd tussen het versturen van een bericht door het besturingssysteem en het ontvangen van dit bericht door de robot.
 Latency wordt uitgedrukt in milliseconden (ms). Hoe lager de latency, hoe sneller de robot kan reageren op de verstuurde berichten.
 Een hoge latency kan dus ervoor zorgen dat de robot vertraagd reageert op de besturing. Dit kan vooral problemen opleveren wanneer de robot snel moet reageren op veranderingen of een noodstop.
 De ITU beschrijft in [recommendation G.114](https://www.itu.int/rec/T-REC-G.114/) de invloed van vertraging op communicatie. Hierin wordt onder andere aangegeven dat interactieve toepassingen gevoelig kunnen zijn voor vertragingen. De benodigde latency is afhankelijk van de toepassing.
 Voor goede verbinding is het daarom belangrijk om de latency zo laag mogelijk te houden.
+
 ### Packet loss
 
+Packet loss betekent dataverlies tijdens het verzenden van gegevens. Bij digitale communicatie worden gegevens opgedeeld in packets. Deze packets worden via het netwerk naar de ontvanger verstuurd.
+Wanneer een packets niet bij de ontvanger aankomt, spreken we van packet loss.
+Packet loss wordt uitgedrukt in procenten. Dit percentage geeft aan hoeveel van de verzonden packets verloren zijn gegaan. Bijvoorbeeld wanneer er 1000 packets worden verstuurd en 10 packets niet aankomen, is dat een packet loss van 1%
+
+Voor de robot is het belangrijk dat packet loss zo dicht mogelijk bij 0% ligt. Wanneer berichten verloren gaan, kan de robot deze niet ontvangen en dus ook niet uitvoeren.
+
+### Jitter
+
+Jitter is de variatie in de vertraging waarmee verschillende packets bij de ontvanger aankomen. Dit betekent dat de tijd tussen het versturen en ontvangen van packets niet altijd hetzelfde is.
+Bijvoorbeeld packet 1 komt na 10 ms aan, packet 2 komt na 15 ms aan en packet 3 komt na 40 ms aan. De verschillen tussen deze vertragingen laten zien dat de verbinding niet altijd even snel reageert. Dit verschil in vertraging wordt jitter genoemd.
+Jitter wordt uitgedrukt in milliseconden (ms). Hoe lager de jitter, hoe gelijkmatiger de packets aankomen.
+Bij het besturen van een robot kan een hoge jitter ervoor zorgen dat berichten niet met een gelijkmatige vertraging aankomen. Hierdoor kan de robot onregelmatig reageren op de besturing.
+Voor de robot is het dus ook belangrijk om de jitter zo laag mogelijk te houden.
