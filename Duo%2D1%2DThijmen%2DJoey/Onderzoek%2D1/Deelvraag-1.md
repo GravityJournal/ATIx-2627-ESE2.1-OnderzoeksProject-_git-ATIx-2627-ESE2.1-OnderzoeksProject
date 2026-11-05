@@ -12,7 +12,11 @@ Om te bepalen welke plaatsingsmogelijkheden relevant zijn voor onze robotvloot, 
 Hierbij kijken we specifiek naar centrale besturingssystemen voor landbouwrobots en andere autonome mobiele robots.
 ## 2. Literatuuronderzoek
 
-###2.1 
+###2.1 Centrale besturing op een vaste locatie
+
+**Onderzoek: Fleets of Robots for Environmentally-Safe Pest Control in Agriculture**
+
+
 
 **Relevantie voor onze robotvloot**
 Dit onderzoek laat zien dat een vaste centrale besturingscomputer een toepasbare oplossing is voor het coördineren van meerdere landbouwrobots.
@@ -23,7 +27,25 @@ Het onderzoek toont echter niet aan dat een vaste locatie automatisch een betrou
 **Bron:** González-de-Santos et al. (2017), _Precision Agriculture_.
 
 
+### 2.2 Centrale besturing op een landbouwrobot
+**Onderzoek: New Trends in Robotics for Agriculture: Integration and Assessment of a Real Fleet of Robots**
+
+**Bronnen:** Emmi et al. (2014) en González-de-Santos et al. (2017).
+### 2.3 Centrale besturing op een externe computer tijdens het oogstproces
+**Onderzoek: Intelligent Coordination of a Human-Robot Collaborative Fleet for Assistance in Manual Fruit Harvesting**
+
+**Bron:** Conejero et al. (2026), _Smart Agricultural Technology_.
+### 2.4 Besturing en verwerking op de robots zelf
+**Onderzoek: Development of a Combined Orchard Harvesting Robot Navigation System**
+
+
+**Bron:** Mao et al. (2022), _Remote Sensing_.
+### 2.5 Centrale verwerking op een externe edge-server
+**Onderzoek: Optimising Robotic Operation Speed with Edge Computing via 5G Network**
+
+**Bron:** Zahidi et al. (2024), _Journal of Field Robotics_.
 ## 3. Selectiecriteria
+
 
 
 ##4. Afweging van de locaties
