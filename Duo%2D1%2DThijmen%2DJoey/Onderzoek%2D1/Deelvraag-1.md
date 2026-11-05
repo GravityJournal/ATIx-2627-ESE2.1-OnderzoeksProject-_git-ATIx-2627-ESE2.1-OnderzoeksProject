@@ -14,8 +14,13 @@ Hierbij kijken we specifiek naar centrale besturingssystemen voor landbouwrobots
 
 ###2.1 
 
-
-
+**Relevantie voor onze robotvloot**
+Dit onderzoek laat zien dat een vaste centrale besturingscomputer een toepasbare oplossing is voor het coördineren van meerdere landbouwrobots.
+Voor onze robotvloot zou een vergelijkbare opstelling mogelijk zijn, waarbij de CCU zich op een vaste locatie buiten het landbouwperceel bevindt.
+Een vaste locatie heeft als praktisch voordeel dat de CCU niet hoeft mee te bewegen met de landbouwmachines. Bovendien kan de apparatuur op een toegankelijke en beschermde locatie worden opgesteld.
+Een aandachtspunt is dat de CCU afhankelijk blijft van de communicatieverbinding met de robots die zich over het perceel verplaatsen.
+Het onderzoek toont echter niet aan dat een vaste locatie automatisch een betrouwbaardere communicatieverbinding oplevert dan een mobiele locatie.
+**Bron:** González-de-Santos et al. (2017), _Precision Agriculture_.
 
 
 ## 3. Selectiecriteria
