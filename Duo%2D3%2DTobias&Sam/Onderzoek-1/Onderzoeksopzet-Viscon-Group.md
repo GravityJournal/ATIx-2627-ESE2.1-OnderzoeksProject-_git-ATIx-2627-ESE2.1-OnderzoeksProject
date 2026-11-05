@@ -66,12 +66,14 @@ Met literatuuronderzoek krijgen we inzicht in mogelijke oplossingen voor communi
 | Middel | Waarvoor nodig? |
 |---|---|
 | Laptop en ontwikkelsoftware | Om het prototype te bouwen en de resultaten te bekijken |
-| Programmeeromgeving, C++ | Om de communicatie- en planningslogica te maken|
-| testopstelling | Om twee robotvloten en een gedeeld overdrachtspunt na te maken |
-| Netwerk- of communicatie-instellingen | Om berichtenuitwisseling, vertraging en uitval te testen |
+| Programmeeromgeving, C++ | Programmeren van de TCP-client en server|
+| Netwerkverbinding| Uitwisselen van gegevens tussen client en server |
+| TCP-testprogramma | Uitvoeren van de verschillende testsituaties |
 | Literatuur en technische documentatie | Om bestaande oplossingen en technieken te onderzoeken |
-| Testscenario's en meetgegevens | Om de resultaten vast te leggen en te vergelijken |
-| Feedback van docent of medestudent | Om het onderzoeksontwerp en prototype te controleren |
+|     [Bean Network Tester](https://github.com/donislawdev/BeanNetworkTester) | Vertragingen en pakketverlies simuleren |
+| Spreadsheet | Meetresultaten vastleggen en analyseren |
+| Technische documentatie | Onderzoeken en vergelijken van TCP, MQTT en ROS 2 |
+| GitHub | Vastleggen en beheren van code/ prototype |
 
 De exacte software, hardware en beschikbare documentatie moeten nog worden vastgesteld. Als er geen echte robots of interne Viscon-documentatie beschikbaar zijn, gebruiken we de openbare technische bronnen.
 
