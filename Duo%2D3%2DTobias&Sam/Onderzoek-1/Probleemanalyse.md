@@ -1,9 +1,11 @@
 1 Probleemcontext
-Binnen de casus Automated Logistics Across Hygiene Zones moeten producten en goederen tussen twee verschillende hygiënezones worden vervoerd. Iedere zone heeft een eigen robotvloot. Omdat elke robotvloot verantwoordelijk is voor zijn eigen gebied, mogen de robots de grens naar de andere zone niet overschrijden. Wanneer producten of goederen moeten worden overgedragen, wordt hiervoor een gedeeld overdrachtspunt gebruikt.
+Binnen de casus Automated Logistics Across Hygiene Zones van Viscon Group moeten goederen tussen twee verschillende hygiënezones worden vervoerd. Iedere zone heeft een eigen robotvloot. De robots mogen de grens tussen de zones niet overschrijden. Daarom worden goederen via een gedeeld overdrachtspunt overgedragen.
 
-Het probleem ontstaat doordat producten / goederen in allebei de richtingen moeten worden vervoerd. daarnaast heb je het probleem dat het overdrachtspunt tijdelijk niet beschikbaar kan zijn door reiniging of onderhoud. het transportsysteem moet daarom rekening houden met de beschikbaarheid van het overdrachtspunt en geplande transportopdrachten hierop aanpassen.
+Het transport vindt in beide richtingen plaats. Naast volle goederen moeten ook lege kratten en pallets terug worden vervoerd. Het gedeelde overdrachtspunt kan tijdelijk niet beschikbaar zijn, bijvoorbeeld door reiniging of onderhoud.
+Om dit transport goed te laten verlopen, moeten de twee robotvloten informatie met elkaar kunnen uitwisselen. Denk hierbij aan transportopdrachten, de beschikbaarheid van het overdrachtspunt en bevestigingen van uitgevoerde overdrachten.
+Het is momenteel nog onduidelijk welke communicatietechniek hiervoor het meest geschikt is en hoe betrouwbaar de communicatie blijft wanneer er netwerkproblemen optreden. Denk hierbij aan vertragingen, pakketverlies en tijdelijke verbindingsuitval.
 
-Voor dit onderzoek wordt gekeken naar de infrastructuur, computernetwerken en datacommunicatie die nodig zijn om de transportopdrachten tussen beide robotvloten betrouwbaar te coördineren. Het is nog onduidelijk hoe de robotvloten informatie uitwisselen over beschikbare goederen, de status van robots en de beschikbaarheid van het overdrachtspunt. Ook moet worden onderzocht hoe het systeem omgaat met communicatievertragingen of een tijdelijke netwerkstoring.
+Dit onderzoek richt zich daarom op de datacommunicatie tussen de twee robotvloten en de betrouwbaarheid hiervan onder verschillende netwerkcondities.
 
 2 Belang
 Een betrouwbare coördinatie tussen de robotvloten is belangrijk om te voorkomen dat goederen onnodig lang moeten wachten en het overdrachtspunt inefficiënt wordt gebruikt. Wanneer het overdrachtspunt tijdelijk gesloten is, moeten de robotvloten op tijd weten dat overdrachten moeten worden uitgesteld of opnieuw moeten worden ingepland.
@@ -12,6 +14,11 @@ Voor Viscon Group kan een goede oplossing ervoor zorgen dat het transport van go
 
 Daarnaast moet de oplossing voldoen aan de hygiëne-eisen. Communicatieproblemen of een tijdelijke onbeschikbaarheid van het overdrachtspunt mogen er nooit toe leiden dat een robot opdrachten krijgt die buiten zijn eigen hygiënezone vallen. Wanneer het transportsysteem niet goed functioneert, kan dit namelijk leiden tot stilstand van het proces en daarmee tot inkomstenverlies.
 
+Betrouwbare communicatie is belangrijk om te voorkomen dat robotvloten werken met verouderde informatie of transportopdrachten verkeerd verwerken. Wanneer het overdrachtspunt tijdelijk gesloten is, moeten beide robotvloten hiervan op de hoogte zijn.
+
+Wanneer berichten verloren gaan of te laat aankomen, kan dit leiden tot onnodige wachttijden, dubbele opdrachten of stilstand van het transportsysteem.
+Voor Viscon Group is het daarom belangrijk dat de gekozen communicatietechniek betrouwbaar informatie kan uitwisselen en dat het systeem veilig reageert wanneer de netwerkverbinding tijdelijk niet beschikbaar is.
+
 3 Literatuuronderzoek + literature gap (verdiepen over onderzoeken)
 
 Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van transporttaken belangrijk is wanneer meerdere automatische voertuigen samenwerken. Ook beschrijft de ROS 2-documentatie hoe communicatie tussen robots betrouwbaarder kan worden gemaakt, bijvoorbeeld door instellingen voor het afleveren van berichten (Open Robotics, z.d.).
@@ -19,8 +26,6 @@ Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van
 Daarnaast is het belangrijk om rekening te houden met gedeelde middelen. Als meerdere robots hetzelfde overdrachtspunt gebruiken, moet duidelijk zijn wanneer het beschikbaar is en welke robot er gebruik van kan maken. Een goede planning kan helpen om te voorkomen dat robots op elkaar moeten wachten.
 
 Wat nog onderzocht moet worden, is hoe deze oplossingen werken in de situatie van Viscon Group. Twee aparte robotvloten moeten goederen in beide richtingen vervoeren via hetzelfde overdrachtspunt, dat soms tijdelijk gesloten is. Er moet daarom worden onderzocht hoe de robots hierover informatie uitwisselen en hoe de transportplanning wordt aangepast als het overdrachtspunt niet beschikbaar is.
-
-Bronnen: (gevonden door prompts via ai, zelf daarna gecontroleerd) https://www.sciencedirect.com/science/article/abs/pii/S0968090X19313531?via%3Dihub https://github.com/ros2/ros2_documentation/blob/rolling/source/ROS-Framework/interfaces/topics/About-Quality-of-Service-Settings.rst
 
 Een vloeiende robotsamenwerking staat of valt met een goede transportplanning en betrouwbare communicatie. Bij Viscon Group moet nog worden onderzocht hoe twee robotvloten informatie uitwisselen en hun taken afstemmen wanneer een overdrachtspunt niet beschikbaar is. Daarnaast is het belangrijk de planning te optimaliseren om wachttijden te voorkomen en het transport soepel te laten verlopen.
 
@@ -31,14 +36,16 @@ Het doel van dit onderzoek is om te er achter te komen hoe de twee robots inform
 Aan het einde van het het onderzoek is het doel dat duidelijk is welke communicatiemethode het beste past in deze situatie. hierbij kijken we vooral of er gekeken wordt of de informatie op tijd aankomt en het systeem goed blijft functioneren wanneer er problemen optreden zoals bijvoorbeeld netwerkverbinding of wanneer de verbinding tijdelijk wegvalt
 
 5 Afbakening
-in dit onderzoek is het hoofddoel de communicatie tussen de robotvloten en het overdrachtspunt. Er wordt onderzocht hoe informatie wordt doorgegeven en wat er gebeurt wanneer het overdrachtspunt tijdelijk niet beschikbaar is.
 
-
-De volgende onderwerpen worden meegenomen: <-- te groot
-
-- Welke gegevens de robotvloten met elkaar moeten uitwisselen.
-- Hoe de communicatie betrouwbaar kan blijven functioneren.
-- Hoe het systeem reageert wanneer het overdrachtspunt tijdelijk gesloten is.
-- Hoe wordt omgegaan met een slechte of weggevallen netwerkverbinding.
-
-Het bouwen en ontwerpen van de robots zelf valt buiten de scope van dit onderzoek. Ook wordt niet ingegaan op het volledige navigatiesysteem of de technische constructie van het overdrachtspunt. Wel wordt rekening gehouden met de geldende hygiënevoorschriften en wordt ervoor gezorgd dat de robots binnen hun eigen hygiënezone blijven.
+Dit onderzoek richt zich op de datacommunicatie tussen twee afzonderlijke robotvloten en de betrouwbaarheid van deze communicatie.
+Binnen het onderzoek worden de volgende onderwerpen meegenomen:
+*   De informatie die tussen beide robotvloten moet worden uitgewisseld.
+    
+*   De technische eigenschappen en geschiktheid van TCP, MQTT en ROS 2 met DDS.
+    
+*   Het testen van TCP-communicatie met behulp van een softwareprototype.
+    
+*   De invloed van netwerkvertragingen en pakketverlies op de communicatie.
+    
+Het daadwerkelijk bouwen van robots, het navigatiesysteem, de fysieke inrichting van het overdrachtspunt en de volledige transportplanning vallen buiten de scope.
+Ook wordt geen volledige implementatie binnen de bestaande infrastructuur van Viscon Group gerealiseerd. Het prototype dient uitsluitend om de communicatie onder gecontroleerde testomstandigheden te onderzoeken.
