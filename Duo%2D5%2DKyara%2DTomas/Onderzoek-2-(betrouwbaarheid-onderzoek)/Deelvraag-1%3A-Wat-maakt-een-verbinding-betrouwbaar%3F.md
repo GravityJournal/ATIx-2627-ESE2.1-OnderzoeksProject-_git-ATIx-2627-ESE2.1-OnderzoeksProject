@@ -30,4 +30,6 @@ Latency is de tijd die nodig is om gegevens van de zender naar de ontvanger te v
 Latency wordt uitgedrukt in milliseconden (ms). Hoe lager de latency, hoe sneller de robot kan reageren op de verstuurde berichten.
 Een hoge latency kan dus ervoor zorgen dat de robot vertraagd reageert op de besturing. Dit kan vooral problemen opleveren wanneer de robot snel moet reageren op veranderingen of een noodstop.
 De ITU beschrijft in [recommendation G.114](https://www.itu.int/rec/T-REC-G.114/) de invloed van vertraging op communicatie. Hierin wordt onder andere aangegeven dat interactieve toepassingen gevoelig kunnen zijn voor vertragingen. De benodigde latency is afhankelijk van de toepassing.
-Voor dit onderzoek is het daarom belangrijk om de latency zo laag mogelijk te houden.
+Voor goede verbinding is het daarom belangrijk om de latency zo laag mogelijk te houden.
+### Packet loss
+
