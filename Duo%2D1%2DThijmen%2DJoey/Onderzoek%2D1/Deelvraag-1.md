@@ -17,15 +17,13 @@ Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor de uitwer
 
 ###2.1 Centrale besturing op een vaste locatie
 
-
-
 **Beschrijving:**
 
-In het onderzoek van Emmi et al. (2014) [7] wordt een gecentraliseerde besturingsarchitectuur beschreven voor het RHEA-project. Binnen dit project wordt een robotvloot van drie autonome landbouwmachines aangestuurd vanuit een centraal basisstation.
+In het onderzoek van Emmi et al. (2014) [2] wordt een gecentraliseerde besturingsarchitectuur beschreven voor het RHEA-project. Binnen dit project wordt een robotvloot van drie autonome landbouwmachines aangestuurd vanuit een centraal basisstation.
 
 De onderzoekers hebben gekozen voor een externe computer op een vaste locatie naast het landbouwperceel. Op deze computer draait een _Mission Manager_("CCU"), die verantwoordelijk is voor het plannen en coördineren van de werkzaamheden. De robots sturen gegevens, zoals hun locatie en huidige status, naar deze centrale computer. Op basis van deze informatie kan de Mission Manager de werkzaamheden bewaken en opdrachten naar de robots versturen.
 
-Volgens Emmi et al. (2014) [7] is een centrale planner geschikt voor landbouwtoepassingen omdat het werkgebied doorgaans vooraf bekend is en de werkzaamheden van meerdere machines op elkaar moeten worden afgestemd. Daarnaast maakt een extern basisstation het mogelijk om de robotvloot vanuit één locatie te monitoren en te bedienen.
+Volgens Emmi et al. (2014) [2] is een centrale planner geschikt voor landbouwtoepassingen omdat het werkgebied doorgaans vooraf bekend is en de werkzaamheden van meerdere machines op elkaar moeten worden afgestemd. Daarnaast maakt een extern basisstation het mogelijk om de robotvloot vanuit één locatie te monitoren en te bedienen.
 
 González-de-Santos et al. (2017) [1] beschrijven de verdere toepassing van deze architectuur binnen het RHEA-project. Het basisstation beschikt over een computer waarop de Mission Manager draait. Deze is verbonden met de landbouwrobots via een draadloos communicatienetwerk. De robots beschikken daarnaast over eigen besturingssystemen voor hun lokale taken.
 
@@ -39,12 +37,13 @@ Hoewel dit onderzoek geen centrale vlootbesturing behandelt, laat het zien dat e
 Deze opstelling is meegenomen in onze robotvloot omdat ook wij gebruik willen maken van centrale coördinatie tussen meerdere landbouwmachines.
 Een vaste CCU buiten het perceel zou de gegevens van de rooier en overslagwagens kunnen ontvangen en gebruiken voor de gezamenlijke routeplanning en taakverdeling.
 
-++
-- Een mogelijk voordeel van deze opstelling is dat de CCU onafhankelijk van de bewegingen van de landbouwmachines kan blijven functioneren. Daarnaast kan de centrale besturing vanaf een vaste locatie worden onderhouden en bewaakt.
+\+
 
-- Mogelijke sterkere hardwarewaarbij je de zware taken overlaat aan de CCU/externe computer.
+- een mogelijk voorden van deze opstelling is dat de CCU onafhankelijk is van de landbouwmachines. Daarnaast kan de centrale besturing vanaf een vaste locatie worden onderhouden en bewaakt. 
 
---
+- Mogelijke sterkere hardware waarbij je de zware taken overlaat aan de CCU/externe computer.
+
+\-
 en aandachtspunt is dat de robots gedurende het oogstproces moeten kunnen blijven communiceren met de CCU, terwijl zij zich over het perceel verplaatsen.
 
 De onderzoeken tonen aan dat een vaste centrale besturing praktisch toepasbaar is binnen een landbouwrobotvloot. Er wordt echter niet aangetoond dat deze plaatsing een betrouwbaardere communicatieverbinding oplevert dan een CCU op een bewegende landbouwmachine.
@@ -63,15 +62,17 @@ Daarom blijft het relevant om de invloed van de fysieke locatie van de CCU binne
 ### 2.2 Centrale besturing op een landbouwrobot
 **Beschrijving:**
 
-In het onderzoek van Emmi et al. (2014)[7] wordt naast een vaste centrale besturing ook een master-slaveconfiguratie beschreven. Bij deze architectuur wordt de centrale besturing ondergebracht op één van de landbouwrobots, die vervolgens verantwoordelijk is voor het aansturen van de overige robots.
+In het onderzoek van Emmi et al. (2014)[2] wordt naast een vaste centrale besturing ook een master-slaveconfiguratie beschreven. Bij deze architectuur wordt de centrale besturing ondergebracht op één van de landbouwrobots, die vervolgens verantwoordelijk is voor het aansturen van de overige robots.
 
 De onderzoekers hebben deze architectuur toegepast binnen het RHEA-project, dat bestaat uit drie autonome landbouwmachines. Eén van deze machines fungeert als master en voert de centrale taken uit, zoals het plannen van de werkzaamheden, het versturen van opdrachten en het controleren van de voortgang. De overige machines functioneren als slaves en ontvangen opdrachten van de masterrobot.
 
---
-Een nadeel van deze architectuur is de afhankelijkheid van de masterrobot. Wanneer de centrale besturing op deze robot uitvalt, kan dit ervoor zorgen dat de werkzaamheden van de volledige robotvloot worden onderbroken.
+\-
+- Een nadeel van deze architectuur is de afhankelijkheid van de masterrobot. Wanneer de centrale besturing op deze robot uitvalt, kan dit ervoor zorgen dat de werkzaamheden van de volledige robotvloot worden onderbroken.
 
-++
-Volgens Emmi et al. (2014) heeft deze configuratie verschillende voordelen. Zo is er geen afzonderlijke centrale computer in een basisstation nodig, waardoor de hoeveelheid benodigde hardware wordt verminderd. Daarnaast kan het werkgebied mogelijk worden vergroot doordat de centrale besturing met de robotvloot meebeweegt.
+\+
+- Volgens Emmi et al. (2014)[2] heeft deze configuratie verschillende voordelen. Zo is er geen afzonderlijke centrale computer in een basisstation nodig, waardoor de hoeveelheid benodigde hardware wordt verminderd. 
+
+- Daarnaast kan het werkgebied mogelijk worden vergroot doordat de centrale besturing met de robotvloot meebeweegt.
 
 
 
