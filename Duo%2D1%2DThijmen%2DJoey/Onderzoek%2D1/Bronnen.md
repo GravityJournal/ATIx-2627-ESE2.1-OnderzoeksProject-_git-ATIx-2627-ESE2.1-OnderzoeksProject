@@ -2,6 +2,9 @@
 _Fleets of Robots for Environmentally-Safe Pest Control in Agriculture_  
 [Volledig artikel – Springer Nature](https://link.springer.com/article/10.1007/s11119-016-9476-3)
 
+
+
+
 **2. Emmi et al. (2014)**  
 _New Trends in Robotics for Agriculture: Integration and Assessment of a Real Fleet of Robots_  
 [Artikel – The Scientific World Journal](https://onlinelibrary.wiley.com/doi/10.1155/2014/404059)
@@ -23,3 +26,6 @@ _Optimising Robotic Operation Speed with Edge Computing via 5G Network: Insights
 **6. Souto et al. (2024)**
 _Measurement of Communication Performance Between 5G Devices in a 5G SA Network_  
 [Artikel en PDF – SBRC](https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/29982)
+
+**7. Emmi et al. (2014).**
+Emmi, L., Gonzalez-de-Soto, M., Pajares, G., & Gonzalez-de-Santos, P. (2014). New trends in robotics for agriculture: Integration and assessment of a real fleet of robots. _The Scientific World Journal, 2014_, Article 404059. [https://doi.org/10.1155/2014/404059](https://doi.org/10.1155/2014/404059)
