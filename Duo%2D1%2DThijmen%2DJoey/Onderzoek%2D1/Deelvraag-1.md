@@ -9,7 +9,7 @@ De centrale controlunit (CCU) is verantwoordelijk voor het ontvangen en verwerke
 Een belangrijke vraag binnen deze architectuur is waar de CCU fysiek geplaatst moet worden.
 Om te bepalen welke plaatsingsmogelijkheden relevant zijn voor onze robotvloot, onderzoeken we welke oplossingen in bestaande wetenschappelijke onderzoeken worden toegepast en welke overwegingen daarbij een rol spelen.
 
-Hierbij kijken we specifiek naar centrale besturingssystemen voor landbouwrobots en andere autonome mobiele robots.
+Hierbij word specifiek gekeken naar centrale besturingssystemen voor landbouwrobots en andere autonome mobiele robots.
 
 --------------------------
 ## 2. Literatuuronderzoek
