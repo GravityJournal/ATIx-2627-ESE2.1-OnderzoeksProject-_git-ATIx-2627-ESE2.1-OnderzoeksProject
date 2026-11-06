@@ -17,18 +17,19 @@ Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor onze uitw
 
 ###2.1 Centrale besturing op een vaste locatie
 
-**Onderzoek:** Intelligent Coordination of a Human-Robot Collaborative Fleet for Assistance in Manual Fruit Harvesting
-**Onderzoek:** Fleets of Robots for Environmentally-Safe Pest Control in Agriculture
+
 
 **Beschrijving:**
 
 In het onderzoek van Emmi et al. (2014) [7] wordt een gecentraliseerde besturingsarchitectuur beschreven voor het RHEA-project. Binnen dit project wordt een robotvloot van drie autonome landbouwmachines aangestuurd vanuit een centraal basisstation.
 De onderzoekers hebben gekozen voor een externe computer op een vaste locatie naast het landbouwperceel. Op deze computer draait een _Mission Manager_, die verantwoordelijk is voor het plannen en coördineren van de werkzaamheden. De robots sturen gegevens, zoals hun locatie en huidige status, naar deze centrale computer. Op basis van deze informatie kan de Mission Manager de werkzaamheden bewaken en opdrachten naar de robots versturen.
 
-Volgens Emmi et al. (2014) [7]is een centrale planner geschikt voor landbouwtoepassingen omdat het werkgebied doorgaans vooraf bekend is en de werkzaamheden van meerdere machines op elkaar moeten worden afgestemd. Daarnaast maakt een extern basisstation het mogelijk om de robotvloot vanuit één locatie te monitoren en te bedienen.
+Volgens Emmi et al. (2014) [7] is een centrale planner geschikt voor landbouwtoepassingen omdat het werkgebied doorgaans vooraf bekend is en de werkzaamheden van meerdere machines op elkaar moeten worden afgestemd. Daarnaast maakt een extern basisstation het mogelijk om de robotvloot vanuit één locatie te monitoren en te bedienen.
 
 González-de-Santos et al. (2017) [1] beschrijven de verdere toepassing van deze architectuur binnen het RHEA-project. Het basisstation beschikt over een computer waarop de Mission Manager draait. Deze is verbonden met de landbouwrobots via een draadloos communicatienetwerk. De robots beschikken daarnaast over eigen besturingssystemen voor hun lokale taken.
 
+
+Een andere toepassing van externe gegevensverwerking wordt beschreven door Zahidi et al. (2024) [5]
 **Relevantie voor onze robotvloot**
 Deze opstelling is meegenomen in onze robotvloot omdat ook wij gebruik willen maken van centrale coördinatie tussen meerdere landbouwmachines.
 Een vaste CCU buiten het perceel zou de gegevens van de rooier en overslagwagens kunnen ontvangen en gebruiken voor de gezamenlijke routeplanning en taakverdeling.
@@ -46,7 +47,7 @@ Daarom blijft het relevant om de invloed van de fysieke locatie van de CCU binne
 **Gebruikte bronnen:**
 [2] Emmi et al. (2014)
 [1] González-de-Santos et al. (2017)
-
+[5] Zahidi et al. (2024)
 -----------
 
 
@@ -82,15 +83,11 @@ Daarom is deze plaatsingsmogelijkheid relevant om binnen ons eigen onderzoek ver
 -------
 
 
-
-### 2.5 Centrale verwerking op een externe edge-server
-**Onderzoek: Optimising Robotic Operation Speed with Edge Computing via 5G Network**
-
-**Bron:** Zahidi et al. (2024), _Journal of Field Robotics_.
-
---------------------------
-
 ##3. Vergelijking van de plaatsingsmogelijkheden
+
+In eerdere afwegingen bleker er veel meer mogenlijkeheden te zijn dan wat er nu boven staat. Uiteindelijk komt het toch uit op meebewegend of vast staand.
+
+
 
 
 
