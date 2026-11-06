@@ -1,5 +1,5 @@
 
-#Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?**
+#Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?
 
 ## 1. Inleiding
 Binnen ons robotvlootproject wordt gebruikgemaakt van een gecentraliseerde besturingsarchitectuur. De robotvloot bestaat uit één rooier en twee overslagwagens die samenwerken tijdens het oogstproces.
@@ -22,46 +22,67 @@ Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor onze uitw
 
 **Beschrijving:**
 
-**Relevantie voor onze robotvloot**
-Deze onderzoeken laat zien dat een vaste centrale besturingscomputer een toepasbare oplossing is voor het coördineren van meerdere landbouwrobots.
-Voor onze robotvloot zou een vergelijkbare opstelling mogelijk zijn, waarbij de CCU zich op een vaste locatie buiten het landbouwperceel bevindt.
-Een vaste locatie heeft als praktisch voordeel dat de CCU niet hoeft mee te bewegen met de landbouwmachines. Bovendien kan de apparatuur op een toegankelijke en beschermde locatie worden opgesteld.
-Een aandachtspunt is dat de CCU afhankelijk blijft van de communicatieverbinding met de robots die zich over het perceel verplaatsen.
-Het onderzoek toont echter niet aan dat een vaste locatie automatisch een betrouwbaardere communicatieverbinding oplevert dan een mobiele locatie.
+In het onderzoek van Emmi et al. (2014) [7] wordt een gecentraliseerde besturingsarchitectuur beschreven voor het RHEA-project. Binnen dit project wordt een robotvloot van drie autonome landbouwmachines aangestuurd vanuit een centraal basisstation.
+De onderzoekers hebben gekozen voor een externe computer op een vaste locatie naast het landbouwperceel. Op deze computer draait een _Mission Manager_, die verantwoordelijk is voor het plannen en coördineren van de werkzaamheden. De robots sturen gegevens, zoals hun locatie en huidige status, naar deze centrale computer. Op basis van deze informatie kan de Mission Manager de werkzaamheden bewaken en opdrachten naar de robots versturen.
 
-**Bron:** González-de-Santos et al. (2017), _Precision Agriculture_.
+Volgens Emmi et al. (2014) [7]is een centrale planner geschikt voor landbouwtoepassingen omdat het werkgebied doorgaans vooraf bekend is en de werkzaamheden van meerdere machines op elkaar moeten worden afgestemd. Daarnaast maakt een extern basisstation het mogelijk om de robotvloot vanuit één locatie te monitoren en te bedienen.
+
+González-de-Santos et al. (2017) [1] beschrijven de verdere toepassing van deze architectuur binnen het RHEA-project. Het basisstation beschikt over een computer waarop de Mission Manager draait. Deze is verbonden met de landbouwrobots via een draadloos communicatienetwerk. De robots beschikken daarnaast over eigen besturingssystemen voor hun lokale taken.
+
+**Relevantie voor onze robotvloot**
+Deze opstelling is meegenomen in onze robotvloot omdat ook wij gebruik willen maken van centrale coördinatie tussen meerdere landbouwmachines.
+Een vaste CCU buiten het perceel zou de gegevens van de rooier en overslagwagens kunnen ontvangen en gebruiken voor de gezamenlijke routeplanning en taakverdeling.
+
+++
+Een mogelijk voordeel van deze opstelling is dat de CCU onafhankelijk van de bewegingen van de landbouwmachines kan blijven functioneren. Daarnaast kan de centrale besturing vanaf een vaste locatie worden onderhouden en bewaakt.
+
+--
+en aandachtspunt is dat de robots gedurende het oogstproces moeten kunnen blijven communiceren met de CCU, terwijl zij zich over het perceel verplaatsen.
+
+De onderzoeken tonen aan dat een vaste centrale besturing praktisch toepasbaar is binnen een landbouwrobotvloot. Er wordt echter niet aangetoond dat deze plaatsing een betrouwbaardere communicatieverbinding oplevert dan een CCU op een bewegende landbouwmachine.
+Daarom blijft het relevant om de invloed van de fysieke locatie van de CCU binnen onze eigen robotvloot verder te onderzoeken.
+
+
+**Gebruikte bronnen:**
+[2] Emmi et al. (2014)
+[1] González-de-Santos et al. (2017)
+
+-----------
 
 
 ### 2.2 Centrale besturing op een landbouwrobot
-**Onderzoek: New Trends in Robotics for Agriculture: Integration and Assessment of a Real Fleet of Robots**
 **Beschrijving:**
+
+In het onderzoek van Emmi et al. (2014)[7] wordt naast een vaste centrale besturing ook een master-slaveconfiguratie beschreven. Bij deze architectuur wordt de centrale besturing ondergebracht op één van de landbouwrobots, die vervolgens verantwoordelijk is voor het aansturen van de overige robots.
+
+De onderzoekers hebben deze architectuur toegepast binnen het RHEA-project, dat bestaat uit drie autonome landbouwmachines. Eén van deze machines fungeert als master en voert de centrale taken uit, zoals het plannen van de werkzaamheden, het versturen van opdrachten en het controleren van de voortgang. De overige machines functioneren als slaves en ontvangen opdrachten van de masterrobot.
+
+--
+Een nadeel van deze architectuur is de afhankelijkheid van de masterrobot. Wanneer de centrale besturing op deze robot uitvalt, kan dit ervoor zorgen dat de werkzaamheden van de volledige robotvloot worden onderbroken.
+
+++
+Volgens Emmi et al. (2014) heeft deze configuratie verschillende voordelen. Zo is er geen afzonderlijke centrale computer in een basisstation nodig, waardoor de hoeveelheid benodigde hardware wordt verminderd. Daarnaast kan het werkgebied mogelijk worden vergroot doordat de centrale besturing met de robotvloot meebeweegt.
+
+
 
 
 
 **Relevantie voor onze robotvloot**
-Deze plaatsingsmogenlijkheid sluit goed aan bij onze casus.
+Deze architectuur sluit aan op onze robotvloot, omdat deze eveneens bestaat uit drie landbouwmachines die gezamenlijk werkzaamheden uitvoeren.
 
-de rooier vervult namelijk een centrale rol binnen het oogstprocess. de overslagwagens moeten hun werkzaamheden afstemmen op de positie en status van de rooier.
-
-een mogenlijke opstelling is daarom de CCU op de rooier te plaatsen, zodat de centrale controller met het meest centrale punt meebeweegt.
-
-Dit zou voordelen kunnen bieden voor de integratie met de systemen van de rooier. Wel ontstaat hierdoor een afhankelijkheid van de rooier als fysieke drager van de centrale besturing.
-
-De onderzochte publicaties geven geen directe vergelijking van de communicatiebetrouwbaarheid tussen een vaste CCU en een CCU op een bewegende landbouwmachine.
+Een mogelijke toepassing is om de CCU op de rooier te plaatsen. De rooier speelt een centrale rol tijdens het oogstproces, omdat de overslagwagens hun werkzaamheden moeten afstemmen op de locatie en status van de rooier.
 
 
-**Bronnen:** [2.] Emmi et al. (2014) en González-de-Santos et al. (2017).
+Het is echter nog niet duidelijk of deze opstelling daadwerkelijk voordelen oplevert voor de betrouwbaarheid van de communicatie. Het onderzoek van Emmi et al. (2014) richt zich voornamelijk op de besturingsarchitectuur en het functioneren van de robotvloot.
 
+Daarom is deze plaatsingsmogelijkheid relevant om binnen ons eigen onderzoek verder te vergelijken met een vaste centrale besturing.
+**Gebruikte bronnen:**
+[2] Emmi et al. (2014)
 
+-------
 
 
 
-**Bron:** Conejero et al. (2026), _Smart Agricultural Technology_.
-### 2.4 Besturing en verwerking op de robots zelf
-**Onderzoek: Development of a Combined Orchard Harvesting Robot Navigation System**
-
-
-**Bron:** Mao et al. (2022), _Remote Sensing_.
 ### 2.5 Centrale verwerking op een externe edge-server
 **Onderzoek: Optimising Robotic Operation Speed with Edge Computing via 5G Network**
 
