@@ -55,7 +55,7 @@ Voor een goede verbinding is het dus ook belangrijk om de jitter zo laag mogelij
 Signaalsterkte geeft aan hoe sterk het radiosignaal is dat door de ontvanger wordt ontvangen. Bij dit onderzoek gaat het om de sterkte van het 5G-signaal dat de robot ontvangt.
 De signaalsterkte kan worden beïnvloed door bijvoorbeeld de afstand tussen de robot en het communicatiepunt, Obstakels zoals muren en voorwerpen, storingen van andere radiosignalen en de positie en richting van de antenne.
 Wanneer de afstand tussen de robot en het communicatiepunt groter wordt, kan het ontvangen signaal zwakker worden. Hierdoor kan de verbinding minder stabiel worden en kunnen latency en packet loss toenemen.
-De signaalsterkte van een 5G-verbinding kan onder andere worden weergegeven met SS-RSRP. Dit is een meetwaarde die de ontvangen sterkte 5G signalen aangeeft. De waarde wordt uitgedrukt in dBm.
+De signaalsterkte van een 5G-verbinding kan onder andere worden weergegeven met SS-RSRP. Dit is een meetwaarde die de ontvangen sterkte 5G signalen aangeeft en wordt gemeten in dBm.
 Bij het meten in dBm geldt dat een waarde dichter bij nul een sterker signaal aangeeff en dus beter voor de betrouwbaarheid van de verbinding.
 
 ## conclusie
