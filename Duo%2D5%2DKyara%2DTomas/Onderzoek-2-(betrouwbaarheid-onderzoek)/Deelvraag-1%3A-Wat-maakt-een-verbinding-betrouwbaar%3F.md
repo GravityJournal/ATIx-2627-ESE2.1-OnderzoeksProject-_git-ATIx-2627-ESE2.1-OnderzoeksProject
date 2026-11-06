@@ -59,12 +59,6 @@ De signaalsterkte van een 5G-verbinding kan onder andere worden weergegeven met 
 Bij het meten in dBm geldt dat een waarde dichter bij nul een sterker signaal aangeeff en dus beter voor de betrouwbaarheid van de verbinding.
 
 ## conclusie
-Een verbinding kan als betrouwbaar worden beschouwd wanneer:
-1. De latency zo laag mogelijk is.
-    
-2. Het percentage packet loss zo dicht mogelijk bij 0% ligt.
-    
-3. De jitter zo klein mogelijk is.
-    
-4. De verbinding stabiel blijft tijdens het bewegen van de robot.
+Een verbinding kan als betrouwbaar worden gezien wanneer de latency zo laag mogelijk is, het percentage packet loss zo dicht mogelijk bij 0% ligt, de jitter zo klein mogelijk is en de verbinding stabiel blijft tijdens het bewegen van de robot.
+Naar deze vier criteria zal worden gekeken in [deelvraag 2]()
    
