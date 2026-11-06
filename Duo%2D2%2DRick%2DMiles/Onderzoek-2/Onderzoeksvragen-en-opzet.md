@@ -3,17 +3,17 @@ Wat is het meest efficiënte communicatieprotocol voor realtime data-uitwisselin
 
 # Doelstelling onderzoek
 Het bepalen van het meest efficiënte communicatieprotocol (TCP versus UDP sockets in C++) voor realtime data-uitwisseling en overdrachtsstatussen tussen twee vlootbeheerders/robots, gemeten in vertraging (round-trip time in ms) en data-overhead, onder verschillende netwerkbelastingen.
-
-# Scope
-* Een C++ netwerksimulatie (client/server) die draait via localhost of tussen twee gekoppelde pc's in een netwerk.   
-* Focus op het vergelijken van TCP- en UDP-sockets, berichtindelingen (binaire C++ struct vs. tekst/JSON) en netwerkbelasting (10, 100, 1000 en 10000 verzoeken per seconde).
-* Buiten scope: Fysieke robots, hardware-besturing en draadloze 5G/Wi-Fi veldmetingen.
     
 # Deelvraag 1
 Wat is het verschil in gemiddelde reactietijd (round-trip time in ms), jitter en betrouwbaarheid tussen een TCP- en een UDP-gebaseerde C++ socketverbinding bij het uitwisselen van overdrachtsstatussen onder oplopende netwerkbelasting?
 
 # Deelvraag 2
 Hoeveel data-overhead (in bytes per bericht) introduceren binaire C++ `struct`'s vergeleken met een string/JSON-formaat bij het communiceren van overdrachtsgegevens en wat heeft dit voor invloed op de round-trip time?
+
+# Scope
+* Een C++ netwerksimulatie (client/server) die draait via localhost of tussen twee gekoppelde pc's in een netwerk.   
+* Focus op het vergelijken van TCP- en UDP-sockets, berichtindelingen (binaire C++ struct vs. tekst/JSON) en netwerkbelasting (10, 100, 1000 en 10000 verzoeken per seconde).
+* Buiten scope: Fysieke robots, hardware-besturing en draadloze 5G/Wi-Fi veldmetingen.
 
 # Onderzoeks- en analysemethoden
 
