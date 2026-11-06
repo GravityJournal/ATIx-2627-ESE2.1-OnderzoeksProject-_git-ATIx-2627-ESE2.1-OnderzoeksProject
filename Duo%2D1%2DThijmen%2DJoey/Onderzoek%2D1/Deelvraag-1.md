@@ -51,9 +51,11 @@ Daarom blijft het relevant om de invloed van de fysieke locatie van de CCU binne
 
 
 **Gebruikte bronnen:**
+
 [2] Emmi et al. (2014)
 [1] González-de-Santos et al. (2017)
 [5] Zahidi et al. (2024)
+
 -----------
 
 
@@ -83,8 +85,11 @@ Een mogelijke toepassing is om de CCU op de rooier te plaatsen. De rooier speelt
 Het is echter nog niet duidelijk of deze opstelling daadwerkelijk voordelen oplevert voor de betrouwbaarheid van de communicatie. Het onderzoek van Emmi et al. (2014) richt zich voornamelijk op de besturingsarchitectuur en het functioneren van de robotvloot.
 
 Daarom is deze plaatsingsmogelijkheid relevant om binnen ons eigen onderzoek verder te vergelijken met een vaste centrale besturing.
+
 **Gebruikte bronnen:**
 [2] Emmi et al. (2014)
+[7] Casus van het project (2026)
+
 
 
 
