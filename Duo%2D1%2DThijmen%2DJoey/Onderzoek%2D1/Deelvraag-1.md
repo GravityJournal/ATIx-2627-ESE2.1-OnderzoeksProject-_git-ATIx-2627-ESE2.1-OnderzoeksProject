@@ -29,13 +29,19 @@ Volgens Emmi et al. (2014) [7] is een centrale planner geschikt voor landbouwtoe
 González-de-Santos et al. (2017) [1] beschrijven de verdere toepassing van deze architectuur binnen het RHEA-project. Het basisstation beschikt over een computer waarop de Mission Manager draait. Deze is verbonden met de landbouwrobots via een draadloos communicatienetwerk. De robots beschikken daarnaast over eigen besturingssystemen voor hun lokale taken.
 
 
-Een andere toepassing van externe gegevensverwerking wordt beschreven door Zahidi et al. (2024) [5]
+Een andere toepassing van externe gegevensverwerking wordt beschreven door Zahidi et al. (2024) [5] in dit onderzoek word gebruikt gemaakt van edge-computing bij een autonome robotvloot. hierbij worden zware berekeningen, zoals beeldverwerking uitgevoerd op een externe server via een privaat 5G-netwerk
+
+Hoewel dit onderzoek geen centrale vlootbesturing behandelt, laat het zien dat externe gegevensverwerking via een draadloos netwerk toepasbaar is binnen landbouwrobotica.
+
+
 **Relevantie voor onze robotvloot**
 Deze opstelling is meegenomen in onze robotvloot omdat ook wij gebruik willen maken van centrale coördinatie tussen meerdere landbouwmachines.
 Een vaste CCU buiten het perceel zou de gegevens van de rooier en overslagwagens kunnen ontvangen en gebruiken voor de gezamenlijke routeplanning en taakverdeling.
 
 ++
-Een mogelijk voordeel van deze opstelling is dat de CCU onafhankelijk van de bewegingen van de landbouwmachines kan blijven functioneren. Daarnaast kan de centrale besturing vanaf een vaste locatie worden onderhouden en bewaakt.
+- Een mogelijk voordeel van deze opstelling is dat de CCU onafhankelijk van de bewegingen van de landbouwmachines kan blijven functioneren. Daarnaast kan de centrale besturing vanaf een vaste locatie worden onderhouden en bewaakt.
+
+- Mogelijke sterkere hardwarewaarbij je de zware taken overlaat aan de CCU/externe computer.
 
 --
 en aandachtspunt is dat de robots gedurende het oogstproces moeten kunnen blijven communiceren met de CCU, terwijl zij zich over het perceel verplaatsen.
@@ -79,6 +85,8 @@ Het is echter nog niet duidelijk of deze opstelling daadwerkelijk voordelen ople
 Daarom is deze plaatsingsmogelijkheid relevant om binnen ons eigen onderzoek verder te vergelijken met een vaste centrale besturing.
 **Gebruikte bronnen:**
 [2] Emmi et al. (2014)
+
+
 
 -------
 
