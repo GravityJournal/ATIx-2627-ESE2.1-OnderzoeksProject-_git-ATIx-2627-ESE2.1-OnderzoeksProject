@@ -60,5 +60,5 @@ Bij het meten in dBm geldt dat een waarde dichter bij nul een sterker signaal aa
 
 ## conclusie
 Een verbinding kan als betrouwbaar worden gezien wanneer de latency zo laag mogelijk is, het percentage packet loss zo dicht mogelijk bij 0% ligt, de jitter zo klein mogelijk is en de verbinding stabiel blijft tijdens het bewegen van de robot.
-Naar deze vier criteria zal worden gekeken in [deelvraag 2]()
+Naar deze vier criteria zal worden gekeken in deelvraag 2 en deelvraag 3
    
