@@ -93,13 +93,21 @@ Daarom is deze plaatsingsmogelijkheid relevant om binnen ons eigen onderzoek ver
 
 ##3. Vergelijking van de plaatsingsmogelijkheden
 
-In eerdere afwegingen bleker er veel meer mogenlijkeheden te zijn dan wat er nu boven staat. Uiteindelijk komt het toch uit op meebewegend of vast staand.
+Uit het literatuuronderzoek zijn verschillende mogelijkheden voor de centrale besturing naar voren gekomen. Hoewel er meerdere technische oplossingen mogelijk zijn, kunnen deze op basis van hun fysieke locatie worden onderverdeeld in twee categorieën: een vaste en een mobiele CCU.
 
 
-
-
+|  Eigneschap|Vaste CCU  |Mobiele CCU  |
+|--|--|--|
+|Fysieke eigenschappen  |  Vaste locatie binnen of buiten het perceel| Beweegt mee met robot vloot |
+| Hardware|  Externe server of afzonderlijke computer nodig| Externe server word op de robot geplaatst |
+|Netwerkverbinding| Kan bedraad of draadloos worden aangesloten|Vereist tijdens het rijden draadloze connectie|
+|Rekenkracht|Mogenlijk om een krachtige externe server te gebruiken| Bepert door de beschikbaare ruimte, koeling maar vooral energievoorziening|
 
 
 ##4. Afweging van de locaties
 
+Uit de onderzochte literatuur blijkt dat beide plaatsingsmogelijkheden binnen landbouwrobotvloten toepasbaar zijn. Er wordt echter niet aangetoond welke opstelling de betrouwbaarste communicatie oplevert.
+Daarom kunnen we op basis van deze onderzoeken nog geen conclusie trekken over betrouwbaarheid van de architectuur.
+
 ##5. Conclusie en selectie
+Uit deze analyse kunnen we nog geen verdere conclusie trekken en zullen we door moeten onderzoeken dmv een POC.
