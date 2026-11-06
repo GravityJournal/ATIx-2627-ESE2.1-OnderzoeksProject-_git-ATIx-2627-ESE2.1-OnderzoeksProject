@@ -2,7 +2,7 @@
 #Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?
 
 ## 1. Inleiding
-Binnen ons robotvlootproject wordt gebruikgemaakt van een gecentraliseerde besturingsarchitectuur. De robotvloot bestaat uit één rooier en twee overslagwagens die samenwerken tijdens het oogstproces.
+op basis van de casus wordt gebruikgemaakt van een gecentraliseerde besturingsarchitectuur. De robotvloot bestaat uit één rooier en twee overslagwagens die samenwerken tijdens het oogstproces.
 
 De centrale controlunit (CCU) is verantwoordelijk voor het ontvangen en verwerken van informatie van de robots. Op basis van deze gegevens kan de CCU beslissingen nemen over bijvoorbeeld de routeplanning en taakverdeling.
 
