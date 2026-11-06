@@ -107,7 +107,7 @@ Voor deelvraag 5 stuurt B hartslagen naar A. Ik test een interval van 100, 250, 
 | Mosquitto (broker) + Eclipse Paho MQTT C++ | Variant V3 en V4 |
 | Eigen storingsprogramma | Storingen op een herhaalbare manier veroorzaken en bytes tellen |
 | Python | Tests draaien en logs analyseren |
-| Excel of Python | Grafieken maken |
+| Python | Grafieken maken |
 | Mail aan de product owner | Deelvraag 2 |
 | Andere studenten en de docent | Peer review en feedback |
   
@@ -143,7 +143,7 @@ De gewichten zijn voorlopig. Ik pas ze aan als ik deelvraag 2 heb. Varianten die
 - Storingen maak ik met een programma, niet door met de hand een kabel eruit te trekken.
 - Alle testscenario's staan vast op deze pagina en in het testscript.
 - Bij elke meting noteer ik de datum en de opstelling. De logs van elke run bewaar ik.
-- Als een run de storing mist, geeft het testscript een waarschuwing en draai ik de run opnieuw.
+
   
 #### Validiteit
   
@@ -151,5 +151,4 @@ De gewichten zijn voorlopig. Ik pas ze aan als ik deelvraag 2 heb. Varianten die
 - De vertraging meet ik op één computer, zodat verschillen tussen klokken geen rol spelen.
 - Beperking: pakketverlies is nagedaan met 300 ms vasthouden. De vertraging bij S1 en S2 laat vooral zien hoeveel berichten een variant nodig heeft, niet hoe een echt netwerk reageert.
 - Beperking: bij een verbreking merken A en B meteen dat de verbinding weg is. Bij een echte storing blijft het soms stil.
-- Beperking: de bytes zijn zonder TCP/IP-headers.
-- Beperking: ik test in een eigen netwerk en niet in een echte fabriek met WiFi. Dit wordt meegenomen in de evaluatie.
+- Beperking: ik test in een eigen netwerk en niet in een echte fabriek met WiFi.
