@@ -1,3 +1,7 @@
+#Bronnenlijst
+
+Bronnen zijn in de tekst aangeven met naam en als suffix [x].
+
 **1. González-de-Santos et al. (2017)**  
 _Fleets of Robots for Environmentally-Safe Pest Control in Agriculture_  
 [Volledig artikel – Springer Nature](https://link.springer.com/article/10.1007/s11119-016-9476-3)
