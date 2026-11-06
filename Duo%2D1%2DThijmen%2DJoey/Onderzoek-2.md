@@ -1,5 +1,4 @@
 # Beschrijving van de casus
----
 
 Het doel van het project is om bodemverdichting op landbouwakkers te verminderen door middel van robotisering. Hiervoor wordt een autonome robotvloot ontwikkeld die het oogstproces zo efficiënt mogelijk moet uitvoeren.
 
@@ -14,6 +13,33 @@ Het doel van het project is om bodemverdichting op landbouwakkers te verminderen
 *   **Overslagwagen operator:** De operator krijgt controle over de overslagwagen tijdens het ontladen van aardappels. Hiervoor kan hij de snelheid en richting van de wagen aanpassen.
 
 Om bodemverdichting te beperken, moeten de overslagwagens zo efficiënt mogelijk over de akker rijden. Hierbij is het belangrijk dat ze niet meerdere keren over dezelfde plekken rijden, met uitzondering van de kopakker.
-Om dit mogelijk te maken, moeten de robots onderling locatie informatie kunnen uitwisselen en hun bewegingen en op elkaar afstemmen.
+Om dit mogelijk te maken, moeten de robots hun locatie weten en de locatie van andere robots op het akker. Het is van belang dat de locatie van de robot accuraat anders kunnen de robots niet onderling de bewegingen op elkaar afstemmen. Dit vergroot de kans op botsingen of incorrecte werking van de robots.
 
-Het is van belang dat de locatie van de robot accuraat anders kunnen de robots niet onderling de bewegingen op elkaar afstemmen. Dit vergroot de kans op botsingen of incorrecte werking van de robots.
+---
+
+# Belangen
+**Bodemverdichting vermijden:** 
+Om te zorgen dat de robots niet meerdere malen de zelfde routes rijden.
+
+**Veiligheid:** 
+Om te zorgen dat robots niet tegen elkaar aan rijden of rijd op gevaarlijke plekken.
+
+**Overslagwagen laden:** 
+De overslag wagen moet naast de rooier rijden zodat de overslag wagen de aardappels kan opvangen.
+
+---
+
+# Literatuur onderzoek
+- onderzoek welke locatie bepaling mogelijkheden er zijn
+- onderzoek de range van de mogelijkheden
+- onderzoek wat de nadelen/limitatie van de locatie bepaling mogelijkheden er zijn
+- onderzoek complexiteit van de mogelijkheden
+- onderzoek kosten van de mogelijkheden
+
+# Literatuur gap
+- hier komt uit dat gps en 5g beide mogelijk zijn ofzo
+
+# Doelstelling
+
+
+# Scope
