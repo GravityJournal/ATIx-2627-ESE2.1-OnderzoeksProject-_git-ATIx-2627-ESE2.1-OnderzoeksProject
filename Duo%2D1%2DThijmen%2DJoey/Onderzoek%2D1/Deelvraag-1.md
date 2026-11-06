@@ -22,6 +22,7 @@ Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor de uitwer
 **Beschrijving:**
 
 In het onderzoek van Emmi et al. (2014) [7] wordt een gecentraliseerde besturingsarchitectuur beschreven voor het RHEA-project. Binnen dit project wordt een robotvloot van drie autonome landbouwmachines aangestuurd vanuit een centraal basisstation.
+
 De onderzoekers hebben gekozen voor een externe computer op een vaste locatie naast het landbouwperceel. Op deze computer draait een _Mission Manager_, die verantwoordelijk is voor het plannen en coördineren van de werkzaamheden. De robots sturen gegevens, zoals hun locatie en huidige status, naar deze centrale computer. Op basis van deze informatie kan de Mission Manager de werkzaamheden bewaken en opdrachten naar de robots versturen.
 
 Volgens Emmi et al. (2014) [7] is een centrale planner geschikt voor landbouwtoepassingen omdat het werkgebied doorgaans vooraf bekend is en de werkzaamheden van meerdere machines op elkaar moeten worden afgestemd. Daarnaast maakt een extern basisstation het mogelijk om de robotvloot vanuit één locatie te monitoren en te bedienen.
