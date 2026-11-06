@@ -13,7 +13,7 @@ Hierbij kijken we specifiek naar centrale besturingssystemen voor landbouwrobots
 
 --------------------------
 ## 2. Literatuuronderzoek
-Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor onze uitwerking.
+Hieronder staan meerdere onderzoeken die potentiël relevant zijn voor de uitwerking.
 
 ###2.1 Centrale besturing op een vaste locatie
 
