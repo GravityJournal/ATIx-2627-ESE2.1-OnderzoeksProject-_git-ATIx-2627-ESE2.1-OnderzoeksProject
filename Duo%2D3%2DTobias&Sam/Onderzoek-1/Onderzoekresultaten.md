@@ -238,6 +238,9 @@ In tabel 1 staat een overzicht van de gemiddelde RTT, de minimale en maximale RT
 
 _Tabel 1: Overzicht van de gemeten TCP-communicatie per testconditie._
 De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns. De afzonderlijke meetresultaten zijn opgenomen in de bijbehorende spreadsheet.
+![Screenshot 2026-11-06 124404.png](/.attachments/Screenshot%202026-11-06%20124404-a58a38bd-52af-41ce-b411-17fb3bf5188f.png)
+_Grafiek 1: Overzicht van de RTT TCP-communicatie onder verschillende condities_
+De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns.
 
 #### 3.4.4 Analyse van de resultaten
 
