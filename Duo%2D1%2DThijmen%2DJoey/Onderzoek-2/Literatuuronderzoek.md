@@ -1,3 +1,16 @@
+# Literatuur onderzoek
+
+## Welke locatie bepaling mogelijkheden bestaan er?
+In het artiekel van sensolus (Bron https://www.sensolus.com/nl/knowledge-hub/behind-the-tech/4-geolocatietechnologieen-vergeleken/) vergelijken ze 4 verschillende geolocatietechnologieen:
+- **GPS:** 
+Positie bepaling voor buiten met nauwkeurigheid van 5 meter wat geen extra infrastructuur nodig heeft, maar heeft risico op onderbreking of onnauwkeurigheid door weer omstandigheden
+- BLE: Positie bepaling voor korte afstanden binnen 100 meter met behulp van externe geobeacons.
+- WiFi
+- Netwerkgebaseerde geolocatie
+
+
+---
+
 # **Wat is er al bekend?**
 Voor verschillende communicatie protocollen is er al heel wat informatie bekend en te vinden op het internet. Daarom word hieronder al deel van de technologieën afgestreept en komen de vragen naar boven die we niet makkelijk kunnen beantwoorden voor het juiste communicatie protocol voor de casus en voor de veiligheid van de robot vloot.
 
