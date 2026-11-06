@@ -57,3 +57,14 @@ De signaalsterkte kan worden beïnvloed door bijvoorbeeld de afstand tussen de r
 Wanneer de afstand tussen de robot en het communicatiepunt groter wordt, kan het ontvangen signaal zwakker worden. Hierdoor kan de verbinding minder stabiel worden en kunnen latency en packet loss toenemen.
 De signaalsterkte van een 5G-verbinding kan onder andere worden weergegeven met SS-RSRP. Dit is een meetwaarde die de ontvangen sterkte 5G signalen aangeeft. De waarde wordt uitgedrukt in dBm.
 Bij het meten in dBm geldt dat een waarde dichter bij nul een sterker signaal aangeeff en dus beter voor de betrouwbaarheid van de verbinding.
+
+## conclusie
+Een verbinding kan als betrouwbaar worden beschouwd wanneer:
+1. De latency zo laag mogelijk is.
+    
+2. Het percentage packet loss zo dicht mogelijk bij 0% ligt.
+    
+3. De jitter zo klein mogelijk is.
+    
+4. De verbinding stabiel blijft tijdens het bewegen van de robot.
+   
