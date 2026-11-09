@@ -128,10 +128,20 @@ Daarom worden TCP en MQTT binnen een eenvoudig prototype met elkaar vergeleken. 
 
 ## Bronnen
 
-Eddy, W. (Red.). (2022). *Transmission Control Protocol (TCP)* (RFC 9293). Internet Engineering Task Force. https://doi.org/10.17487/RFC9293
+1. MQTT. (z.d.). *MQTT – The Standard for IoT Messaging*.  
+   https://mqtt.org/
 
-OASIS. (2019). *MQTT Version 5.0* (OASIS Standard). https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
+2. OASIS. (2019). *MQTT Version 5.0* (OASIS Standard).  
+   https://docs.oasis-open.org/mqtt/mqtt/v5.0/
 
-VDA & VDMA. (2026). *VDA 5050: Interface for the communication between mobile robots and a fleet control* (Version 3.0.0). https://www.vda.de/en/topics/automotive-industry/vda-5050
+3. Eddy, W. (Red.). (2022). *Transmission Control Protocol (TCP)* (RFC 9293). Internet Engineering Task Force.  
+   https://www.rfc-editor.org/rfc/rfc9293
 
-Eclipse Paho. (z.d.). *Quality of service*. Eclipse Foundation. https://eclipse-paho.github.io/paho.mqtt.c/MQTTClient/html/qos.html
+4. Postel, J. (1981). *Transmission Control Protocol* (RFC 793). Internet Engineering Task Force.  
+   https://www.rfc-editor.org/rfc/rfc793
+
+5. VDA. (z.d.). *VDA 5050 – Interface for the communication between mobile robots and a fleet control*.  
+   https://www.vda.de/en/topics/automotive-industry/vda-5050
+
+6. Eclipse Paho. (z.d.). *Quality of service*. Eclipse Foundation.  
+   https://eclipse-paho.github.io/paho.mqtt.c/MQTTClient/html/qos.html
