@@ -1,5 +1,5 @@
 # Uitvoering
-Om deze vraag te beantwoorden zijn twee identieke client/server-architecturen opgezet in C++, waarbij respectievelijk het TCP-protocol (`SOCK_STREAM`) en het UDP-protocol (`SOCK_DGRAM`) is ingezet. Per protocol zijn 20.000 berichten verwerkt in een gecontroleerde testomgeving. De resulterende round-trip time (RTT) en inter-packet jitter zijn geregistreerd in CSV-bestanden en geanalyseerd via Python (Pandas en Seaborn). De volgende resultaten kwamen daaruit tevoorschijn:
+Om deze vraag te beantwoorden zijn twee identieke client/server-architecturen opgezet in C++, waarbij respectievelijk het TCP-protocol (`SOCK_STREAM`) en het UDP-protocol (`SOCK_DGRAM`) is ingezet. Per protocol zijn 20.000 berichten verwerkt in een gecontroleerde testomgeving. De resulterende round-trip time (RTT) en inter-packet jitter zijn geregistreerd in CSV-bestanden en geanalyseerd via Python (Pandas en Seaborn).
 
 # Analyse
 Zoals te zien is in figuur 1, vertoont het UDP-protocol aanzienlijk gunstigere prestaties op zowel latency als stabiliteit. In figuur 2 kunnen we de exacte waardes uitlezen:
