@@ -81,3 +81,5 @@ De resultaten worden geëvalueerd aan de hand van:
 | **4** | Data-analyse & visualisatie | Medium | 2 dagen |
 | **5** | Peer review en feedback verwerken | Medium | 2-3 dagen |
 | **6** | Eindrapportage samenstellen | - | 1 dag |
+
+<i><b>Disclaimer</b>: Deze onderzoeksopzet is gemaakt met de basis van mijn vorige onderzoek. https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/371/1.-Onderzoeksopzet-vraag-5 </i> 
