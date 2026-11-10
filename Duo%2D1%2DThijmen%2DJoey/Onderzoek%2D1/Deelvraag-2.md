@@ -27,7 +27,14 @@ Binnen het systeem communiceren een rooier en twee overslagwagens via een centra
 
 voor deze toepassing is het be;angrijk dat informatie tijdig en correct wordt ontvangen en dat de communicatie voldoende beschikbaar blijft.
 
+Wanneer berichten vertraagd aankomen gaat de CCU beslissingen nemen op verouderde informatie. wanneer berichten verloren gaan of de communicatie is tijdelijk niet beschikbaar, kan dit gevolgen hebben en leiden tot vertraging in het gehele oogst process.
+
+op basis van  [8]ITU-T Y.1540 (2019) kan communicatie betrouwbaarheid voor de robotvloot worden beschowud als de mate waarin gegevens tijdig, correct en met volgoende continuiteit tussen de CCU en de robots kunnen worden uitgewisseld.
+
+Om deze eigenschappen objectief te beoordelen, moet worden onderzocht welke meetpare indicatoren hiervoor geschikt zijn en wat de communicatie mogelijk kan beinvloeden.
+
 ### 2.2 Welke factoren beinvloeden de kwaliteit van de communicatie
+
 
 ### 2.3 Welke meet-methode/indicatoren worden in bestaande onderzoeken en standaarden gebruikt
 
