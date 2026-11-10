@@ -60,3 +60,5 @@ _4. Draadloze netwerken._ Op draadloze verbindingen wordt een ARP-broadcast ande
 *   Pan, X., & Sun, J. (2014). _Address Resolution Delay Metric in Software-Defined Networking (SDN)_ (Internet-Draft, draft-pan-ippm-sdn-addr-resolv-perf-00). IETF. [https://datatracker.ietf.org/doc/draft-pan-ippm-sdn-addr-resolv-perf/](https://datatracker.ietf.org/doc/draft-pan-ippm-sdn-addr-resolv-perf/)
 *   Paxson, V., Almes, G., Mahdavi, J., & Mathis, M. (1998). _Framework for IP Performance Metrics_ (RFC 2330). IETF.
 *   Plummer, D. C. (1982). _An Ethernet Address Resolution Protocol_ (RFC 826). IETF.
+
+<i><b>Disclaimer:</b> Deze Probleemanalyse is gemaakt met de basis van mijn vorige onderzoek. https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/140/Probleemanalyse</i>
