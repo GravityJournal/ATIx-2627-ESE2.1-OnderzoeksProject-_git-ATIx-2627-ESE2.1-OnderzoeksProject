@@ -9,7 +9,7 @@ Zoals te zien is in figuur 1, vertoont het UDP-protocol aanzienlijk gunstigere p
 
 # Bijlagen
 ![deelvraag1_tcp_vs_udp.png](/.attachments/deelvraag1_tcp_vs_udp-c8832c35-469e-4ea4-93f8-15bd545691c2.png)
-(Figuur 1: Boxplot met vergelijkingen van de RTT en jitter tussen TCP en UDP)
+(Figuur 1: Boxplots met vergelijkingen van de RTT en jitter tussen TCP en UDP)
 <br/>
 
 ![image.png](/.attachments/image-b86f935b-fabf-4532-b6fb-22069a27d7aa.png)
