@@ -23,7 +23,15 @@ De projecten die we hebben gemaakt hebben om dit te kunnen testen staan op de [G
 | CMAC | 1,9071 | 32 |
 | Poly1305 | 1,9541 | 32 |
 
-#Volledige test resultaten per integriteit methode
+###figuur 2
+Grafische weergave overhead van de encryptie methoden: HMAC-SHA256, CMAC en Poly1305 in miliseconden.
+Hier is duidelijk te zien dat HMAC-SHA256 een veel grotere overhead is miliseconden heeft en dat poly1305 net boven CMAC uitspringt
+![afbeelding.png](/.attachments/afbeelding-20a9805c-1d87-481d-acbf-378bdb56933e.png)
+
+###figuur 3
+Grafische weergave overhead van de encryptie methoden: HMAC-SHA256, CMAC en Poly1305 in Bytes.
+Hierin is te zien dat HMAC-SHA256 duidelijk een grotere overhead in niet alleen miliseconden maar ook in bytes heeft dan de andere methoden.
+![afbeelding.png](/.attachments/afbeelding-23291f84-167d-46fa-a10b-b9603aac8e8e.png)
 
 #### Geen integriteit methode
 
