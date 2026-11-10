@@ -78,3 +78,4 @@ Bij het schrijven van deze code is ChatGPT gebruikt als hulp middel
 #Verantwoording hergebruik
 
 Deze tekst komt uit mijn onderzoeksproject van vorig jaar te vinden op: https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/19/Projectduo's
+Op de figuur na waar het gemiddelde van de drie methoden naast elkaar te zien zijn. 
