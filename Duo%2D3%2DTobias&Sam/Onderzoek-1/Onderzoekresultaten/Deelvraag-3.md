@@ -1,5 +1,4 @@
- Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvloten(/ robots) worden bewaard bij vertragingen of tijdelijke netwerkuitval?[](https://dev.azure.com/AvansHogeschoolAcademies/ATIx-2627-ESE2.1-OnderzoeksProject/_wiki/wikis/ATIx-2627-ESE2.1-OnderzoeksProject.wiki/1262/Onderzoekresultaten?anchor=3.4-deelvraag-3%3A-hoe-kan-betrouwbare-communicatie-tussen-de-twee-robotvloten(/-robots)-worden-bewaard-bij-vertragingen-of-tijdelijke-netwerkuitval%3F)
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Deelvraag 3: Hoe kan betrouwbare communicatie tussen de twee robotvloten(/ robots) worden bewaard bij vertragingen of tijdelijke netwerkuitval?
 
 Uit de technische documentatie blijkt dat een betrouwbare communicatieoplossing uit meerdere onderdelen moet bestaan. Alleen een protocol gebruiken dat berichten kan herverzenden, is niet voldoende. Het systeem moet ook omgaan met oude berichten, dubbele opdrachten en een tijdelijk onbereikbare robotvloot.
 
@@ -26,19 +25,20 @@ Voor het testen van de TCP-communicatie zijn de volgende testscenario's uitgevoe
 | 300 ms vertraging | Er wordt 300 ms netwerkvertraging toegevoegd. |
 | 5% pakketverlies | Er wordt 5% pakketverlies gesimuleerd. |
 | 15% pakketverlies | Er wordt 15% pakketverlies gesimuleerd. |
-| Alle bovenstaande scenario's zijn drie keer uitgevoerd. Per uitvoering zijn de meetresultaten vastgelegd. |  |
+
+_Alle bovenstaande scenario's zijn drie keer uitgevoerd. Per uitvoering zijn de meetresultaten vastgelegd._
 
 #### 3.4.3 Meetresultaten[](https://dev.azure.com/AvansHogeschoolAcademies/ATIx-2627-ESE2.1-OnderzoeksProject/_wiki/wikis/ATIx-2627-ESE2.1-OnderzoeksProject.wiki/1262/Onderzoekresultaten?anchor=3.4.3-meetresultaten)
 
 De resultaten laten verschillen zien tussen de verschillende testscenario's. Vooral de toegevoegde netwerkvertraging en het pakketverlies hebben invloed op de gemiddelde RTT.  
 In tabel 1 staat een overzicht van de gemiddelde RTT, de minimale en maximale RTT van de eerste meetrun en het succespercentage per testconditie.
-| Testconditie | Gem. RTT (ms) | Min. - max. RTT eerste meting (ms) | Succespercentage |
-| --- | --- | --- | --- |
-| Normaal | 17,722 | 5,719 - 264,330 | 100% |
-| 100 ms vertraging | 247,813 | 203,071 - 778,337 | 100% |
-| 300 ms vertraging | 621,687 | 604,553 - 1060,785 | 100% |
-| 5% pakketverlies | 51,808 | 5,796 - 2361,043 | 100% |
-| 15% pakketverlies | 99,579 | 7,642 - 2415,511 | 100% |
+| Testconditie | Gem. RTT | minimum - maximum 1e | Succespercentage | Detectietijd uitval | Hersteltijd |
+|---|---|---|---|---|---|
+| Normaal | 7,732417 | 5.719 - 264.330 | 100% | n.v.t. | n.v.t. |
+| 100 ms vertraging | 216,8702 | 203.071 - 778.337 | 100% | n.v.t. | n.v.t. |
+| 300 ms vertraging | 620,4719 | 604.553 - 1060.785 | 100% | n.v.t. | n.v.t. |
+| 5% pakketverlies | 42,65289 | 5.796 - 2361.043 | 100% | n.v.t. | n.v.t. |
+| 15% pakketverlies | 118,5368 | 7.642 - 2415.511 | 99% | n.v.t. | n.v.t. |
 
 _Tabel 1: Overzicht van de gemeten TCP-communicatie per testconditie._  
 De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns. De afzonderlijke meetresultaten zijn opgenomen in de bijbehorende spreadsheet.  
@@ -48,7 +48,7 @@ De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns.
 
 #### 3.4.4 Analyse van de resultaten[](https://dev.azure.com/AvansHogeschoolAcademies/ATIx-2627-ESE2.1-OnderzoeksProject/_wiki/wikis/ATIx-2627-ESE2.1-OnderzoeksProject.wiki/1262/Onderzoekresultaten?anchor=3.4.4-analyse-van-de-resultaten)
 
-Uit de resultaten blijkt dat de gemiddelde RTT bij normale communicatie 17,722 ms bedraagt. Dit vormt de uitgangssituatie waarmee de andere testscenario's worden vergeleken.  
+Uit de resultaten blijkt dat de gemiddelde RTT bij normale communicatie 7,732 ms bedraagt. Dit vormt de uitgangssituatie waarmee de andere testscenario's worden vergeleken.  
 Bij een toegevoegde vertraging van 100 ms stijgt de gemiddelde RTT naar 247,813 ms. Bij 300 ms vertraging neemt deze verder toe tot 621,687 ms. Dit laat zien dat de toegevoegde netwerkvertraging een duidelijke invloed heeft op de tijd die nodig is om een bericht uit te wisselen.  
 Ook pakketverlies heeft invloed op de communicatie. Bij 5% pakketverlies bedraagt de gemiddelde RTT 51,808 ms. Wanneer het pakketverlies wordt verhoogd naar 15%, stijgt de gemiddelde RTT naar 99,579 ms.  
 Bij alle uitgevoerde testscenario's is een succespercentage van 100% geregistreerd. Volgens de meetregistratie zijn alle berichten dus succesvol uitgewisseld, ondanks de toegevoegde netwerkproblemen.  
