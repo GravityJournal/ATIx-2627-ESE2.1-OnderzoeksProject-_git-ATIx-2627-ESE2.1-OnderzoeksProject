@@ -63,6 +63,18 @@ Daarom worden de locaties van de gesimuleerde robots, de netwerkconfiguratie en 
 
 
 ### 2.3 Welke meet-methode/indicatoren worden in bestaande onderzoeken en standaarden gebruikt
+Om de betrouwbaarheid van de communicatie te kunnen beoordelen, worden in de al gebruikte onderzoeken en technische standaarden verschillende meetbare indicatoren gebruikt.
+
+De internationale standaard [8]ITU-T Y.1540 (2019) beschijft verschillende indicatoren waarmee de prestaties van een ip-netwerk beoordeelt mee kan worden. hieronden vallen onder andere:
+- Latency (vertraging): de tijd een pakket nodig heeft om van een verzender naar ontvanger te worden overgedragen.
+- Packet Loss (pakketverlies): Het percentage IP-paketten dat tijdens overdracht verloren gaan.
+- Packet Delay Variation (jitter): de variatie in vertraging tussen overdraging van pakketten.
+- Packet error Ratio: de verhouding tussen foutif ontvangen pakketten en het totale aantal correcten pakketen
+- Beschikbaarheid: zie -> 2.1
+
+
+
+
 
 
 ##3. Relevante meetmethoden voor communicatie betrouwbaarheid
