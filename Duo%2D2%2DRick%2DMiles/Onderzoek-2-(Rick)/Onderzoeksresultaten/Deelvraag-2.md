@@ -1,0 +1,1 @@
+In de C++ simulatie is de payload opgebouwd uit identieke overdrachtsdata (`robot_id`, `status`, `transfer_zone`). De binaire C++ `struct` heeft een vaste geheugenomvang van 36 bytes (`sizeof`), terwijl het tekstuele JSON-serialisatieformaat een lengte kent van 56 bytes. Dit vertegenwoordigt een data-overhead reductie van ruim 35% in het voordeel van de binaire struct.
