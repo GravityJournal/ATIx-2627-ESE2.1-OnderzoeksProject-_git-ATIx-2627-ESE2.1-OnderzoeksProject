@@ -1,0 +1,2 @@
+# Deelvraagconclusie
+Uit de data blijkt dat UDP in een lokale netwerksimulatie superieur presteert in zowel snelheid als voorspelbaarheid. De hogere latentie en extreme uitschieters in jitter bij TCP worden veroorzaakt door de ingebouwde congestiebeheersing, flow-control en pakketverificatiemechanismen van het protocol. Voor realtime vlootcommunicatie, waar timing cruciaal is, biedt UDP op transportniveau een stabieler fundament.
