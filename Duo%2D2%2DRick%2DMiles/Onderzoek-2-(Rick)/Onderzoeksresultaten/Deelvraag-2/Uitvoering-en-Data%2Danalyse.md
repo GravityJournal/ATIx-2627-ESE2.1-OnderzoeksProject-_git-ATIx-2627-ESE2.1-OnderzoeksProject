@@ -33,8 +33,8 @@ size_t data_size = json_message.length(); // 53 bytes
 <br/>
 
 ![deelvraag2_format_comparison.png](/.attachments/deelvraag2_format_comparison-719a2f2b-7583-46e8-ae3d-17e1a6ef7fae.png)
-(Figuur 3: blabla)
+(Figuur 3: Boxplots met vergelijkingen van de data-overhead en RTT tussen JSON en de binary struct)
 <br/>
 
 ![image.png](/.attachments/image-2e1e0271-6755-47d8-9c8d-1096786ff777.png)
-(Figuur 4: blabla)
+(Figuur 4: Tabel met de harde waardes van de vergelijkingen van de data-overhead en RTT tussen JSON en de binary struct)
