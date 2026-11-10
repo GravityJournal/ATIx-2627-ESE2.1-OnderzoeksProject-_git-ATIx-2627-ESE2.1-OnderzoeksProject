@@ -34,6 +34,7 @@ op basis van  [8]ITU-T Y.1540 (2019) kan communicatie betrouwbaarheid voor de ro
 Om deze eigenschappen objectief te beoordelen, moet worden onderzocht welke meetpare indicatoren hiervoor geschikt zijn en wat de communicatie mogelijk kan beinvloeden.
 
 ### 2.2 Welke factoren beinvloeden de kwaliteit van de communicatie
+De kwaliteit van een draadlooze connectie wordt beinvloed door verschillende factoren. Om te onderzoeken welke invloed de fysieke locatie van de CCU heeft op de communicatie betrouwbaarheid, is het belangrijk om te weten welke factoren de communicatie prestatie kan beinvloeden.
 
 
 ### 2.3 Welke meet-methode/indicatoren worden in bestaande onderzoeken en standaarden gebruikt
