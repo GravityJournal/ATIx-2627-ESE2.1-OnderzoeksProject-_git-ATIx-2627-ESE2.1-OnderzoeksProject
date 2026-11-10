@@ -35,5 +35,6 @@ https://brightspace.avans.nl/d2l/le/lessons/308932/topics/2204945
 
 **8.International Telecommunication Union (2019)**
 . _Internet protocol data communication service – IP packet transfer and availability performance parameters (ITU-T Recommendation Y.1540)._ [ITU-T Y.1540 (officiële publicatie)](https://www.itu.int/rec/T-REC-Y.1540-201912-I/en)
+
 **9. Performance testing of a 5G campus network in real-world propagation conditions from the application's point of view**
 Cainelli, G. P., & Underberg, L. (2023). Performance testing of a 5G campus network in real-world propagation conditions from the application’s point of view. _IFAC-PapersOnLine_, _56_(2), 9837–9842. doi:10.1016/j.ifacol.2023.10.404
