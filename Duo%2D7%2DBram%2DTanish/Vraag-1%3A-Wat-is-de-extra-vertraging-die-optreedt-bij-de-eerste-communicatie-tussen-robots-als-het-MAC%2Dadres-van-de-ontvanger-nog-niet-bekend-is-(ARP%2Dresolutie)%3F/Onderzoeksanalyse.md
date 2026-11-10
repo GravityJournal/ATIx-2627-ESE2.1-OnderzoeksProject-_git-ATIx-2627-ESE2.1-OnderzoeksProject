@@ -19,9 +19,8 @@ Om te testen wat het verschil in tijd is tussen de eerste communicatie waar het 
 We hebben hierbij een programma geschreven wat een IP pingt binnen hetzelfde netwerk met een onbekend MAC-adres. Vervolgens wordt hier de tijd die het ping commando retourneert, en toegevoegd aan een vector waar alle resultaten van alle iteraties in opgeslagen worden. Dan verwijdert het programma de gegevens van het gepingde IP uit de ARP lijst voordat de volgende ping weer wordt uitgevoerd.
 Vervolgens berekenen we hieruit het gemiddelde van alle pings en halen we ook de kortste en langste tijd uit. Tot slot voeren we hetzelfde aantal iteraties aan pings uit met een bekend MAC-adres en houden ook hierbij het gemiddelde, de kortste en de langste periode weer.
 
-### 2.2 Peer review
 
-### 2.3 Data-analyse
+### 2.2 Data-analyse
 
 Als laatste onderzoek zijn we de data uit het prototype gaan analyseren door behulp van het visualiseren van de data en het vergelijken van de gemiddeldes, kortste en langste waardes.
 
