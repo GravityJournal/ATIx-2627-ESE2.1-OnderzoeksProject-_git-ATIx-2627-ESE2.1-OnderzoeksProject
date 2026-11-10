@@ -18,11 +18,11 @@ Hoeveel data-overhead (in bytes per bericht) introduceren binaire C++ `struct`'s
 # Onderzoeks- en analysemethoden
 
 ## Deelvraag 1: Protocolprestaties (RTT en pakketverlies)
-* **Simulatie en Testomgeving:** In C++ worden een TCP- en een UDP-client/server-architectuur opgezet. Er worden geautomatiseerde testruns uitgevoerd waarbij de netwerkbelasting (request rate) wordt gevarieerd op 10, 100 en 1000 verzoeken per seconde.
+* **Simulatie en Testomgeving:** In C++ worden een TCP- en een UDP-client/server-architectuur opgezet. Er worden geautomatiseerde testruns uitgevoerd waarbij de netwerkbelasting wordt gemaximaliseerd voor een zo groot mogelijke throughput.
     
 * **Verzamelde gegevens:** Per bericht worden de volgende metingen weggeschreven naar een CSV-bestand:
     * Round-Trip Time in milliseconden.
-    * Aantal succesvolle leveringen vs. pakketverlies (via socket-timeouts).
+    * Of het pakket wel of niet is aangekomen.
         
 * **Analyse:** De resultaten worden statistisch geanalyseerd op basis van gemiddelden, medianen, minimum/maximum waarden en standaardafwijkingen. De data wordt visueel onderbouwd met behulp van boxplots en spreidingsdiagrammen.
         
