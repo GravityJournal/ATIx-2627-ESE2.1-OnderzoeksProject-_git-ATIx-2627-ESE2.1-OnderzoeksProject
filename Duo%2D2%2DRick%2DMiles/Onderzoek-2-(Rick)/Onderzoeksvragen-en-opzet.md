@@ -45,7 +45,7 @@ Hoeveel data-overhead (in bytes per bericht) introduceren binaire C++ `struct`'s
     * Ontwikkelcomputer / test-pc's.  
     * Lokale netwerkomgeving (of cross-device verbinding via LAN/IP).
 * **Data:**
-    * Simulatielogs en geëxporteerde CSV-bestanden met timestamp- en RTT-metingen per bericht.  
+    * Simulatielogs en geëxporteerde CSV-bestanden met RTT-metingen per bericht.  
     * Netwerk- en belastingparameters (request rates, protocol- en formatkeuzes).
         
 
