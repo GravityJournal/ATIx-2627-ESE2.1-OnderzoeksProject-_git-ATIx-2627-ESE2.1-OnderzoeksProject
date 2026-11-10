@@ -1,0 +1,3 @@
+# Deelvraagconclusie
+Het toepassen van binaire C++ `struct`'s reduceert de bandbreedtebehoefte per bericht substantieel en minimaliseert de cpu-overhead doordat parsing achterwege kan blijven. Dit resulteert in een lagere gemiddelde RTT en een stabieler gedrag onder belasting in vergelijking met tekstgebaseerde JSON-strings.
+(TODO: Merk je wel dat het sneller is of is het neglegible of je struct of JSON string kiest?)
