@@ -26,6 +26,7 @@ Voor het testen van de TCP-communicatie zijn de volgende testscenario's uitgevoe
 | 5% pakketverlies | Er wordt 5% pakketverlies gesimuleerd. |
 | 15% pakketverlies | Er wordt 15% pakketverlies gesimuleerd. |
 
+_Tabel 1: Uitleg welke tests er uit gevoerd worden_
 _Alle bovenstaande scenario's zijn drie keer uitgevoerd. Per uitvoering zijn de meetresultaten vastgelegd._
 
 #### 3.4.3 Meetresultaten[](https://dev.azure.com/AvansHogeschoolAcademies/ATIx-2627-ESE2.1-OnderzoeksProject/_wiki/wikis/ATIx-2627-ESE2.1-OnderzoeksProject.wiki/1262/Onderzoekresultaten?anchor=3.4.3-meetresultaten)
@@ -40,7 +41,8 @@ In tabel 1 staat een overzicht van de gemiddelde RTT, de minimale en maximale RT
 | 5% pakketverlies | 42,65289 | 5.633-2365.548 | 100% | n.v.t. | n.v.t. |
 | 15% pakketverlies | 118,5368 | 5.313-3182.724 | 99% | n.v.t. | n.v.t. |
 
-_Tabel 1: Overzicht van de gemeten TCP-communicatie per testconditie._  
+
+_Tabel 2: Overzicht van de gemeten TCP-communicatie per testconditie._  
 De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns. De afzonderlijke meetresultaten zijn opgenomen in de bijbehorende spreadsheet.  
 ![Screenshot 2026-11-06 124404.png](https://dev.azure.com/AvansHogeschoolAcademies/d85453f3-b6ef-409b-9e59-5824066f8fdc/_apis/git/repositories/8216dca4-8185-4fb8-96f9-e5cb3be4eb9f/Items?path=/.attachments/Screenshot%202026-11-06%20124404-a58a38bd-52af-41ce-b411-17fb3bf5188f.png&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)  
 _Grafiek 1: Overzicht van de RTT TCP-communicatie onder verschillende condities_  
@@ -51,11 +53,17 @@ De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns.
 Uit de resultaten blijkt dat de gemiddelde RTT bij normale communicatie 7,732 ms bedraagt. Dit vormt de uitgangssituatie waarmee de andere testscenario's worden vergeleken.  
 Bij een toegevoegde vertraging van 100 ms stijgt de gemiddelde RTT naar 216,8702 ms. Bij 300 ms vertraging neemt deze verder toe tot 620,4718 ms. Dit laat zien dat de toegevoegde netwerkvertraging een duidelijke invloed heeft op de tijd die nodig is om een bericht uit te wisselen.  
 Ook pakketverlies heeft invloed op de communicatie. Bij 5% pakketverlies bedraagt de gemiddelde RTT 42,65289 ms, helaas is deze gemiddlede waarde niet relevant, want er zitten grote uitschieters tot 3000+ms hierdoor wordt het gemiddelde buiten per portie vergroot en moeten we dus de mediaan pakken:
-![Screenshot 2026-11-10 170846.png](/.attachments/Screenshot%202026-11-10%20170846-e7529376-07a8-418a-b74b-11396173c21b.png) 
+![Screenshot 2026-11-10 174150.png](/.attachments/Screenshot%202026-11-10%20174150-6e32693e-5e1d-481a-aedf-1ebe68a9095a.png) 
+_Grafiek 2: Boxplot 5% Packet-loss_
 
-Het mediaan van de RTT is gemiddeld 9,205 dus je ziet dat 5% loss zorgt voor ~2ms extra delay gemiddeld met hele hoge pieken waarbij het uitschiet.
 
-Wanneer het pakketverlies wordt verhoogd naar 15%, stijgt de gemiddelde RTT naar 118,5368 ms. Maar ook hier zijn er onregelmatig extreme pieken in de RTT, dus hier is ook de mediaan gepakt
+Het mediaan van de RTT is gemiddeld 9,205 ms dus je ziet dat 5% loss zorgt voor ~2ms extra delay gemiddeld met hele hoge pieken waarbij het uitschiet.
+
+Wanneer het pakketverlies wordt verhoogd naar 15%, stijgt de gemiddelde RTT naar 118,5368 ms. Maar ook hier zijn er onregelmatig extreme pieken in de RTT, dus hier is ook de mediaan gepakt:
+![Screenshot 2026-11-10 174242.png](/.attachments/Screenshot%202026-11-10%20174242-4445f73c-e05d-41be-bd4d-b7dfab88ac12.png)
+
+Het mediaan van de RTT is hier 20.229 ms je ziet dus dat 15% loss in het algemeen voor een hogere delay zorgt, van wel ~13ms. 
+
 Bij bijna uitgevoerde testscenario's is een succespercentage van 100% geregistreerd. Volgens de meetregistratie zijn bijna alle berichten dus succesvol uitgewisseld, ondanks de toegevoegde netwerkproblemen, alleen bij 15% loss is er 1 keer voorgekomen dat er een bericht niet aan is gekomen waardoor er een 99% succesvol meeting is gekomen.  
 De hogere RTT bij pakketverlies kan erop wijzen dat TCP extra tijd nodig heeft om verloren gegevens opnieuw te verzenden. TCP beschikt namelijk over mechanismen om verloren gegevens te herstellen. Hierdoor kan de applicatie uiteindelijk wel een volledig bericht ontvangen, terwijl de onderliggende communicatie vertraging heeft opgelopen.
 
