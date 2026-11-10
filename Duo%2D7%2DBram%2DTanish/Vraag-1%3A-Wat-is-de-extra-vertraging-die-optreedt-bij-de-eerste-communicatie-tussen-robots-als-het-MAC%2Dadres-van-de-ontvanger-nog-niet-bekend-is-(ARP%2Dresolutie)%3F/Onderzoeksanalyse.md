@@ -26,7 +26,7 @@ Als laatste onderzoek zijn we de data uit het prototype gaan analyseren door beh
 
 * * *
 
-3. RESULTATEN
+## 3. RESULTATEN
 -------------
 
 ### 3.1 Deelvraag 1
@@ -45,7 +45,9 @@ Op zich zegt dat nog niet heel veel, maar door het in een histogram weer te geve
 
 * * *
 
-4. Conclusie
+## 4. Conclusie
 ------------
 
 Dus hoeveel extra vertraging treedt op bij de eerste communicatie tussen de robots als het mac adres van de ontvanger nog niet bekend is. Als ARP nog niet het MAC-adres weet dan is de gemiddelde vertraging 73,3036 ms, als ARP wel het MAC-adres weet dan is de gemiddelde vertraging 10.72 ms. Dit is dus een verschil van 62.5836 ms. Bij de testen die we hadden gedaan was als het MAC-adres onbekend was, altijd trager dan als het MAC-adres wel bekend was. Dit is te zien in figuur 1 op de onderzoeksresultaat pagina, daar is te zien dat de meeste resultaten hoger ligt dan het gemiddelde als het MAC-adres wel bekend was.
+
+<i><b>Disclaimer:</b> Deze onderzoeksanalyse komt uit mijn vorige wiki. https://dev.azure.com/AvansHogeschoolAcademies/ATIxTI-2526-B2.1-OnderzoeksProject/_wiki/wikis/ATIxTI-2526-B2.1-OnderzoeksProject.wiki/398/3.-Onderzoeksresultaten-vraag-5</i>
