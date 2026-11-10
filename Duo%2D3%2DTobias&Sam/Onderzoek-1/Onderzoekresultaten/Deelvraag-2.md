@@ -45,6 +45,8 @@ MQTT ondersteunt drie Quality of Service-niveaus (QoS) voor de aflevering van be
 | QoS 1 | Een bericht wordt ten minste één keer afgeleverd. Dubbele ontvangst is mogelijk. | Transportopdrachten en belangrijke statusmeldingen, mits dubbele berichten worden herkend. |
 | QoS 2 | Het protocol gebruikt een uitgebreidere uitwisseling om een bericht precies één keer af te leveren. | Berichten waarbij de extra communicatieoverhead gerechtvaardigd is. |
 
+_Tabel 1: Uitleg niveau's MQTT 5.0_
+
 Daarnaast ondersteunt MQTT 5.0 een Message Expiry Interval. Hiermee kan worden ingesteld hoelang een bericht geldig blijft. Wanneer deze termijn verloopt voordat het bericht wordt afgeleverd, hoeft het niet meer bij de ontvanger aan te komen.
 Dit is relevant voor Viscon Group, omdat verouderde informatie tot verkeerde beslissingen kan leiden. Een melding dat het overdrachtspunt beschikbaar is, mag bijvoorbeeld niet alsnog worden gebruikt wanneer het punt inmiddels gesloten is voor onderhoud.
 Een aandachtspunt bij MQTT is de afhankelijkheid van de broker. Wanneer deze niet bereikbaar is, kan de berichtuitwisseling tussen de robotvloten worden onderbroken. Daarom moet bij een daadwerkelijke implementatie rekening worden gehouden met de beschikbaarheid van de broker en het herstellen van verbindingen.
@@ -70,7 +72,7 @@ Een aandachtspunt is dat de Quality of Service-instellingen van de verzender en 
 Voor Viscon Group is ROS 2 met DDS vooral interessant wanneer de bestaande robotvloten al gebruikmaken van ROS 2. Wanneer beide robotvloten met verschillende leverancierssystemen werken, moet eerst worden onderzocht of deze systemen met ROS 2 en DDS kunnen integreren.
 Net als bij MQTT moeten aanvullende controles op opdrachtniveau worden ontwikkeld. De communicatie-instellingen alleen voorkomen namelijk niet dat een fysieke transportopdracht dubbel wordt uitgevoerd.
 
-#### 3.3.4 Selectie en weging van de MCA-criteria
+## 3.3.4 Selectie en weging van de MCA-criteria
 
 Om de drie communicatieoplossingen op een gestructureerde manier te vergelijken, is een Multi Criteria Analyse (MCA) opgesteld. Met deze methode worden de verschillende oplossingen beoordeeld op basis van meerdere criteria die belangrijk zijn voor de situatie van Viscon Group.
 De criteria zijn opgesteld aan de hand van de probleemcontext, de technische eisen uit deelvraag 1 en de eigenschappen die uit het literatuuronderzoek naar voren zijn gekomen.
@@ -102,7 +104,7 @@ Daarom zijn de criteria voorzien van een wegingspercentage. De weging geeft aan 
 | Afhankelijkheden en integratiemogelijkheden | 15% |
 | **Totaal** | **100%** |
 
-_Tabel 1: Weging van de criteria in tabel vorm_
+_Tabel 2: Weging van de criteria in tabel vorm_
 
 Betrouwbaarheid en geschiktheid voor communicatie tussen robotvloten krijgen de hoogste weging, omdat deze criteria direct aansluiten op het onderzoeksprobleem. De overige criteria zijn eveneens belangrijk, omdat het systeem moet kunnen omgaan met netwerkproblemen, verouderde informatie en verschillende softwareomgevingen.
 
@@ -117,7 +119,7 @@ Voor ieder criterium wordt een score toegekend op een schaal van 1 tot en met 5.
 | 4 | Geschikt |
 | 5 | Zeer geschikt |
 
-_Tabel 2: Score criterium_
+_Tabel 3: Score criterium_
 De score wordt bepaald op basis van de eigenschappen van de onderzochte communicatieoplossingen en de mate waarin deze aansluiten bij de eisen van Viscon Group.
 De gewogen score wordt berekend door de behaalde score te vermenigvuldigen met het wegingspercentage van het betreffende criterium. De gewogen scores worden vervolgens bij elkaar opgeteld.
 De berekening is als volgt:
@@ -137,7 +139,7 @@ Op basis van de onderzochte technische eigenschappen zijn de drie communicatieop
 | Afhankelijkheden en integratiemogelijkheden | 15% | 4 | 4 | 2 |
 | **Gewogen eindscore** | **100%** | **3,00** | **4,00** | **3,80** |
 
-_Tabel 3: Tabel met resultaten van de Multi Criteria Analyse_
+_Tabel 4: Tabel met resultaten van de Multi Criteria Analyse_
 ![Screenshot 2026-11-10 154306.png](/.attachments/Screenshot%202026-11-10%20154306-6eba5f22-63a2-4f58-b1b4-c3647ff4cc72.png)
 _Grafiek 1: Visuele bar-grafiek van de resultaten van de multi criteria analyse_
 
