@@ -14,13 +14,14 @@ De projecten die we hebben gemaakt hebben om dit te kunnen testen staan op de [G
 
 ####Gemiddelde overhead per encryptie methode
 
-| Encryptie methode | overhead in ms | overhead in bytes |
+| Encryptie methode | overhead in ms | overhead in Bytes |
 | --- | --- | --- |
 | AES | 34,8967 | 11 |
 | ChaCha20 | 38,8586 | 12 |
 
-Figuur1:
+###Figuur1:
 Grafische weergave overhead in ms en overhead in bytes bij AES en ChaCha20
+Waarin duidelijk te zien is dat ChaCha20 in zowel tijd als Bytes een net wat grotere overhead heeft dan AES.
 ![afbeelding.png](/.attachments/afbeelding-7ce31e4e-3765-42f4-aaa6-e0f5bcf4badf.png)
 
 
