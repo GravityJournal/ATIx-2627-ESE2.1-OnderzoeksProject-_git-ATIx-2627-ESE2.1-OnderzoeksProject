@@ -8,7 +8,7 @@ Om deze vraag te beantwoorden zijn twee identieke client/server-architecturen op
 ![image.png](/.attachments/image-b86f935b-fabf-4532-b6fb-22069a27d7aa.png)
 (Figuur 2: Tabel met de harde waardes van de vergelijkingen van de RTT en jitter tussen TCP en UDP)
 
-# Resultaten
+# Analyse
 Zoals te zien is in figuur 1, vertoont het UDP-protocol aanzienlijk gunstigere prestaties op zowel latency als stabiliteit. In figuur 2 kunnen we de exacte waardes uitlezen:
 *   **Gemiddelde RTT:** UDP heeft een gemiddelde RTT van 0.0126 ms, ten opzichte van 0.0339 ms bij TCP. Dat is maar liefst 2.7 keer zo snel.
 *   **Mediaan RTT:** De mediaan bevestigt dit beeld (0.0118 ms voor UDP tegenover 0.0239 ms voor TCP).
