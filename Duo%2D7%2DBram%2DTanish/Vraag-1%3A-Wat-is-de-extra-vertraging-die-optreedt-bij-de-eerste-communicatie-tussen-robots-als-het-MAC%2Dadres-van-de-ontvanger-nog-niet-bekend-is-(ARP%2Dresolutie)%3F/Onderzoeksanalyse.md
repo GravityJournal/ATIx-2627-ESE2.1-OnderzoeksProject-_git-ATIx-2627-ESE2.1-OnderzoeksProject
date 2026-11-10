@@ -10,7 +10,7 @@ Dan zal uiteindelijk het bericht dat verzonden wil worden, verstuurd worden naar
 Bron 1: Duò, M. (2025, October 1). _Wat is ARP? Hoe het Address Resolution Protocol werkt_. Kinsta®. [https://kinsta.com/nl/blog/wat-is-arp/](https://kinsta.com/nl/blog/wat-is-arp/)
 Bron 2: Redactie. (2020, March 23). _Welke factoren beïnvloeden de snelheid van uw netwerk? ICT-tips_. No Corners. [https://www.nocorners.nl/factoren-snelheid-netwerk/](https://www.nocorners.nl/factoren-snelheid-netwerk/)
 
-2. DEELVRAAG 2: Wat is het tijdsverschil bij bekende en onbekende MAC-adressen?
+## 2. DEELVRAAG 2: Wat is het tijdsverschil bij bekende en onbekende MAC-adressen?
 -------------------------------------------------------------------------------
 
 ### 2.1 Prototyping Light
@@ -37,10 +37,10 @@ Het resultaat van deze deelvraag is eigenlijk wat ook al bij de analyse staat (O
 
 Bij deze deelvraag hebben we de volgende resultaten uit de prototype test.
 Zoals hieronder in Figuur 1 te zien, hebben we over 1000 keer het ping commando uitgevoerd en een aantal resultaten zoals de gemiddelde tijd, de kortste tijd en de langste tijd die het commando nodig had:
-figuur 1.png  
+![figuur 1.png](/.attachments/figuur%201-8cab826d-fc78-4b29-ba60-cf98ac2fd0e9.png)  
 **Figuur 1:** Resultaten van de gerunde prototype test zonder bekend MAC-adres.
 Op zich zegt dat nog niet heel veel, maar door het in een histogram weer te geven zoals hier in Figuur 2, kunnen we de verdeling van de verschillende tijdswaarden visualiseren.
-figuur2.png  
+![figuur2.png](/.attachments/figuur2-e5b3c753-f7fd-43dd-bbe3-d09f4d6141db.png)  
 **Figuur 2:** Verdeling ping commando meting resultaten met onbekend mac-adres
 
 * * *
