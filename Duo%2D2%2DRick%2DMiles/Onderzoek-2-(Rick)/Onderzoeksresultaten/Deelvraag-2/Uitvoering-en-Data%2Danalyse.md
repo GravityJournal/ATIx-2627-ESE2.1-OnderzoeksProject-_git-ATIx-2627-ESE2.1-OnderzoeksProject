@@ -18,9 +18,10 @@ std::strncpy(struct_message.status, "done", sizeof(struct_message.status));
 struct_message.transfer_zone = 1;
 ```
 (Figuur 1: Overdrachtsdata in C++ binary struct format)
-
+<br/>
 
 ```cpp
 const std::string json_message = R"({"robot_id":"Robot_A","status":"done","transfer_zone":1})";
 ```
+(Figuur 2: Overdrachtsdata in JSON string format)
 
