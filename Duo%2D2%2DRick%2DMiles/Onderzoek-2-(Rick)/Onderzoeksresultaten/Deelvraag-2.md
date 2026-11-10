@@ -1,1 +1,4 @@
-In de C++ simulatie is de payload opgebouwd uit identieke overdrachtsdata (`robot_id`, `status`, `transfer_zone`). De binaire C++ `struct` heeft een vaste geheugenomvang van 36 bytes (`sizeof`), terwijl het tekstuele JSON-serialisatieformaat een lengte kent van 56 bytes. Dit vertegenwoordigt een data-overhead reductie van ruim 35% in het voordeel van de binaire struct.
+# Inleiding
+Deelvraag 2 onderzoekt de invloed van datacodering op de netwerkefficiëntie en verwerkingssnelheid. De bijbehorende onderzoeksvraag luidt:
+
+> _Hoeveel data-overhead (in bytes per bericht) introduceren binaire C++ struct's vergeleken met een string/JSON-formaat bij het communiceren van overdrachtsgegevens en wat heeft dit voor invloed op de round-trip time?_
