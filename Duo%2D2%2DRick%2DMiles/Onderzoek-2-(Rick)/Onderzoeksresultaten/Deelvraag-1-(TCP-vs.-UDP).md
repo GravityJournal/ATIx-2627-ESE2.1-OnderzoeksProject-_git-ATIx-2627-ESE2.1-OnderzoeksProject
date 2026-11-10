@@ -1,0 +1,3 @@
+Deelvraag 1 richt zich op het kwantificeren van het verschil in prestaties tussen betrouwbare en onbetrouwbare transportprotocollen binnen de gesimuleerde vlootomgeving. De centrale vraag voor dit onderdeel luidt:
+
+> _Wat is het verschil in gemiddelde reactietijd (round-trip time in ms), jitter en betrouwbaarheid tussen een TCP- en een UDP-gebaseerde C++ socketverbinding bij het uitwisselen van overdrachtsstatussen onder oplopende netwerkbelasting?_
