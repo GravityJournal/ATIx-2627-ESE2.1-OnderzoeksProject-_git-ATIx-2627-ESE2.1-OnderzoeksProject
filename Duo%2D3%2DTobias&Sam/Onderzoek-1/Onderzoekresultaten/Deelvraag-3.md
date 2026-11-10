@@ -51,11 +51,16 @@ De gemiddelde RTT is berekend aan de hand van de drie uitgevoerde meetruns.
 Uit de resultaten blijkt dat de gemiddelde RTT bij normale communicatie 7,732 ms bedraagt. Dit vormt de uitgangssituatie waarmee de andere testscenario's worden vergeleken.  
 Bij een toegevoegde vertraging van 100 ms stijgt de gemiddelde RTT naar 216,8702 ms. Bij 300 ms vertraging neemt deze verder toe tot 620,4718 ms. Dit laat zien dat de toegevoegde netwerkvertraging een duidelijke invloed heeft op de tijd die nodig is om een bericht uit te wisselen.  
 Ook pakketverlies heeft invloed op de communicatie. Bij 5% pakketverlies bedraagt de gemiddelde RTT 42,65289 ms, helaas is deze gemiddlede waarde niet relevant, want er zitten grote uitschieters tot 3000+ms hierdoor wordt het gemiddelde buiten per portie vergroot en moeten we dus de mediaan pakken:
- Wanneer het pakketverlies wordt verhoogd naar 15%, stijgt de gemiddelde RTT naar 118,5368 ms.  
-Bij alle uitgevoerde testscenario's is een succespercentage van 100% geregistreerd. Volgens de meetregistratie zijn alle berichten dus succesvol uitgewisseld, ondanks de toegevoegde netwerkproblemen.  
+![Screenshot 2026-11-10 170846.png](/.attachments/Screenshot%202026-11-10%20170846-e7529376-07a8-418a-b74b-11396173c21b.png) 
+
+Het mediaan van de RTT is gemiddeld 9,205 dus je ziet dat 5% loss zorgt voor ~2ms extra delay gemiddeld met hele hoge pieken waarbij het uitschiet.
+
+Wanneer het pakketverlies wordt verhoogd naar 15%, stijgt de gemiddelde RTT naar 118,5368 ms.  
+Bij bijna uitgevoerde testscenario's is een succespercentage van 100% geregistreerd. Volgens de meetregistratie zijn bijna alle berichten dus succesvol uitgewisseld, ondanks de toegevoegde netwerkproblemen, alleen bij 15% loss is er 1 keer voorgekomen dat er een bericht niet aan is gekomen waardoor er een 99% succesvol meeting is gekomen.  
 De hogere RTT bij pakketverlies kan erop wijzen dat TCP extra tijd nodig heeft om verloren gegevens opnieuw te verzenden. TCP beschikt namelijk over mechanismen om verloren gegevens te herstellen. Hierdoor kan de applicatie uiteindelijk wel een volledig bericht ontvangen, terwijl de onderliggende communicatie vertraging heeft opgelopen.
 
 #### 3.4.5 Antwoord op deelvraag 3[](https://dev.azure.com/AvansHogeschoolAcademies/ATIx-2627-ESE2.1-OnderzoeksProject/_wiki/wikis/ATIx-2627-ESE2.1-OnderzoeksProject.wiki/1262/Onderzoekresultaten?anchor=3.4.5-antwoord-op-deelvraag-3)
+
 
 Uit de uitgevoerde tests blijkt dat netwerkvertraging en pakketverlies invloed hebben op de prestaties van de TCP-communicatie.  
 Bij toegevoegde vertraging stijgt de gemiddelde RTT duidelijk. Ook bij een hoger percentage pakketverlies neemt de gemiddelde RTT toe. Ondanks deze netwerkproblemen is tijdens de uitgevoerde tests een succespercentage van 100% gemeten.  
