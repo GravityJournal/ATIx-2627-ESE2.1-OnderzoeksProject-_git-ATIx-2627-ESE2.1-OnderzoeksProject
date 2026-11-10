@@ -3,7 +3,7 @@
 Welke invloed heeft de fysieke locatie van de centrale controlunit (CCU) op de latency, het pakketverlies en de beschikbaarheid van de communicatie tussen de CCU en de robots binnen onze robotvloot?
 
 ##Deelvragen
-**1. Welke fysieke locaties voor de CCU zijn binnen onze robotvloot geschikt om te onderzoeken?**
+**1. Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?**
 
 _Toelichting:_
 Om de invloed van de plaatsing te kunnen onderzoeken, moeten we eerst bepalen welke locaties relevant en praktisch haalbaar zijn. Hierbij kijken we naar de eigenschappen van onze robotvloot en de mogelijke locaties van de CCU.
@@ -16,12 +16,13 @@ Casusanalyse en literatuuronderzoek
 feedback = "is dit een deel vraag of kan je dit simpel beantwoorden."
 
 Oplossing = "Verwoording van de deelvraag"
-
-_Nieuwe deelvraag:_
+_Feedback verwerkt_
+_Oude deelvraag:_
+Welke fysieke locaties voor de CCU zijn binnen onze robotvloot geschikt om te onderzoeken
 
 **Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?**
 
-**2.Hoe kunnen we de betrouwbaarheid van de communicatie tussen de CCU en de robots meten?**
+**2.Welke meetmethode en prestatie-indactoren zijn geschikt om de betrouwbaarheid van de commincatie te beoordelen?**
 _Toelichting:_
 Om verschillende locaties objectief te kunnen vergelijken, moeten we eerst bepalen hoe we communicatiebetrouwbaarheid meten.
 Hiervoor onderzoeken we hoe latency, packet loss en de beschikbaarheid van de verbinding gemeten kunnen worden. Ook bepalen we hoe we deze metingen onder vergelijkbare omstandigheden kunnen uitvoeren.
@@ -34,6 +35,8 @@ We onderzoeken welke bestaande meetmethoden geschikt zijn om de communicatiebetr
 
 feedback = "Je stelt al drie potentiele meetwaarden zonder onderzoek."
 _feedback verwerkt_
+
+
 **3. Welke verschillen in latency, packet loss en beschikbaarheid ontstaan bij verschillende fysieke locaties van de CCU?**
 _Toelichting:_
 Met behulp van een PoC willen we de communicatieprestaties bij verschillende CCU-locaties meten.
