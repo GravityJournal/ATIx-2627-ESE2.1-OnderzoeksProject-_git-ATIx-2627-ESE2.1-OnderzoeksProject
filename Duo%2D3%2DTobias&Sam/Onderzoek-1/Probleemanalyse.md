@@ -1,4 +1,4 @@
-1 Probleemcontext
+# 1 Probleemcontext
 Binnen de casus Automated Logistics Across Hygiene Zones van Viscon Group moeten goederen tussen twee verschillende hygiënezones worden vervoerd. Iedere zone heeft een eigen robotvloot. De robots mogen de grens tussen de zones niet overschrijden. Daarom worden goederen via een gedeeld overdrachtspunt overgedragen.
 
 Het transport vindt in beide richtingen plaats. Naast volle goederen moeten ook lege kratten en pallets terug worden vervoerd. Het gedeelde overdrachtspunt kan tijdelijk niet beschikbaar zijn, bijvoorbeeld door reiniging of onderhoud.
@@ -7,7 +7,7 @@ Het is momenteel nog onduidelijk welke communicatietechniek hiervoor het meest g
 
 Dit onderzoek richt zich daarom op de datacommunicatie tussen de twee robotvloten en de betrouwbaarheid hiervan onder verschillende netwerkcondities.
 
-2 Belang
+# 2 Belang
 Een betrouwbare coördinatie tussen de robotvloten is belangrijk om te voorkomen dat goederen onnodig lang moeten wachten en het overdrachtspunt inefficiënt wordt gebruikt. Wanneer het overdrachtspunt tijdelijk gesloten is, moeten de robotvloten op tijd weten dat overdrachten moeten worden uitgesteld of opnieuw moeten worden ingepland.
 
 Voor Viscon Group kan een goede oplossing ervoor zorgen dat het transport van goederen soepeler en betrouwbaarder verloopt. Ook is het belangrijk dat informatie over transportopdrachten correct wordt uitgewisseld, zodat opdrachten niet verloren gaan of dubbel worden uitgevoerd.
@@ -19,7 +19,7 @@ Betrouwbare communicatie is belangrijk om te voorkomen dat robotvloten werken me
 Wanneer berichten verloren gaan of te laat aankomen, kan dit leiden tot onnodige wachttijden, dubbele opdrachten of stilstand van het transportsysteem.
 Voor Viscon Group is het daarom belangrijk dat de gekozen communicatietechniek betrouwbaar informatie kan uitwisselen en dat het systeem veilig reageert wanneer de netwerkverbinding tijdelijk niet beschikbaar is.
 
-3 Literatuuronderzoek + literature gap (verdiepen over onderzoeken)
+# 3 Literatuuronderzoek + literature gap (verdiepen over onderzoeken)
 
 Uit onderzoek van Chen et al. (2020) blijkt dat het goed plannen en verdelen van transporttaken belangrijk is wanneer meerdere automatische voertuigen samenwerken. Dit doen ze door complexe wiskundige berekeningen die dankzij de ADMM-methode snel uitgerekend kan worden waardoor de planning soepel blijft lopen. Ook beschrijft de ROS 2-documentatie hoe communicatie tussen robots betrouwbaarder kan worden gemaakt, bijvoorbeeld door instellingen voor het afleveren van berichten (Open Robotics, z.d.).
 
@@ -30,12 +30,12 @@ Wat nog onderzocht moet worden, is hoe deze oplossingen werken in de situatie va
 Een vloeiende robotsamenwerking staat of valt met een goede transportplanning en betrouwbare communicatie. Bij Viscon Group moet nog worden onderzocht hoe twee robotvloten informatie uitwisselen en hun taken afstemmen wanneer een overdrachtspunt niet beschikbaar is. Daarnaast is het belangrijk de planning te optimaliseren om wachttijden te voorkomen en het transport soepel te laten verlopen.
 
 
-4 Doelstelling van het onderzoek
+# 4 Doelstelling van het onderzoek
 Het doel van dit onderzoek is om te er achter te komen hoe de twee robots informatie met elkaar kunnen uitwisselen terwijl ze transportopdrachten uitvoeren. Het hoofddoel ligt hierbij op situaties waarin het overdrachtspunt tijdelijk niet beschikbaar is. Er wordt onderzocht hoe de robots hierop moeten reageren en hoe het transportsysteem zich aan deze situatie kan aanpassen.
 
 Aan het einde van het het onderzoek is het doel dat duidelijk is welke communicatiemethode het beste past in deze situatie. hierbij kijken we vooral of er gekeken wordt of de informatie op tijd aankomt en het systeem goed blijft functioneren wanneer er problemen optreden zoals bijvoorbeeld netwerkverbinding of wanneer de verbinding tijdelijk wegvalt
 
-5 Afbakening
+# 5 Afbakening
 
 Dit onderzoek richt zich op de datacommunicatie tussen twee afzonderlijke robotvloten en de betrouwbaarheid van deze communicatie.
 Binnen het onderzoek worden de volgende onderwerpen meegenomen:
