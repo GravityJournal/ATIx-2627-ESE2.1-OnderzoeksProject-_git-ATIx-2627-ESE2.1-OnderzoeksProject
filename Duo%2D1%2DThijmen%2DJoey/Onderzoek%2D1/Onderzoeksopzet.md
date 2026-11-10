@@ -21,7 +21,7 @@ _Nieuwe deelvraag:_
 
 **Welke plaatsingsmogelijkheden voor een centrale controlunit (CCU) worden in bestaande onderzoeken toegepast en in hoeverre zijn deze geschikt voor onze robotvloot?**
 
-**3.Hoe kunnen we de betrouwbaarheid van de communicatie tussen de CCU en de robots meten?**
+**2.Hoe kunnen we de betrouwbaarheid van de communicatie tussen de CCU en de robots meten?**
 _Toelichting:_
 Om verschillende locaties objectief te kunnen vergelijken, moeten we eerst bepalen hoe we communicatiebetrouwbaarheid meten.
 Hiervoor onderzoeken we hoe latency, packet loss en de beschikbaarheid van de verbinding gemeten kunnen worden. Ook bepalen we hoe we deze metingen onder vergelijkbare omstandigheden kunnen uitvoeren.
@@ -31,14 +31,10 @@ _Onderzoeks methode:_
 
 We onderzoeken welke bestaande meetmethoden geschikt zijn om de communicatiebetrouwbaarheid te bepalen.
 
-Hierbij richten we ons op drie meetwaarden:
-*   Latency
-*   Packet loss
-*   Beschikbaarheid van de verbinding
 
 feedback = "Je stelt al drie potentiele meetwaarden zonder onderzoek."
-
-**2. Welke verschillen in latency, packet loss en beschikbaarheid ontstaan bij verschillende fysieke locaties van de CCU?**
+_feedback verwerkt_
+**3. Welke verschillen in latency, packet loss en beschikbaarheid ontstaan bij verschillende fysieke locaties van de CCU?**
 _Toelichting:_
 Met behulp van een PoC willen we de communicatieprestaties bij verschillende CCU-locaties meten.
 Door de resultaten met elkaar te vergelijken, kunnen we vaststellen of de locatie van de CCU invloed heeft op de betrouwbaarheid van de communicatie en hoe groot eventuele verschillen zijn.
