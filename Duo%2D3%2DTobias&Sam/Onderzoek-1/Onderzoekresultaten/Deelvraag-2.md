@@ -101,6 +101,9 @@ Daarom zijn de criteria voorzien van een wegingspercentage. De weging geeft aan 
 | Geschiktheid voor communicatie tussen robotvloten | 20% |
 | Afhankelijkheden en integratiemogelijkheden | 15% |
 | **Totaal** | **100%** |
+
+_Tabel 1: Weging van de criteria in tabel vorm_
+
 Betrouwbaarheid en geschiktheid voor communicatie tussen robotvloten krijgen de hoogste weging, omdat deze criteria direct aansluiten op het onderzoeksprobleem. De overige criteria zijn eveneens belangrijk, omdat het systeem moet kunnen omgaan met netwerkproblemen, verouderde informatie en verschillende softwareomgevingen.
 
 ##### Scoringsmethode
@@ -114,6 +117,7 @@ Voor ieder criterium wordt een score toegekend op een schaal van 1 tot en met 5.
 | 4 | Geschikt |
 | 5 | Zeer geschikt |
 
+_Tabel 2: Score criterium_
 De score wordt bepaald op basis van de eigenschappen van de onderzochte communicatieoplossingen en de mate waarin deze aansluiten bij de eisen van Viscon Group.
 De gewogen score wordt berekend door de behaalde score te vermenigvuldigen met het wegingspercentage van het betreffende criterium. De gewogen scores worden vervolgens bij elkaar opgeteld.
 De berekening is als volgt:
@@ -132,6 +136,10 @@ Op basis van de onderzochte technische eigenschappen zijn de drie communicatieop
 | Geschiktheid voor communicatie tussen robotvloten | 20% | 3 | 4 | 5 |
 | Afhankelijkheden en integratiemogelijkheden | 15% | 4 | 4 | 2 |
 | **Gewogen eindscore** | **100%** | **3,00** | **4,00** | **3,80** |
+
+_Tabel 3: Tabel met resultaten van de Multi Criteria Analyse_
+![Screenshot 2026-11-10 154306.png](/.attachments/Screenshot%202026-11-10%20154306-6eba5f22-63a2-4f58-b1b4-c3647ff4cc72.png)
+_Grafiek 1: Visuele bar-grafiek van de resultaten van de multi criteria analyse_
 
 ##### Onderbouwing van de scores
 
