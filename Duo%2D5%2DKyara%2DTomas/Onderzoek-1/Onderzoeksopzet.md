@@ -116,6 +116,7 @@ Dit is relevant omdat latency invloed heeft op de snelheid waarmee machines op e
 | Geïmplementeerde multi-communicatiecode met latency-meetfunctie |
 | Google Sheets |
 | Excel |
+
 | Criteria | Eenheid | Definitie |
 | --- | --- | --- |
 | Latency | ms | De tijd tussen het verzenden en ontvangen van een bericht. |
