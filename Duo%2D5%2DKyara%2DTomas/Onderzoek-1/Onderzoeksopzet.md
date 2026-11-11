@@ -18,6 +18,7 @@ Dit is relevant omdat dit nodig is om een logische en betrouwbare multi-communic
 | Voorgaand onderzoek |
 | Voorgaande gebruikte literatuur |
 | Documentatie van transportprotocollen |
+
 | Criteria | Definitie |
 | --- | --- |
 | Betrouwbaarheid | De mate waarin een bericht volledig en correct bij de ontvanger aankomt. |
