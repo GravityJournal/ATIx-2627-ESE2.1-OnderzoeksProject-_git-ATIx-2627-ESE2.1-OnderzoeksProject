@@ -1,6 +1,7 @@
 # Probleem Context
 
 Binnen de robotvloot project "[Robotzwermen tegen bodemverdichting](https://brightspace.avans.nl/d2l/le/lessons/308932/topics/2204945)" werken meerdere machines samen om een oogstproces uit te voeren. De vloot bestaat uit een rooier, twee overslagwagens; twee operatorinterfaces en een centrale controller en. Deze systemen moeten onderling communiceren om het oogstproces veilig en efficiënt te laten verlopen.
+
 Het project vereist verschillende soorten communicatiestromen die moeten worden ondersteund. Deze informatiestromen stellen verschillende eisen aan de manier waarop de communicatie wordt afgehandeld. Het voorgaande onderzoek ging uit van één enkele communicatiemethode. Dit kan echter leiden tot compromissen bij het maken van een keuze voor de communicatiemethode. Een manier om te voorkomen dat de ene communicatiestroom wordt beperkt door de eisen van een andere, is om elke communicatiestroom een eigen communicatie-infrastructuur te geven.
 
 # Belang
